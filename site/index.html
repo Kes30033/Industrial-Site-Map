@@ -19,18 +19,18 @@
   <div class="app">
     <!-- ============ Controls ============ -->
     <aside class="controls" aria-label="Scoring controls">
-      <header class="brand">
+      <header class="brand c-brand">
         <h1>Industrial Site Map</h1>
         <p>Every U.S. county scored on freight access, skilled labor and state business climate. Pick a facility type, then tune what matters to you.</p>
       </header>
 
-      <section class="block">
+      <section class="block c-facility">
         <h2 class="block-title">Facility type</h2>
         <div class="facility-grid" role="radiogroup" aria-label="Facility type" id="facilities"></div>
         <p class="facility-desc" id="facility-desc"></p>
       </section>
 
-      <section class="block">
+      <section class="block c-must">
         <h2 class="block-title">Must-haves</h2>
         <div class="must">
           <label class="field">
@@ -60,7 +60,7 @@
         </div>
       </section>
 
-      <section class="block weights">
+      <section class="block weights c-weights">
         <div class="block-head">
           <h2 class="block-title">What matters</h2>
           <button type="button" class="link-btn" id="reset-weights">Reset to preset</button>
@@ -69,7 +69,7 @@
         <div id="weights"></div>
       </section>
 
-      <footer class="controls-foot">
+      <footer class="controls-foot c-foot">
         <button type="button" class="link-btn" id="open-about">How scores work &amp; data sources</button>
         <button type="button" class="link-btn" id="theme-toggle" aria-label="Switch color theme">Theme: auto</button>
         <p class="built" id="built"></p>

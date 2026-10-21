@@ -288,7 +288,8 @@ dialog {
 }
 dialog::backdrop { background: rgba(12, 19, 24, .45); }
 .about-inner { padding: var(--s-5); }
-.about-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--s-3); position: sticky; top: 0; }
+.about-inner { padding-top: 0; }
+.about-head { display: flex; justify-content: space-between; align-items: baseline; margin: 0 calc(-1 * var(--s-5)) var(--s-3); padding: var(--s-5) var(--s-5) var(--s-3); position: sticky; top: 0; background: var(--panel); border-bottom: 1px solid var(--rule); z-index: 1; }
 .about-head h2 { font-size: 28px; }
 #about-body { font-size: 15px; max-width: 68ch; }
 #about-body h3 { font-size: 20px; margin: var(--s-5) 0 var(--s-2); }
@@ -307,9 +308,16 @@ dialog::backdrop { background: rgba(12, 19, 24, .45); }
 }
 @media (max-width: 900px) {
   .app { display: flex; flex-direction: column; height: auto; }
-  .map-wrap { order: 1; height: 62vh; height: 62svh; min-height: 380px; }
-  .results { order: 2; border-left: 0; border-top: 1px solid var(--rule); overflow: visible; }
-  .controls { order: 3; border-right: 0; border-top: 1px solid var(--rule); overflow: visible; padding: var(--s-4); }
+  /* let the sidebar's sections interleave with the map and results */
+  .controls { display: contents; }
+  .controls > * { background: var(--panel); padding: var(--s-4); }
+  .c-brand { order: 1; padding-bottom: 0; }
+  .c-facility { order: 2; }
+  .map-wrap { order: 3; height: 60vh; height: 60svh; min-height: 360px; }
+  .results { order: 4; border-left: 0; overflow: visible; }
+  .c-must { order: 5; border-top: 1px solid var(--rule); }
+  .c-weights { order: 6; padding-top: 0; }
+  .c-foot { order: 7; margin-top: 0; padding-bottom: var(--s-5); }
   .search { position: static; }
   .legend { width: 180px; bottom: 22px; padding: 8px 10px; }
   .layers { min-width: 0; }
