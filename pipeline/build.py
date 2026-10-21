@@ -61,6 +61,8 @@ CLASS1_NAMES = {"BNSF": "BNSF Railway", "UP": "Union Pacific", "CSXT": "CSX", "N
                 "WC": "CN (Wisconsin Central)", "DMIR": "CN", "BLE": "CN", "EJE": "CN", "DWP": "CN",
                 "KCSM": "CPKC", "DME": "CPKC", "ICE": "CPKC", "AMTK": "Amtrak", "FEC": "Florida East Coast"}
 
+CLASS1_OWNERS = {"BNSF", "UP", "CSXT", "NS", "CN", "CPRS", "CPKC", "KCS", "CP", "SOO", "IC", "GTW", "WC", "KCSM"}
+
 LABOR_RADIUS_MI = 45.0   # typical commuting shed
 MARKET_RADIUS_MI = 250.0  # same-day / next-morning truck delivery range
 PORT_MIN_TONS = 5_000_000  # "major port" cutoff (short tons per year)
@@ -576,7 +578,7 @@ def main():
         "fips": list(df.index), "name": list(df.name), "st": list(df.st),
         "pop": [rnd(v, 0) for v in df["pop"]], "lat": [rnd(v, 3) for v in df.lat], "lon": [rnd(v, 3) for v in df.lon],
         "d_interstate": [rnd(v) for v in df.d_interstate], "interstate": list(df.interstate),
-        "d_class1": [rnd(v) for v in df.d_class1], "class1": list(df.class1),
+        "d_class1": [rnd(v) for v in df.d_class1], "class1": list(df.class1), "class1_own": [int(v) for v in df.class1_own],
         "d_yard": [rnd(v) for v in df.d_yard], "yard_i": [int(v) for v in df.yard_i],
         "d_intermodal": [rnd(v) for v in df.d_intermodal], "intermodal_i": [int(v) for v in df.intermodal_i],
         "d_port": [rnd(v) for v in df.d_port], "port_i": [int(v) for v in df.port_i],
@@ -614,22 +616,28 @@ def logistics_core(df, points):
     df["d_interstate"] = d
     df["interstate"] = [fmt_interstate(fc["features"][k]["properties"].get("SIGN1") or "") for k in ix[i]]
 
+    yfc = load_json("ntad/rail_yards.geojson")
+    owner_names = {}
+    for f in yfc["features"]:
+        p = f["properties"]
+        if p.get("RROWNER1") and p.get("RROWNER1_NAME"):
+            owner_names[p["RROWNER1"]] = title_case(p["RROWNER1_NAME"])
+
     fc = load_json("ntad/class1_rail.geojson")
     nets = pd.Series([f["properties"].get("NET") for f in fc["features"]]).value_counts()
     print("Class I NET codes:", nets.to_dict())
     la, lo, ix = line_points(fc, 0.4)
     d, i = nearest(clat, clon, la, lo)
     df["d_class1"] = d
-    df["class1"] = [CLASS1_NAMES.get(fc["features"][k]["properties"].get("RROWNER1") or "",
-                                     fc["features"][k]["properties"].get("RROWNER1") or "") for k in ix[i]]
+    codes = [fc["features"][k]["properties"].get("RROWNER1") or "" for k in ix[i]]
+    df["class1"] = [CLASS1_NAMES.get(c) or owner_names.get(c) or c for c in codes]
+    df["class1_own"] = [1 if c in CLASS1_OWNERS else 0 for c in codes]
 
-    fc = load_json("ntad/rail_yards.geojson")
-    groups, owner_names = {}, {}
+    fc = yfc
+    groups = {}
     for f in fc["features"]:
         p = f["properties"]
         key = ((p.get("YARDNAME") or "").strip().upper(), p.get("RROWNER1") or "")
-        if p.get("RROWNER1") and p.get("RROWNER1_NAME"):
-            owner_names[p["RROWNER1"]] = title_case(p["RROWNER1_NAME"])
         for line in iter_lines(f.get("geometry")):
             groups.setdefault(key, []).extend(line)
     yards = []

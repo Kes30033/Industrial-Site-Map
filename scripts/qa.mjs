@@ -27,7 +27,13 @@ async function session(name, opts, steps) {
   const page = await ctx.newPage();
   page.on('console', (m) => { if (['error', 'warning'].includes(m.type())) log.push(`[${name}] console.${m.type()}: ${m.text()}`); });
   page.on('pageerror', (e) => log.push(`[${name}] pageerror: ${e.message}`));
-  page.on('requestfailed', (r) => { if (!r.url().includes('basemaps.cartocdn')) log.push(`[${name}] requestfailed: ${r.url()} ${r.failure()?.errorText}`); });
+  const tileFails = {};
+  page.on('requestfailed', (r) => {
+    const u = new URL(r.url());
+    if (u.pathname.includes('/tile/')) { tileFails[u.host] = (tileFails[u.host] || 0) + 1; return; }
+    log.push(`[${name}] requestfailed: ${r.url()} ${r.failure()?.errorText}`);
+  });
+  page.on('response', (r) => { if (r.status() >= 400) log.push(`[${name}] HTTP ${r.status()}: ${r.url().slice(0, 140)}`); });
   const t0 = Date.now();
   try {
     await page.goto('http://localhost:8765/', { waitUntil: 'domcontentloaded' });
@@ -39,6 +45,7 @@ async function session(name, opts, steps) {
     log.push(`[${name}] failed: ${e.message.split('\n')[0]}`);
     await page.screenshot({ path: path.join(outDir, `${name}-failed.png`) }).catch(() => {});
   } finally {
+    if (Object.keys(tileFails).length) log.push(`[${name}] failed tile requests: ${JSON.stringify(tileFails)}`);
     fs.writeFileSync(path.join(outDir, 'log.txt'), log.join('\n') + '\n');
     await ctx.close();
   }
@@ -57,6 +64,14 @@ await session('desktop', { viewport: { width: 1440, height: 900 }, colorScheme: 
     log.push(`[desktop] ${p} top 10: ` + JSON.stringify(t));
   }
   await shot(page, '02-desktop-logistics-hub');
+  await page.click('.facility[data-preset="machine"]');
+  await page.check('#per-state');
+  await sleep(500);
+  const ps = await page.$$eval('.rank-item', (els) => els.slice(0, 12).map((e) => e.innerText.replace(/\s+/g, ' ')));
+  log.push('[desktop] machine shop, best per state: ' + JSON.stringify(ps));
+  await shot(page, '02b-desktop-per-state');
+  await page.uncheck('#per-state');
+  await page.click('.facility[data-preset="hub"]');
   // timing of a weight change
   const ms = await page.evaluate(async () => {
     const el = document.querySelector('#w-port');
@@ -67,7 +82,7 @@ await session('desktop', { viewport: { width: 1440, height: 900 }, colorScheme: 
   });
   log.push(`[desktop] weight change -> repaint ${ms.toFixed(0)} ms`);
   await page.click('.rank-item');
-  await sleep(1500);
+  await sleep(2500);
   await shot(page, '03-desktop-county-detail');
   await page.click('input[data-layer="rail"]');
   await page.click('input[data-layer="interstates"]');

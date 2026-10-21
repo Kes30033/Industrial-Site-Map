@@ -15,6 +15,7 @@
     weights: {},
     filters: { state: '', interstate: '', rail: '', port: '', rtw: false, metro: false },
     selected: -1,
+    perState: false,
     layers: { intermodal: true, ports: true, airports: false, yards: false, rail: false, interstates: false },
   };
 
@@ -56,6 +57,20 @@
     };
   }
 
+  function quantile(sorted, q) {
+    const pos = (sorted.length - 1) * q, lo = Math.floor(pos), hi = Math.ceil(pos);
+    return sorted[lo] + (sorted[hi] - sorted[lo]) * (pos - lo);
+  }
+
+  // log10 scale: 5th-percentile county -> 0, 99.5th -> 100
+  function logScale(raw) {
+    const logs = [];
+    for (const v of raw) if (v != null && !isNaN(v)) logs.push(Math.log10(Math.max(0, v) + 1));
+    logs.sort((a, b) => a - b);
+    const lo = quantile(logs, 0.05), hi = quantile(logs, 0.995);
+    return (v) => (v == null || isNaN(v) ? 50 : Math.max(0, Math.min(100, (100 * (Math.log10(Math.max(0, v) + 1) - lo)) / (hi - lo))));
+  }
+
   function rawValues(f) {
     if (f.src) return D.m[f.src];
     return D.m.st.map((st) => {
@@ -74,6 +89,9 @@
       if (f.type === 'dist') fn = (d) => (d == null ? 50 : 100 * Math.pow(0.5, d / f.half));
       else if (f.type === 'pct') fn = percentileScores(raw, false);
       else if (f.type === 'pct_inv') fn = percentileScores(raw, true);
+      else if (f.type === 'log') fn = logScale(raw);
+      else if (f.type === 'ratio') fn = (v) => (v == null ? 50 : Math.max(0, Math.min(100, (100 * (v - f.lo)) / (f.hi - f.lo))));
+      else if (f.type === 'ratio_inv') fn = (v) => (v == null ? 50 : 100 - Math.max(0, Math.min(100, (100 * (v - f.lo)) / (f.hi - f.lo))));
       else if (f.type === 'rank') fn = (r) => (r == null ? 50 : Math.max(0, Math.min(100, (100 * (50 - r)) / 49)));
       else if (f.type === 'bool') fn = (b) => (b == null ? 50 : b ? 100 : 0);
       else if (f.type === 'state_inv') {
@@ -144,9 +162,11 @@
     };
   }
 
+  // Esri World Light/Dark Gray Canvas: a quiet base plus a separate labels layer drawn above the counties
   function tileUrl(kind) {
-    const base = colors.dark ? 'dark' : 'light';
-    return `https://{s}.basemaps.cartocdn.com/${base}_${kind}/{z}/{x}/{y}{r}.png`;
+    const tone = colors.dark ? 'Dark' : 'Light';
+    const layer = kind === 'labels' ? 'Reference' : 'Base';
+    return `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${tone}_Gray_${layer}/MapServer/tile/{z}/{y}/{x}`;
   }
 
   function countyStyle(i) {
@@ -169,9 +189,9 @@
     map.createPane('labels');
     map.getPane('labels').style.zIndex = 450;
     map.getPane('labels').style.pointerEvents = 'none';
-    const attr = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
-    overlay.base = L.tileLayer(tileUrl('nolabels'), { attribution: attr, subdomains: 'abcd', maxZoom: 19 }).addTo(map);
-    overlay.labels = L.tileLayer(tileUrl('only_labels'), { pane: 'labels', subdomains: 'abcd', maxZoom: 19 }).addTo(map);
+    const attr = 'Basemap &copy; <a href="https://www.esri.com">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors';
+    overlay.base = L.tileLayer(tileUrl('base'), { attribution: attr, maxNativeZoom: 16, maxZoom: 19 }).addTo(map);
+    overlay.labels = L.tileLayer(tileUrl('labels'), { pane: 'labels', maxNativeZoom: 16, maxZoom: 19 }).addTo(map);
     renderer = L.canvas({ padding: 0.4, tolerance: 2 });
 
     const fc = topojson.feature(D.topo, D.topo.objects.counties);
@@ -238,13 +258,13 @@
     const P = D.points;
     const rr = P.railroads || {};
     overlay.intermodal = L.layerGroup(P.intermodal.map(([la, lo, name, rail, city]) =>
-      divMarker(la, lo, 'square', 10, `<strong>${esc(name)}</strong><span class="muted">Intermodal terminal, ${esc(city)}<br>${esc(rail)}</span>`)));
+      divMarker(la, lo, 'square', 8, `<strong>${esc(name)}</strong><span class="muted">Intermodal terminal, ${esc(city)}<br>${esc(rail)}</span>`)));
     overlay.ports = L.layerGroup(P.ports.filter((p) => p[3] >= 5e6).map(([la, lo, name, tons, type]) => {
-      const size = Math.round(8 + Math.min(10, Math.sqrt(tons / 1e6) * 1.1));
+      const size = Math.round(6 + Math.min(8, Math.sqrt(tons / 1e6) * 0.8));
       return divMarker(la, lo, 'circle', size, `<strong>${esc(name)}</strong><span class="muted">${(tons / 1e6).toFixed(1)}M short tons a year, ${esc(portType(type))}</span>`);
     }));
     overlay.airports = L.layerGroup(P.airports.filter((a) => a[4] >= 250e6).map(([la, lo, code, name, lbs, city]) =>
-      divMarker(la, lo, 'triangle', 12, `<strong>${esc(code)} ${esc(name)}</strong><span class="muted">${fmtLbs(lbs)} all-cargo landed weight a year</span>`)));
+      divMarker(la, lo, 'triangle', 10, `<strong>${esc(code)} ${esc(name)}</strong><span class="muted">${fmtLbs(lbs)} all-cargo landed weight a year</span>`)));
     overlay.yards = L.layerGroup(P.yards.map(([la, lo, name, owner]) =>
       L.circleMarker([la, lo], { renderer, radius: 2.4, weight: 0.8, color: colors.panel, fillColor: colors.ink, fillOpacity: 0.9 })
         .bindTooltip(`<strong>${esc(name)}</strong><span class="muted">Rail yard, ${esc(rr[owner] || owner)}</span>`, { className: 'ism-tip', direction: 'top' })));
@@ -378,6 +398,7 @@
     bindFilter('#f-rtw', 'rtw', true);
     bindFilter('#f-metro', 'metro', true);
 
+    $('#per-state').addEventListener('change', (e) => { state.perState = e.target.checked; renderRanking(); });
     $('#back').addEventListener('click', () => select(-1));
     $('#download').addEventListener('click', downloadCsv);
     $('#open-about').addEventListener('click', openAbout);
@@ -453,12 +474,19 @@
       list.innerHTML = '<li class="empty">No county meets every must-have. Loosen a distance limit or clear a checkbox.</li>';
       return;
     }
-    list.innerHTML = ranked.slice(0, 30).map((i, k) => {
+    const ps = $('#per-state');
+    ps.disabled = !!fl.state;
+    let rows = ranked;
+    if (state.perState && !fl.state) {
+      const seen = new Set();
+      rows = ranked.filter((i) => (seen.has(D.m.st[i]) ? false : (seen.add(D.m.st[i]), true)));
+    }
+    list.innerHTML = rows.slice(0, state.perState && !fl.state ? 51 : 30).map((i) => {
       const sc = composite[i];
       const area = D.areas.areas[D.m.area[i]];
       const sub = area && area.type === 'metro' ? area.name.split(',')[0].split('-').slice(0, 2).join('–') + ' metro' : `${D.states[D.m.st[i]].name}, rural`;
       return `<li><button type="button" class="rank-item" data-i="${i}">
-        <span class="rk">${k + 1}</span>
+        <span class="rk">${rank[i]}</span>
         <span class="nm">${esc(D.m.name[i])}, ${D.m.st[i]}<small>${esc(sub)}</small></span>
         <span class="sc">${Math.round(sc)}<span class="mini-bar"><i style="width:${sc.toFixed(1)}%"></i></span></span>
       </button></li>`;
@@ -507,9 +535,14 @@
     const m = D.m, P = D.points, st = D.states[m.st[i]] || {};
     switch (f.id) {
       case 'interstate': return `${mi(m.d_interstate[i])} to ${m.interstate[i] || 'an Interstate'}`;
-      case 'class1': return `${mi(m.d_class1[i])} to ${m.class1[i] || 'Class I'} track`;
+      case 'class1': return m.class1_own && !m.class1_own[i] ? `${mi(m.d_class1[i])} to Class I-served track owned by ${m.class1[i]}` : `${mi(m.d_class1[i])} to ${m.class1[i] || 'Class I'} track`;
       case 'yard': { const y = P.yards[m.yard_i[i]]; return `${mi(m.d_yard[i])} to ${y[2]}, ${P.railroads[y[3]] || y[3]}`; }
-      case 'intermodal': { const t = P.intermodal[m.intermodal_i[i]]; return `${mi(m.d_intermodal[i])} to ${t[2]}, ${t[4]}`; }
+      case 'intermodal': {
+        const t = P.intermodal[m.intermodal_i[i]];
+        const city = t[2].toLowerCase().includes(t[4].split(',')[0].toLowerCase()) ? '' : `, ${t[4]}`;
+        const rail = t[3] && t[3].length <= 24 ? ` (${t[3]})` : '';
+        return `${mi(m.d_intermodal[i])} to ${t[2]}${city}${rail}`;
+      }
       case 'port': { const p = P.ports[m.port_i[i]]; return `${mi(m.d_port[i])} to ${p[2]} (${(p[3] / 1e6).toFixed(0)}M tons)`; }
       case 'air': { const a = P.airports[m.air_i[i]]; return `${mi(m.d_air[i])} to ${a[2]}, ${a[5]} (${fmtLbs(a[4])})`; }
       case 'market': return `${fmtPop(m.market_pop[i])} people`;
@@ -638,6 +671,9 @@
       dist: `100 at the site, halving every ${f.half} miles`,
       pct: 'Percentile among all U.S. counties',
       pct_inv: 'Percentile among all counties, reversed (lower is better)',
+      log: 'Log scale: each 10× more scores the same number of points more',
+      ratio: `${f.lo} or less scores 0, ${f.hi} or more scores 100`,
+      ratio_inv: `${f.lo} or less scores 100, ${f.hi} or more scores 0`,
       rank: 'State rank 1–50 mapped to 100–0',
       state_inv: 'Percentile among states, reversed (lower is better)',
       bool: '100 if yes, 0 if no',
@@ -660,7 +696,7 @@
       <ul>${CFG.presets.map((p) => `<li><strong>${esc(p.label)}.</strong> ${esc(p.desc)}</li>`).join('')}</ul>
       <h3>Data sources</h3>
       <ul>${srcRows}</ul>
-      <p>The data refreshes automatically on the 4th of each month through a GitHub Actions workflow in this site’s repository. Basemap © OpenStreetMap contributors and CARTO.</p>
+      <p>The data refreshes automatically on the 4th of each month through a GitHub Actions workflow in this site’s repository. Basemap © Esri, HERE, Garmin and OpenStreetMap contributors.</p>
       <h3>Limits</h3>
       <ul>
         <li>Scores compare counties with each other; they are a shortlist tool, not a site evaluation. Land and building costs, utilities capacity, zoning, incentives and local permitting are not included.</li>
@@ -682,8 +718,8 @@
   }
   function applyTheme() {
     readColors();
-    overlay.base.setUrl(tileUrl('nolabels'));
-    overlay.labels.setUrl(tileUrl('only_labels'));
+    overlay.base.setUrl(tileUrl('base'));
+    overlay.labels.setUrl(tileUrl('labels'));
     stateLayer.setStyle({ color: colors.ink2 });
     for (const id of ['rail', 'interstates']) if (overlay[id]) overlay[id].setStyle({ color: colors.ink });
     overlay.yards.eachLayer((l) => l.setStyle({ color: colors.panel, fillColor: colors.ink }));

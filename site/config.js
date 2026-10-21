@@ -1,12 +1,13 @@
 /* Scoring configuration: factors, how each is turned into a 0-100 score, and the facility presets.
  *
  * Score types
- *   dist     100 at 0 miles, halving every `half` miles  (100 * 0.5^(miles / half))
- *   pct      percentile rank among all U.S. counties (higher raw value = better)
- *   pct_inv  percentile rank, reversed (lower raw value = better)
- *   rank     state rank 1-50 (1 = best) mapped to 100..0
+ *   dist      100 at 0 miles, halving every `half` miles  (100 * 0.5^(miles / half))
+ *   log       counts on a log scale: the 5th-percentile county scores 0, the 99.5th scores 100,
+ *             so each 10x more workers or people adds the same number of points
+ *   ratio     linear between `lo` (0) and `hi` (100), capped; ratio_inv is the reverse
+ *   rank      state rank 1-50 (1 = best) mapped to 100..0
  *   state_inv percentile among states, reversed (lower raw value = better)
- *   bool     100 if true, 0 if false
+ *   bool      100 if true, 0 if false
  * Missing values score a neutral 50.
  */
 window.ISM_CONFIG = {
@@ -21,7 +22,7 @@ window.ISM_CONFIG = {
     { id: 'interstate', group: 'freight', label: 'Interstate highway', src: 'd_interstate', type: 'dist', half: 10,
       about: 'Straight-line miles from the county’s population center to the nearest Interstate (FHWA Eisenhower Interstate System).' },
     { id: 'class1', group: 'freight', label: 'Class I rail line', src: 'd_class1', type: 'dist', half: 8,
-      about: 'Miles to the nearest track owned by a Class I railroad (BNSF, UP, CSX, NS, CN, CPKC). Plants that need a rail spur want this under ~5 miles.' },
+      about: 'Miles to the nearest track in the BTS Class I rail network: lines owned by BNSF, UP, CSX, NS, CN or CPKC, plus short-line and commuter track those railroads run freight over. Plants that need a rail spur want this under about 5 miles.' },
     { id: 'yard', group: 'freight', label: 'Rail yard', src: 'd_yard', type: 'dist', half: 15,
       about: 'Miles to the nearest rail yard of any railroad, including short lines (BTS rail yards layer).' },
     { id: 'intermodal', group: 'freight', label: 'Intermodal rail terminal', src: 'd_intermodal', type: 'dist', half: 40,
@@ -30,25 +31,25 @@ window.ISM_CONFIG = {
       about: 'Miles to the boundary of the nearest principal port handling 5 million+ short tons a year (USACE). Includes Great Lakes and inland river ports.' },
     { id: 'air', group: 'freight', label: 'Air cargo airport', src: 'd_air', type: 'dist', half: 50,
       about: 'Miles to the nearest airport with 250 million+ lbs of all-cargo landed weight (FAA).' },
-    { id: 'market', group: 'freight', label: 'People within 250 miles', src: 'market_pop', type: 'pct',
+    { id: 'market', group: 'freight', label: 'People within 250 miles', src: 'market_pop', type: 'log',
       about: 'Population within 250 miles, roughly a same-day truck run. A proxy for how many customers a distribution site can reach.' },
 
     // ---- Workforce
-    { id: 'trades', group: 'labor', label: 'Production & skilled-trade workers', src: 'shed_trades', type: 'pct',
+    { id: 'trades', group: 'labor', label: 'Production & skilled-trade workers', src: 'shed_trades', type: 'log',
       about: 'Residents working in production, construction & extraction, or installation, maintenance & repair occupations within 45 miles (ACS 5-year). Includes machinists, welders, electricians and mechanics.' },
-    { id: 'logi', group: 'labor', label: 'Drivers & material movers', src: 'shed_logi', type: 'pct',
+    { id: 'logi', group: 'labor', label: 'Drivers & material movers', src: 'shed_logi', type: 'log',
       about: 'Residents working in transportation and material-moving occupations within 45 miles (ACS 5-year).' },
-    { id: 'metal', group: 'labor', label: 'Metalworking & machinery industry', src: 'shed_metal', type: 'pct',
+    { id: 'metal', group: 'labor', label: 'Metalworking & machinery industry', src: 'shed_metal', type: 'log',
       about: 'Private jobs in fabricated metal, machinery and transportation-equipment manufacturing within 45 miles (BLS QCEW). Both an experienced labor pool and a customer base for job shops.' },
-    { id: 'whse', group: 'labor', label: 'Warehousing & trucking industry', src: 'shed_whse', type: 'pct',
+    { id: 'whse', group: 'labor', label: 'Warehousing & trucking industry', src: 'shed_whse', type: 'log',
       about: 'Private jobs in warehousing & storage and truck transportation within 45 miles (BLS QCEW).' },
-    { id: 'lq_metal', group: 'labor', label: 'Welder & machinist concentration', src: 'lq_metal', type: 'pct',
-      about: 'How concentrated welders, machinists and CNC operators are in the local labor market compared with the U.S. (average OEWS location quotient; 1.0 = national share). Uses the metro area, or the state’s nonmetro areas for rural counties.' },
-    { id: 'lq_elec', group: 'labor', label: 'Electrician & mechanic concentration', src: 'lq_elec', type: 'pct',
+    { id: 'lq_metal', group: 'labor', label: 'Welder & machinist concentration', src: 'lq_metal', type: 'ratio', lo: 0.5, hi: 2.5,
+      about: 'How concentrated welders, machinists and CNC operators are in the local labor market compared with the U.S. (average OEWS location quotient; 1.0 = national share, 2.5 or more scores 100). Uses the metro area, or the state’s combined nonmetro areas for rural counties, so every rural county in a state shares one value.' },
+    { id: 'lq_elec', group: 'labor', label: 'Electrician & mechanic concentration', src: 'lq_elec', type: 'ratio', lo: 0.5, hi: 2.0,
       about: 'Concentration of electricians and industrial machinery mechanics in the local labor market (average OEWS location quotient).' },
-    { id: 'wage_trade', group: 'labor', label: 'Skilled-trade pay (lower scores higher)', src: 'wage_trade', type: 'pct_inv',
-      about: 'Median annual pay for welders, machinists, CNC operators, electricians and industrial mechanics in the local labor market, relative to the U.S. Lower pay means lower labor cost, so it scores higher.' },
-    { id: 'wage_logi', group: 'labor', label: 'Driver & warehouse pay (lower scores higher)', src: 'wage_logi', type: 'pct_inv',
+    { id: 'wage_trade', group: 'labor', label: 'Skilled-trade pay (lower scores higher)', src: 'wage_trade', type: 'ratio_inv', lo: 0.8, hi: 1.2,
+      about: 'Median annual pay for welders, machinists, CNC operators, electricians and industrial mechanics in the local labor market, relative to the U.S. Lower pay means lower labor cost: 20% below the U.S. scores 100, 20% above scores 0.' },
+    { id: 'wage_logi', group: 'labor', label: 'Driver & warehouse pay (lower scores higher)', src: 'wage_logi', type: 'ratio_inv', lo: 0.8, hi: 1.2,
       about: 'Median annual pay for heavy-truck drivers and hand material movers in the local labor market, relative to the U.S.' },
 
     // ---- Taxes, regulation & costs (state level)
@@ -74,24 +75,24 @@ window.ISM_CONFIG = {
       desc: 'A CNC, fabrication or job shop. It lives on machinists and welders and on manufacturers nearby to sell parts to; rail and ports barely matter.',
       icon: '<circle cx="12" cy="12" r="3.2"/><path d="M12 2.8v2.6M12 18.6v2.6M2.8 12h2.6M18.6 12h2.6M5.5 5.5l1.9 1.9M16.6 16.6l1.9 1.9M5.5 18.5l1.9-1.9M16.6 7.4l1.9-1.9"/><circle cx="12" cy="12" r="6.6"/>',
       w: { interstate: 6, class1: 0, yard: 0, intermodal: 1, port: 0, air: 2, market: 3,
-           trades: 8, logi: 1, metal: 10, whse: 0, lq_metal: 8, lq_elec: 4, wage_trade: 5, wage_logi: 0,
-           tax: 3, corp: 3, prop: 3, friendly: 4, regs: 2, rtw: 3, power: 3 },
+           trades: 8, logi: 1, metal: 10, whse: 0, lq_metal: 6, lq_elec: 3, wage_trade: 4, wage_logi: 0,
+           tax: 2, corp: 2, prop: 2, friendly: 3, regs: 1, rtw: 2, power: 2 },
     },
     {
       id: 'plant', label: 'Manufacturing plant',
       desc: 'A production plant moving heavy inbound and outbound freight. Weighs rail service, power prices, a deep production workforce and taxes on property and income.',
       icon: '<path d="M2.5 20.5v-9l5 3.2v-3.2l5 3.2v-3.2l5 3.2V4h3.5v16.5z"/><path d="M6 17.5h2M11 17.5h2"/>',
       w: { interstate: 7, class1: 6, yard: 3, intermodal: 4, port: 4, air: 2, market: 3,
-           trades: 9, logi: 2, metal: 5, whse: 1, lq_metal: 6, lq_elec: 6, wage_trade: 5, wage_logi: 1,
-           tax: 4, corp: 5, prop: 5, friendly: 5, regs: 3, rtw: 4, power: 8 },
+           trades: 9, logi: 2, metal: 5, whse: 1, lq_metal: 5, lq_elec: 5, wage_trade: 5, wage_logi: 1,
+           tax: 3, corp: 4, prop: 4, friendly: 4, regs: 2, rtw: 3, power: 7 },
     },
     {
       id: 'warehouse', label: 'Warehouse / distribution',
       desc: 'A building that serves a regional market by truck. Weighs interstate access, how many people are within a day’s drive, and warehouse labor and pay.',
       icon: '<path d="M2.5 20.5V9.5L12 4l9.5 5.5v11"/><path d="M6 20.5v-6h4v6M14 20.5v-6h4v6"/>',
       w: { interstate: 10, class1: 1, yard: 0, intermodal: 3, port: 2, air: 4, market: 10,
-           trades: 1, logi: 8, metal: 0, whse: 6, lq_metal: 0, lq_elec: 1, wage_trade: 0, wage_logi: 6,
-           tax: 3, corp: 2, prop: 5, friendly: 3, regs: 1, rtw: 3, power: 2 },
+           trades: 1, logi: 8, metal: 0, whse: 6, lq_metal: 0, lq_elec: 1, wage_trade: 0, wage_logi: 5,
+           tax: 2, corp: 2, prop: 4, friendly: 2, regs: 1, rtw: 2, power: 1 },
     },
     {
       id: 'hub', label: 'Logistics hub',
@@ -99,7 +100,7 @@ window.ISM_CONFIG = {
       icon: '<rect x="3" y="5" width="18" height="8.5" rx="0.5"/><path d="M7.5 5v8.5M12 5v8.5M16.5 5v8.5"/><path d="M2 19h20M5 16.8v4.4M10 16.8v4.4M14 16.8v4.4M19 16.8v4.4"/>',
       w: { interstate: 9, class1: 8, yard: 6, intermodal: 10, port: 7, air: 6, market: 6,
            trades: 1, logi: 9, metal: 0, whse: 8, lq_metal: 0, lq_elec: 1, wage_trade: 0, wage_logi: 4,
-           tax: 3, corp: 3, prop: 4, friendly: 3, regs: 1, rtw: 3, power: 1 },
+           tax: 2, corp: 2, prop: 3, friendly: 2, regs: 1, rtw: 2, power: 1 },
     },
   ],
 
