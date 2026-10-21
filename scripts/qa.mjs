@@ -29,12 +29,19 @@ async function session(name, opts, steps) {
   page.on('pageerror', (e) => log.push(`[${name}] pageerror: ${e.message}`));
   page.on('requestfailed', (r) => { if (!r.url().includes('basemaps.cartocdn')) log.push(`[${name}] requestfailed: ${r.url()} ${r.failure()?.errorText}`); });
   const t0 = Date.now();
-  await page.goto('http://localhost:8765/', { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('#loading', { state: 'hidden', timeout: 60000 });
-  log.push(`[${name}] ready in ${Date.now() - t0} ms`);
-  await sleep(2500);
-  try { await steps(page); } catch (e) { log.push(`[${name}] step failed: ${e.message}`); await page.screenshot({ path: path.join(outDir, `${name}-failed.png`) }); }
-  await ctx.close();
+  try {
+    await page.goto('http://localhost:8765/', { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('#loading', { state: 'hidden', timeout: 45000 });
+    log.push(`[${name}] ready in ${Date.now() - t0} ms`);
+    await sleep(2500);
+    await steps(page);
+  } catch (e) {
+    log.push(`[${name}] failed: ${e.message.split('\n')[0]}`);
+    await page.screenshot({ path: path.join(outDir, `${name}-failed.png`) }).catch(() => {});
+  } finally {
+    fs.writeFileSync(path.join(outDir, 'log.txt'), log.join('\n') + '\n');
+    await ctx.close();
+  }
 }
 
 const shot = (page, n, full = false) => page.screenshot({ path: path.join(outDir, `${n}.png`), fullPage: full });

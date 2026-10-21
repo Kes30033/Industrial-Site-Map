@@ -95,7 +95,7 @@
     return true;
   }
 
-  function recompute() {
+  function computeScores() {
     const w = FACTORS.map((f) => state.weights[f.id] || 0);
     const wsum = w.reduce((a, b) => a + b, 0);
     composite = new Float32Array(N);
@@ -121,6 +121,10 @@
       for (let j = 0; j < BINS.length; j++) if (top < BINS[j]) { b = 6 - j; break; }
       bin[i] = b;
     });
+  }
+
+  function recompute() {
+    computeScores();
     restyle();
     renderRanking();
     renderWeightsShare();
@@ -146,7 +150,7 @@
   }
 
   function countyStyle(i) {
-    if (i == null || i < 0) return { fillOpacity: 0, opacity: 0 };
+    if (i == null || i < 0 || !composite) return { fillOpacity: 0, opacity: 0 };
     const border = { color: colors.panel, weight: 0.35, opacity: 0.55 };
     if (!inScope[i]) return { ...border, fillColor: colors.excluded, fillOpacity: 0.12, opacity: 0.2 };
     if (!eligible[i]) return { ...border, fillColor: colors.excluded, fillOpacity: 0.6 };
@@ -748,6 +752,7 @@
     const sel = readHash();
     FACTORS.forEach((f) => syncSlider(f.id));
     renderPresetState();
+    computeScores();
     initMap();
     recompute();
     if (state.filters.state) zoomToState(state.filters.state);
