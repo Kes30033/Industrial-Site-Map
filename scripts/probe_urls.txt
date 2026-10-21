@@ -1,12 +1,2 @@
 # name | url | optional user-agent
-qcew_2025_332 | https://data.bls.gov/cew/data/api/2025/a/industry/332.csv
-qcew_2024_31_33 | https://data.bls.gov/cew/data/api/2024/a/industry/31_33.csv
-qcew_2024_1013 | https://data.bls.gov/cew/data/api/2024/a/industry/1013.csv
-qcew_2024_2382 | https://data.bls.gov/cew/data/api/2024/a/industry/2382.csv
-qcew_2026q1_332 | https://data.bls.gov/cew/data/api/2026/1/industry/332.csv
-acs_c24010 | https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-c24010.dat
-acs_shells | https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/ACS20245YR_Table_Shells.txt
-eia_5_6_b | https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_b
-seaports_all | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Commercial_Strategic_Seaports/FeatureServer/0/query?where=1%3D1&outFields=*&f=json
-principal_ports_view | https://geo.dot.gov/server/rest/services/Hosted/principal_ports_view/FeatureServer/0?f=json
-gaz_2025 | https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip
+cbsa_delin_2023 | https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx
