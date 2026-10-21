@@ -1,25 +1,43 @@
-# name | url
-bls_tables | https://www.bls.gov/oes/tables.htm
-bls_ma_counties | https://www.bls.gov/oes/2025/may/ma_counties.htm
-bls_oesm25ma | https://www.bls.gov/oes/special-requests/oesm25ma.zip
-faa_cargo_page | https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger
-eia_state | https://www.eia.gov/electricity/data/state/
-eia_epm_5_6_a | https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
-census_popest_dir | https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/
-census_genz2024 | https://www2.census.gov/geo/tiger/GENZ2024/shp/
-census_genz2025 | https://www2.census.gov/geo/tiger/GENZ2025/shp/
-census_cenpop | https://www2.census.gov/geo/docs/reference/cenpop2020/county/CenPop2020_Mean_CO.txt
-census_tiger2025_roads | https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/
-census_tiger2024_roads | https://www2.census.gov/geo/tiger/TIGER2024/PRIMARYROADS/
-census_cbp_test | https://api.census.gov/data/2023/cbp?get=NAME,NAICS2017,EMP,ESTAB&for=county:*&in=state:01&NAICS2017=31-33
-census_cbp_vars | https://api.census.gov/data/2023/cbp/variables.json
-arcgis_ntad_list | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services?f=json
-ntad_intermodal_info | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Intermodal_Freight_Facilities_Rail_TOFC_COFC/FeatureServer/0?f=json
-ntad_rail_info | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0?f=json
-fema_nri_page | https://hazards.fema.gov/nri/data-resources
-fema_nri_counties | https://hazards.fema.gov/nri/Content/StaticDocuments/DataDownload//NRI_Table_Counties/NRI_Table_Counties.zip
-taxfound_index_2026 | https://taxfoundation.org/research/all/state/2026-state-tax-competitiveness-index/
-taxfound_index_2027 | https://taxfoundation.org/research/all/state/2027-state-tax-competitiveness-index/
-taxfound_corp_2026 | https://taxfoundation.org/data/all/state/state-corporate-income-tax-rates-brackets-2026/
-ncsl_rtw | https://www.ncsl.org/labor-and-employment/right-to-work-resources
-nrtw_states | https://nrtw.org/right-to-work-states/
+# name | url | optional user-agent
+# --- BLS workarounds
+bls_st_ua | https://www.bls.gov/oes/special-requests/oesm25st.zip | Industrial-Site-Map data build (https://github.com/Kes30033/Industrial-Site-Map; Kes30033@users.noreply.github.com)
+bls_api | https://api.bls.gov/publicAPI/v2/timeseries/data/OEUS010000000000051412101
+bls_qcew | https://data.bls.gov/cew/data/api/2024/a/industry/332.csv
+bls_qcew_ua | https://data.bls.gov/cew/data/api/2024/a/industry/332.csv | Industrial-Site-Map data build (https://github.com/Kes30033/Industrial-Site-Map; Kes30033@users.noreply.github.com)
+bls_dl_ua | https://download.bls.gov/pub/time.series/oe/oe.area | Industrial-Site-Map data build (https://github.com/Kes30033/Industrial-Site-Map; Kes30033@users.noreply.github.com)
+# --- Census files
+acs_sf_dir | https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/
+acs_doc_dir | https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/
+acs_b24114 | https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b24114.dat
+acs_api_nokey | https://api.census.gov/data/2024/acs/acs5?get=NAME,B24114_001E&for=county:001&in=state:01
+acs_b24114_vars | https://api.census.gov/data/2024/acs/acs5/groups/B24114.json
+cbp_dir_2023 | https://www2.census.gov/programs-surveys/cbp/datasets/2023/
+cbp_dir_2024 | https://www2.census.gov/programs-surveys/cbp/datasets/2024/
+gaz_2025_dir | https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/
+popest_2025 | https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv
+county_5m | https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_5m.zip
+tiger_roads | https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/tl_2025_us_primaryroads.zip
+# --- NTAD layers (field lists)
+ntad_rail_yards | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Rail_Yards/FeatureServer/0?f=json
+ntad_rail_yards_n | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Rail_Yards/FeatureServer/0/query?where=1%3D1&returnCountOnly=true&f=json
+ntad_rail_yards_s | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Rail_Yards/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=5&f=json
+ntad_classi | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_North_American_Rail_Network_Lines_Class_I_Railroads/FeatureServer/0?f=json
+ntad_classi_n | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_North_American_Rail_Network_Lines_Class_I_Railroads/FeatureServer/0/query?where=1%3D1&returnCountOnly=true&f=json
+ntad_ports_hz | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Hazard_Exposure_Principal_Ports/FeatureServer/0?f=json
+ntad_ports_hz_s | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Hazard_Exposure_Principal_Ports/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=3&f=json
+ntad_seaports | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Commercial_Strategic_Seaports/FeatureServer/0?f=json
+dipt_ports | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/DIPT_2020_Ports/FeatureServer/0?f=json
+ntad_aviation | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Aviation_Facilities/FeatureServer/0?f=json
+ntad_air_truck | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Intermodal_Freight_Facilities_Air_to_Truck/FeatureServer/0?f=json
+interstate | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/Eisenhower_Interstate_System/FeatureServer/0?f=json
+interstate_n | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/Eisenhower_Interstate_System/FeatureServer/0/query?where=1%3D1&returnCountOnly=true&f=json
+nhfn | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_National_Highway_Freight_Network/FeatureServer/0?f=json
+transload | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/ERDC_US_Freight_Transload_Facilities/FeatureServer/0?f=json
+intermodal_all | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Intermodal_Freight_Facilities_Rail_TOFC_COFC/FeatureServer/0/query?where=1%3D1&outFields=*&f=json
+geo_dot | https://geo.dot.gov/server/rest/services/Hosted?f=json
+# --- Other sources
+faa_cargo_xlsx | https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/ARP-CY2025-all-cargo-airports.xlsx
+eia_avgprice | https://www.eia.gov/electricity/data/state/avgprice_annual.xlsx
+quantgov_state | https://quantgov-bulk-downloads.s3.amazonaws.com/State-RegData-5-0_Regulations.zip
+cnbc_2026 | https://www.cnbc.com/2026/07/09/americas-top-states-for-business-full-rankings.html
+taxfound_corp | https://taxfoundation.org/data/all/state/state-corporate-income-tax-rates-brackets/
