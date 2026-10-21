@@ -26,6 +26,7 @@ pipeline/build.py    computes per-county distances, labor sheds and state tables
 site/                the static website (Leaflet map, no build step)
 site/config.js       factors, scoring rules and facility presets: edit this to change weights
 .github/workflows/build.yml   runs fetch + build monthly and deploys site/ to the gh-pages branch
+scripts/qa.mjs       headless-browser check run by the workflow; screenshots land on the qa-results branch
 ```
 
 The workflow runs on the 4th of every month, on any push that changes `site/` or `pipeline/`, and on demand from the **Actions** tab (**Build data and deploy site → Run workflow**). If a source is down, the previous cached copy is used, so the site keeps building.
