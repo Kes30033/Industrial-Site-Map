@@ -1,0 +1,25 @@
+# name | url
+bls_tables | https://www.bls.gov/oes/tables.htm
+bls_ma_counties | https://www.bls.gov/oes/2025/may/ma_counties.htm
+bls_oesm25ma | https://www.bls.gov/oes/special-requests/oesm25ma.zip
+faa_cargo_page | https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger
+eia_state | https://www.eia.gov/electricity/data/state/
+eia_epm_5_6_a | https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+census_popest_dir | https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/
+census_genz2024 | https://www2.census.gov/geo/tiger/GENZ2024/shp/
+census_genz2025 | https://www2.census.gov/geo/tiger/GENZ2025/shp/
+census_cenpop | https://www2.census.gov/geo/docs/reference/cenpop2020/county/CenPop2020_Mean_CO.txt
+census_tiger2025_roads | https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/
+census_tiger2024_roads | https://www2.census.gov/geo/tiger/TIGER2024/PRIMARYROADS/
+census_cbp_test | https://api.census.gov/data/2023/cbp?get=NAME,NAICS2017,EMP,ESTAB&for=county:*&in=state:01&NAICS2017=31-33
+census_cbp_vars | https://api.census.gov/data/2023/cbp/variables.json
+arcgis_ntad_list | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services?f=json
+ntad_intermodal_info | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_Intermodal_Freight_Facilities_Rail_TOFC_COFC/FeatureServer/0?f=json
+ntad_rail_info | https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0?f=json
+fema_nri_page | https://hazards.fema.gov/nri/data-resources
+fema_nri_counties | https://hazards.fema.gov/nri/Content/StaticDocuments/DataDownload//NRI_Table_Counties/NRI_Table_Counties.zip
+taxfound_index_2026 | https://taxfoundation.org/research/all/state/2026-state-tax-competitiveness-index/
+taxfound_index_2027 | https://taxfoundation.org/research/all/state/2027-state-tax-competitiveness-index/
+taxfound_corp_2026 | https://taxfoundation.org/data/all/state/state-corporate-income-tax-rates-brackets-2026/
+ncsl_rtw | https://www.ncsl.org/labor-and-employment/right-to-work-resources
+nrtw_states | https://nrtw.org/right-to-work-states/
