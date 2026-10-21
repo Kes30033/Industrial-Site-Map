@@ -1,0 +1,5196 @@
+{
+ "allItemsMap": null,
+ "measures": [
+  {
+   "vm": "01",
+   "dm": "Employment"
+  },
+  {
+   "vm": "03",
+   "dm": "Hourly mean wage"
+  },
+  {
+   "vm": "04",
+   "dm": "Annual mean wage"
+  },
+  {
+   "vm": "06",
+   "dm": "Hourly 10th percentile wage"
+  },
+  {
+   "vm": "07",
+   "dm": "Hourly 25th percentile wage"
+  },
+  {
+   "vm": "08",
+   "dm": "Hourly median wage"
+  },
+  {
+   "vm": "09",
+   "dm": "Hourly 75th percentile wage"
+  },
+  {
+   "vm": "10",
+   "dm": "Hourly 90th percentile wage"
+  },
+  {
+   "vm": "11",
+   "dm": "Annual 10th percentile wage"
+  },
+  {
+   "vm": "12",
+   "dm": "Annual 25th percentile wage"
+  },
+  {
+   "vm": "13",
+   "dm": "Annual median wage"
+  },
+  {
+   "vm": "14",
+   "dm": "Annual 75th percentile wage"
+  },
+  {
+   "vm": "15",
+   "dm": "Annual 90th percentile wage"
+  },
+  {
+   "vm": "16",
+   "dm": "Employment per 1,000 jobs"
+  },
+  {
+   "vm": "17",
+   "dm": "Location Quotient"
+  }
+ ],
+ "occMajors": [
+  {
+   "vm": "110000",
+   "dm": "Management Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "130000",
+   "dm": "Business and Financial Operations Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "150000",
+   "dm": "Computer and Mathematical Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "170000",
+   "dm": "Architecture and Engineering Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "190000",
+   "dm": "Life, Physical, and Social Science Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "210000",
+   "dm": "Community and Social Service Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "230000",
+   "dm": "Legal Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "250000",
+   "dm": "Educational Instruction and Library Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "270000",
+   "dm": "Arts, Design, Entertainment, Sports, and Media Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "290000",
+   "dm": "Healthcare Practitioners and Technical Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "310000",
+   "dm": "Healthcare Support Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "330000",
+   "dm": "Protective Service Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "350000",
+   "dm": "Food Preparation and Serving Related Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "370000",
+   "dm": "Building and Grounds Cleaning and Maintenance Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "390000",
+   "dm": "Personal Care and Service Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "410000",
+   "dm": "Sales and Related Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "430000",
+   "dm": "Office and Administrative Support Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "450000",
+   "dm": "Farming, Fishing, and Forestry Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "470000",
+   "dm": "Construction and Extraction Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "490000",
+   "dm": "Installation, Maintenance, and Repair Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "510000",
+   "dm": "Production Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "530000",
+   "dm": "Transportation and Material Moving Occupations",
+   "beginYear": "2025",
+   "endYear": "2025"
+  }
+ ],
+ "occDetails": [
+  {
+   "vm": "132011",
+   "dm": "Accountants and Auditors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272011",
+   "dm": "Actors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "152011",
+   "dm": "Actuaries",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291291",
+   "dm": "Acupuncturists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519191",
+   "dm": "Adhesive Bonding Machine Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "231021",
+   "dm": "Administrative Law Judges, Adjudicators, and Hearing Officers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113012",
+   "dm": "Administrative Services Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "253011",
+   "dm": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "413011",
+   "dm": "Advertising Sales Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "112011",
+   "dm": "Advertising and Promotions Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173021",
+   "dm": "Aerospace Engineering and Operations Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172011",
+   "dm": "Aerospace Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131011",
+   "dm": "Agents and Business Managers of Artists, Performers, and Athletes",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172021",
+   "dm": "Agricultural Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "452091",
+   "dm": "Agricultural Equipment Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "452011",
+   "dm": "Agricultural Inspectors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251041",
+   "dm": "Agricultural Sciences Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194012",
+   "dm": "Agricultural Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "452099",
+   "dm": "Agricultural Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "532021",
+   "dm": "Air Traffic Controllers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "531041",
+   "dm": "Aircraft Cargo Handling Supervisors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493011",
+   "dm": "Aircraft Mechanics and Service Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536032",
+   "dm": "Aircraft Service Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512011",
+   "dm": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "532022",
+   "dm": "Airfield Operations Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "532011",
+   "dm": "Airline Pilots, Copilots, and Flight Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533011",
+   "dm": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393091",
+   "dm": "Amusement and Recreation Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291211",
+   "dm": "Anesthesiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "452021",
+   "dm": "Animal Breeders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "392021",
+   "dm": "Animal Caretakers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339011",
+   "dm": "Animal Control Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191011",
+   "dm": "Animal Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "392011",
+   "dm": "Animal Trainers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193091",
+   "dm": "Anthropologists and Archeologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251061",
+   "dm": "Anthropology and Archeology Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "231022",
+   "dm": "Arbitrators, Mediators, and Conciliators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "171011",
+   "dm": "Architects, Except Landscape and Naval",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173011",
+   "dm": "Architectural and Civil Drafters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119041",
+   "dm": "Architectural and Engineering Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251031",
+   "dm": "Architecture Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "254011",
+   "dm": "Archivists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251062",
+   "dm": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271011",
+   "dm": "Art Directors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251121",
+   "dm": "Art, Drama, and Music Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271019",
+   "dm": "Artists and Related Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192011",
+   "dm": "Astronomers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272021",
+   "dm": "Athletes and Sports Competitors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "299091",
+   "dm": "Athletic Trainers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192021",
+   "dm": "Atmospheric and Space Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251051",
+   "dm": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274011",
+   "dm": "Audio and Video Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291181",
+   "dm": "Audiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492097",
+   "dm": "Audiovisual Equipment Installers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493021",
+   "dm": "Automotive Body and Related Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493022",
+   "dm": "Automotive Glass Installers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493023",
+   "dm": "Automotive Service Technicians and Mechanics",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536031",
+   "dm": "Automotive and Watercraft Service Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492091",
+   "dm": "Avionics Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "396011",
+   "dm": "Baggage Porters and Bellhops",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "333011",
+   "dm": "Bailiffs",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513011",
+   "dm": "Bakers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "395011",
+   "dm": "Barbers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "353011",
+   "dm": "Bartenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493091",
+   "dm": "Bicycle Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433011",
+   "dm": "Bill and Account Collectors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433021",
+   "dm": "Billing and Posting Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191021",
+   "dm": "Biochemists and Biophysicists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172031",
+   "dm": "Bioengineers and Biomedical Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251042",
+   "dm": "Biological Science Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191029",
+   "dm": "Biological Scientists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194021",
+   "dm": "Biological Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472011",
+   "dm": "Boilermakers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433031",
+   "dm": "Bookkeeping, Accounting, and Auditing Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472021",
+   "dm": "Brickmasons and Blockmasons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536011",
+   "dm": "Bridge and Lock Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273011",
+   "dm": "Broadcast Announcers and Radio Disc Jockeys",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274012",
+   "dm": "Broadcast Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434011",
+   "dm": "Brokerage Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132031",
+   "dm": "Budget Analysts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "372019",
+   "dm": "Building Cleaning Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533051",
+   "dm": "Bus Drivers, School",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533052",
+   "dm": "Bus Drivers, Transit and Intercity",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493031",
+   "dm": "Bus and Truck Mechanics and Diesel Engine Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131199",
+   "dm": "Business Operations Specialists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251011",
+   "dm": "Business Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513021",
+   "dm": "Butchers and Meat Cutters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131020",
+   "dm": "Buyers and Purchasing Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "517011",
+   "dm": "Cabinetmakers and Bench Carpenters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173028",
+   "dm": "Calibration Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274031",
+   "dm": "Camera Operators, Television, Video, and Film",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499061",
+   "dm": "Camera and Photographic Equipment Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "535021",
+   "dm": "Captains, Mates, and Pilots of Water Vessels",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291212",
+   "dm": "Cardiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292031",
+   "dm": "Cardiovascular Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252023",
+   "dm": "Career/Technical Education Teachers, Middle School",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251194",
+   "dm": "Career/Technical Education Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252032",
+   "dm": "Career/Technical Education Teachers, Secondary School",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435011",
+   "dm": "Cargo and Freight Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472031",
+   "dm": "Carpenters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472041",
+   "dm": "Carpet Installers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "171021",
+   "dm": "Cartographers and Photogrammetrists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "412011",
+   "dm": "Cashiers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472051",
+   "dm": "Cement Masons and Concrete Finishers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "351011",
+   "dm": "Chefs and Head Cooks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172041",
+   "dm": "Chemical Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519011",
+   "dm": "Chemical Equipment Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518091",
+   "dm": "Chemical Plant and System Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194031",
+   "dm": "Chemical Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251052",
+   "dm": "Chemistry Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192031",
+   "dm": "Chemists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "111011",
+   "dm": "Chief Executives",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211021",
+   "dm": "Child, Family, and School Social Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "399011",
+   "dm": "Childcare Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291011",
+   "dm": "Chiropractors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272032",
+   "dm": "Choreographers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173022",
+   "dm": "Civil Engineering Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172051",
+   "dm": "Civil Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131031",
+   "dm": "Claims Adjusters, Examiners, and Investigators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537061",
+   "dm": "Cleaners of Vehicles and Equipment",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519192",
+   "dm": "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "212011",
+   "dm": "Clergy",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292010",
+   "dm": "Clinical Laboratory Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193033",
+   "dm": "Clinical and Counseling Psychologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272022",
+   "dm": "Coaches and Scouts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519124",
+   "dm": "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512021",
+   "dm": "Coil Winders, Tapers, and Finishers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499091",
+   "dm": "Coin, Vending, and Amusement Machine Servicers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499092",
+   "dm": "Commercial Divers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "532012",
+   "dm": "Commercial Pilots",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271021",
+   "dm": "Commercial and Industrial Designers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "432099",
+   "dm": "Communications Equipment Operators, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251122",
+   "dm": "Communications Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211094",
+   "dm": "Community Health Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211099",
+   "dm": "Community and Social Service Specialists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113111",
+   "dm": "Compensation and Benefits Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131141",
+   "dm": "Compensation, Benefits, and Job Analysis Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131041",
+   "dm": "Compliance Officers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172061",
+   "dm": "Computer Hardware Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151241",
+   "dm": "Computer Network Architects",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151231",
+   "dm": "Computer Network Support Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519161",
+   "dm": "Computer Numerically Controlled Tool Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519162",
+   "dm": "Computer Numerically Controlled Tool Programmers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151299",
+   "dm": "Computer Occupations, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151251",
+   "dm": "Computer Programmers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251021",
+   "dm": "Computer Science Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151211",
+   "dm": "Computer Systems Analysts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151232",
+   "dm": "Computer User Support Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151221",
+   "dm": "Computer and Information Research Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113021",
+   "dm": "Computer and Information Systems Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492011",
+   "dm": "Computer, Automated Teller, and Office Machine Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "396012",
+   "dm": "Concierges",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191031",
+   "dm": "Conservation Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472061",
+   "dm": "Construction Laborers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119021",
+   "dm": "Construction Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474011",
+   "dm": "Construction and Building Inspectors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475041",
+   "dm": "Continuous Mining Machine Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499012",
+   "dm": "Control and Valve Installers and Repairers, Except Mechanical Door",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537011",
+   "dm": "Conveyor Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "352019",
+   "dm": "Cooks, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "352011",
+   "dm": "Cooks, Fast Food",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "352012",
+   "dm": "Cooks, Institution and Cafeteria",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "352013",
+   "dm": "Cooks, Private Household",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "352014",
+   "dm": "Cooks, Restaurant",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "352015",
+   "dm": "Cooks, Short Order",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519193",
+   "dm": "Cooling and Freezing Equipment Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "333012",
+   "dm": "Correctional Officers and Jailers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434021",
+   "dm": "Correspondence Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131051",
+   "dm": "Cost Estimators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393092",
+   "dm": "Costume Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211019",
+   "dm": "Counselors, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "412021",
+   "dm": "Counter and Rental Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435021",
+   "dm": "Couriers and Messengers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273092",
+   "dm": "Court Reporters and Simultaneous Captioners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434031",
+   "dm": "Court, Municipal, and License Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271012",
+   "dm": "Craft Artists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537021",
+   "dm": "Crane and Tower Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132041",
+   "dm": "Credit Analysts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434041",
+   "dm": "Credit Authorizers, Checkers, and Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132071",
+   "dm": "Credit Counselors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "394012",
+   "dm": "Crematory Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251111",
+   "dm": "Criminal Justice and Law Enforcement Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339091",
+   "dm": "Crossing Guards and Flaggers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519021",
+   "dm": "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "254012",
+   "dm": "Curators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434051",
+   "dm": "Customer Service Representatives",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519031",
+   "dm": "Cutters and Trimmers, Hand",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519032",
+   "dm": "Cutting and Slicing Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514031",
+   "dm": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272031",
+   "dm": "Dancers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439021",
+   "dm": "Data Entry Keyers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "152051",
+   "dm": "Data Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151242",
+   "dm": "Database Administrators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151243",
+   "dm": "Database Architects",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419011",
+   "dm": "Demonstrators and Product Promoters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319091",
+   "dm": "Dental Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291292",
+   "dm": "Dental Hygienists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519081",
+   "dm": "Dental Laboratory Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291029",
+   "dm": "Dentists, All Other Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291021",
+   "dm": "Dentists, General",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291213",
+   "dm": "Dermatologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475011",
+   "dm": "Derrick Operators, Oil and Gas",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271029",
+   "dm": "Designers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439031",
+   "dm": "Desktop Publishers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "333021",
+   "dm": "Detectives and Criminal Investigators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292032",
+   "dm": "Diagnostic Medical Sonographers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292051",
+   "dm": "Dietetic Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291031",
+   "dm": "Dietitians and Nutritionists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "359011",
+   "dm": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "212021",
+   "dm": "Directors, Religious Activities and Education",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272091",
+   "dm": "Disc Jockeys, Except Radio",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "359021",
+   "dm": "Dishwashers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435032",
+   "dm": "Dispatchers, Except Police, Fire, and Ambulance",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419091",
+   "dm": "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173019",
+   "dm": "Drafters, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537031",
+   "dm": "Dredge Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514032",
+   "dm": "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533031",
+   "dm": "Driver/Sales Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472081",
+   "dm": "Drywall and Ceiling Tile Installers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475023",
+   "dm": "Earth Drillers, Except Oil and Gas",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251063",
+   "dm": "Economics Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193011",
+   "dm": "Economists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273041",
+   "dm": "Editors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119039",
+   "dm": "Education Administrators, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119032",
+   "dm": "Education Administrators, Kindergarten through Secondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119033",
+   "dm": "Education Administrators, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251081",
+   "dm": "Education Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119031",
+   "dm": "Education and Childcare Administrators, Preschool and Daycare",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "259099",
+   "dm": "Educational Instruction and Library Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211012",
+   "dm": "Educational, Guidance, and Career Counselors and Advisors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492092",
+   "dm": "Electric Motor, Power Tool, and Related Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172071",
+   "dm": "Electrical Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499051",
+   "dm": "Electrical Power-Line Installers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173023",
+   "dm": "Electrical and Electronic Engineering Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173012",
+   "dm": "Electrical and Electronics Drafters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492093",
+   "dm": "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492094",
+   "dm": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492095",
+   "dm": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512028",
+   "dm": "Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472111",
+   "dm": "Electricians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173024",
+   "dm": "Electro-Mechanical and Mechatronics Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492096",
+   "dm": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172072",
+   "dm": "Electronics Engineers, Except Computer",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252021",
+   "dm": "Elementary School Teachers, Except Special Education",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474021",
+   "dm": "Elevator and Escalator Installers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434061",
+   "dm": "Eligibility Interviewers, Government Programs",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "394011",
+   "dm": "Embalmers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119161",
+   "dm": "Emergency Management Directors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292042",
+   "dm": "Emergency Medical Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291214",
+   "dm": "Emergency Medicine Physicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512031",
+   "dm": "Engine and Other Machine Assemblers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251032",
+   "dm": "Engineering Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173029",
+   "dm": "Engineering Technologists and Technicians, Except Drafters, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172199",
+   "dm": "Engineers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251123",
+   "dm": "English Language and Literature Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272099",
+   "dm": "Entertainers and Performers, Sports and Related Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393099",
+   "dm": "Entertainment Attendants and Related Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119072",
+   "dm": "Entertainment and Recreation Managers, Except Gambling",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173025",
+   "dm": "Environmental Engineering Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172081",
+   "dm": "Environmental Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251053",
+   "dm": "Environmental Science Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194042",
+   "dm": "Environmental Science and Protection Technicians, Including Health",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192041",
+   "dm": "Environmental Scientists and Specialists, Including Health",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191041",
+   "dm": "Epidemiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519194",
+   "dm": "Etchers and Engravers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475022",
+   "dm": "Excavating and Loading Machine and Dragline Operators, Surface Mining",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "436011",
+   "dm": "Executive Secretaries and Executive Administrative Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291128",
+   "dm": "Exercise Physiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "399031",
+   "dm": "Exercise Trainers and Group Fitness Instructors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475032",
+   "dm": "Explosives Workers, Ordnance Handling Experts, and Blasters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475099",
+   "dm": "Extraction Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514021",
+   "dm": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516091",
+   "dm": "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519041",
+   "dm": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516092",
+   "dm": "Fabric and Apparel Patternmakers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113013",
+   "dm": "Facilities Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "454021",
+   "dm": "Fallers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291215",
+   "dm": "Family Medicine Physicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251192",
+   "dm": "Family and Consumer Sciences Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493041",
+   "dm": "Farm Equipment Mechanics and Service Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131074",
+   "dm": "Farm Labor Contractors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "259021",
+   "dm": "Farm and Home Management Educators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119013",
+   "dm": "Farmers, Ranchers, and Other Agricultural Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "452092",
+   "dm": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "452093",
+   "dm": "Farmworkers, Farm, Ranch, and Aquacultural Animals",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271022",
+   "dm": "Fashion Designers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "353023",
+   "dm": "Fast Food and Counter Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474031",
+   "dm": "Fence Erectors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512051",
+   "dm": "Fiberglass Laminators and Fabricators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434071",
+   "dm": "File Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274032",
+   "dm": "Film and Video Editors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433099",
+   "dm": "Financial Clerks, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132061",
+   "dm": "Financial Examiners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113031",
+   "dm": "Financial Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132054",
+   "dm": "Financial Risk Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132099",
+   "dm": "Financial Specialists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132051",
+   "dm": "Financial and Investment Analysts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271013",
+   "dm": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "332021",
+   "dm": "Fire Inspectors and Investigators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "332011",
+   "dm": "Firefighters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "471011",
+   "dm": "First-Line Supervisors of Construction Trades and Extraction Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "331011",
+   "dm": "First-Line Supervisors of Correctional Officers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "391014",
+   "dm": "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "451011",
+   "dm": "First-Line Supervisors of Farming, Fishing, and Forestry Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "331021",
+   "dm": "First-Line Supervisors of Firefighting and Prevention Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "351012",
+   "dm": "First-Line Supervisors of Food Preparation and Serving Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "391013",
+   "dm": "First-Line Supervisors of Gambling Services Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "371011",
+   "dm": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "371012",
+   "dm": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "491011",
+   "dm": "First-Line Supervisors of Mechanics, Installers, and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "411012",
+   "dm": "First-Line Supervisors of Non-Retail Sales Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "431011",
+   "dm": "First-Line Supervisors of Office and Administrative Support Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "391022",
+   "dm": "First-Line Supervisors of Personal Service Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "331012",
+   "dm": "First-Line Supervisors of Police and Detectives",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "511011",
+   "dm": "First-Line Supervisors of Production and Operating Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "331099",
+   "dm": "First-Line Supervisors of Protective Service Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "411011",
+   "dm": "First-Line Supervisors of Retail Sales Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "331091",
+   "dm": "First-Line Supervisors of Security Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "531047",
+   "dm": "First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "333031",
+   "dm": "Fish and Game Wardens",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "532031",
+   "dm": "Flight Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472042",
+   "dm": "Floor Layers, Except Carpet, Wood, and Hard Tiles",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472043",
+   "dm": "Floor Sanders and Finishers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271023",
+   "dm": "Floral Designers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513092",
+   "dm": "Food Batchmakers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513093",
+   "dm": "Food Cooking Machine Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "352021",
+   "dm": "Food Preparation Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "359099",
+   "dm": "Food Preparation and Serving Related Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513099",
+   "dm": "Food Processing Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194013",
+   "dm": "Food Science Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191012",
+   "dm": "Food Scientists and Technologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "353041",
+   "dm": "Food Servers, Nonrestaurant",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119051",
+   "dm": "Food Service Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513091",
+   "dm": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251124",
+   "dm": "Foreign Language and Literature Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194092",
+   "dm": "Forensic Science Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "332022",
+   "dm": "Forest Fire Inspectors and Prevention Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194071",
+   "dm": "Forest and Conservation Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "454011",
+   "dm": "Forest and Conservation Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191032",
+   "dm": "Foresters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251043",
+   "dm": "Forestry and Conservation Science Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514022",
+   "dm": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514071",
+   "dm": "Foundry Mold and Coremakers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131131",
+   "dm": "Fundraisers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "112033",
+   "dm": "Fundraising Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "394021",
+   "dm": "Funeral Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119171",
+   "dm": "Funeral Home Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519051",
+   "dm": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "517021",
+   "dm": "Furniture Finishers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433041",
+   "dm": "Gambling Cage Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "412012",
+   "dm": "Gambling Change Persons and Booth Cashiers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393011",
+   "dm": "Gambling Dealers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119071",
+   "dm": "Gambling Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393019",
+   "dm": "Gambling Service Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339031",
+   "dm": "Gambling Surveillance Officers and Gambling Investigators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393012",
+   "dm": "Gambling and Sports Book Writers and Runners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537071",
+   "dm": "Gas Compressor and Gas Pumping Station Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518092",
+   "dm": "Gas Plant Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291216",
+   "dm": "General Internal Medicine Physicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "111021",
+   "dm": "General and Operations Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "299092",
+   "dm": "Genetic Counselors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193092",
+   "dm": "Geographers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251064",
+   "dm": "Geography Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194043",
+   "dm": "Geological Technicians, Except Hydrologic Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192042",
+   "dm": "Geoscientists, Except Hydrologists and Geographers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472121",
+   "dm": "Glaziers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "452041",
+   "dm": "Graders and Sorters, Agricultural Products",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271024",
+   "dm": "Graphic Designers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519022",
+   "dm": "Grinding and Polishing Workers, Hand",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514033",
+   "dm": "Grinding, Lapping, Polishing, & Buffing Machine Tool Setters, Operators, & Tenders, Metal & Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "373019",
+   "dm": "Grounds Maintenance Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "395012",
+   "dm": "Hairdressers, Hairstylists, and Cosmetologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474041",
+   "dm": "Hazardous Materials Removal Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211091",
+   "dm": "Health Education Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "299021",
+   "dm": "Health Information Technologists and Medical Registrars",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251071",
+   "dm": "Health Specialties Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292099",
+   "dm": "Health Technologists and Technicians, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172111",
+   "dm": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291299",
+   "dm": "Healthcare Diagnosing or Treating Practitioners, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "299099",
+   "dm": "Healthcare Practitioners and Technical Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211022",
+   "dm": "Healthcare Social Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319099",
+   "dm": "Healthcare Support Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292092",
+   "dm": "Hearing Aid Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514191",
+   "dm": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499021",
+   "dm": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533032",
+   "dm": "Heavy and Tractor-Trailer Truck Drivers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "473019",
+   "dm": "Helpers, Construction Trades, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "473011",
+   "dm": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "473012",
+   "dm": "Helpers--Carpenters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "473013",
+   "dm": "Helpers--Electricians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475081",
+   "dm": "Helpers--Extraction Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499098",
+   "dm": "Helpers--Installation, Maintenance, and Repair Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "473014",
+   "dm": "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "473015",
+   "dm": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519198",
+   "dm": "Helpers--Production Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "473016",
+   "dm": "Helpers--Roofers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474051",
+   "dm": "Highway Maintenance Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193093",
+   "dm": "Historians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251125",
+   "dm": "History Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537041",
+   "dm": "Hoist and Winch Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499031",
+   "dm": "Home Appliance Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "311120",
+   "dm": "Home Health and Personal Care Aides",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "359031",
+   "dm": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434081",
+   "dm": "Hotel, Motel, and Resort Desk Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434161",
+   "dm": "Human Resources Assistants, Except Payroll and Timekeeping",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113121",
+   "dm": "Human Resources Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131071",
+   "dm": "Human Resources Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194044",
+   "dm": "Hydrologic Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192043",
+   "dm": "Hydrologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173026",
+   "dm": "Industrial Engineering Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172112",
+   "dm": "Industrial Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499041",
+   "dm": "Industrial Machinery Mechanics",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113051",
+   "dm": "Industrial Production Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537051",
+   "dm": "Industrial Truck and Tractor Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193032",
+   "dm": "Industrial-Organizational Psychologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151212",
+   "dm": "Information Security Analysts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434199",
+   "dm": "Information and Record Clerks, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519061",
+   "dm": "Inspectors, Testers, Sorters, Samplers, and Weighers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499099",
+   "dm": "Installation, Maintenance, and Repair Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "259031",
+   "dm": "Instructional Coordinators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472131",
+   "dm": "Insulation Workers, Floor, Ceiling, and Wall",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472132",
+   "dm": "Insulation Workers, Mechanical",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131032",
+   "dm": "Insurance Appraisers, Auto Damage",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439041",
+   "dm": "Insurance Claims and Policy Processing Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "413021",
+   "dm": "Insurance Sales Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132053",
+   "dm": "Insurance Underwriters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271025",
+   "dm": "Interior Designers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273091",
+   "dm": "Interpreters and Translators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434111",
+   "dm": "Interviewers, Except Eligibility and Loan",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "372011",
+   "dm": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519071",
+   "dm": "Jewelers and Precious Stone and Metal Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "231023",
+   "dm": "Judges, Magistrate Judges, and Magistrates",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "231012",
+   "dm": "Judicial Law Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252012",
+   "dm": "Kindergarten Teachers, Except Special Education",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131075",
+   "dm": "Labor Relations Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537062",
+   "dm": "Laborers and Freight, Stock, and Material Movers, Hand",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "171012",
+   "dm": "Landscape Architects",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "373011",
+   "dm": "Landscaping and Groundskeeping Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514034",
+   "dm": "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516011",
+   "dm": "Laundry and Dry-Cleaning Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251112",
+   "dm": "Law Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "231011",
+   "dm": "Lawyers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514192",
+   "dm": "Layout Workers, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "436012",
+   "dm": "Legal Secretaries and Administrative Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "232099",
+   "dm": "Legal Support Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "254022",
+   "dm": "Librarians and Media Collections Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434121",
+   "dm": "Library Assistants, Clerical",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251082",
+   "dm": "Library Science Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "254031",
+   "dm": "Library Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292061",
+   "dm": "Licensed Practical and Licensed Vocational Nurses",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191099",
+   "dm": "Life Scientists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194099",
+   "dm": "Life, Physical, and Social Science Technicians, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339092",
+   "dm": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533033",
+   "dm": "Light Truck Drivers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274015",
+   "dm": "Lighting Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475044",
+   "dm": "Loading and Moving Machine Operators, Underground Mining",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434131",
+   "dm": "Loan Interviewers and Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132072",
+   "dm": "Loan Officers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393093",
+   "dm": "Locker Room, Coatroom, and Dressing Room Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499094",
+   "dm": "Locksmiths and Safe Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "534011",
+   "dm": "Locomotive Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119081",
+   "dm": "Lodging Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "454023",
+   "dm": "Log Graders and Scalers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "454022",
+   "dm": "Logging Equipment Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "454029",
+   "dm": "Logging Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131081",
+   "dm": "Logisticians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537063",
+   "dm": "Machine Feeders and Offbearers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514041",
+   "dm": "Machinists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292035",
+   "dm": "Magnetic Resonance Imaging Technologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "372012",
+   "dm": "Maids and Housekeeping Cleaners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439051",
+   "dm": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499043",
+   "dm": "Maintenance Workers, Machinery",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499071",
+   "dm": "Maintenance and Repair Workers, General",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "395091",
+   "dm": "Makeup Artists, Theatrical and Performance",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131111",
+   "dm": "Management Analysts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119199",
+   "dm": "Managers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "395092",
+   "dm": "Manicurists and Pedicurists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499095",
+   "dm": "Manufactured Building and Mobile Home Installers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172121",
+   "dm": "Marine Engineers and Naval Architects",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131161",
+   "dm": "Market Research Analysts and Marketing Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "112021",
+   "dm": "Marketing Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211013",
+   "dm": "Marriage and Family Therapists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319011",
+   "dm": "Massage Therapists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537199",
+   "dm": "Material Moving Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172131",
+   "dm": "Materials Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192032",
+   "dm": "Materials Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "152099",
+   "dm": "Mathematical Science Occupations, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251022",
+   "dm": "Mathematical Science Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "152021",
+   "dm": "Mathematicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513022",
+   "dm": "Meat, Poultry, and Fish Cutters and Trimmers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499011",
+   "dm": "Mechanical Door Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173013",
+   "dm": "Mechanical Drafters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173027",
+   "dm": "Mechanical Engineering Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172141",
+   "dm": "Mechanical Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274099",
+   "dm": "Media and Communication Equipment Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273099",
+   "dm": "Media and Communication Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519082",
+   "dm": "Medical Appliance Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319092",
+   "dm": "Medical Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292036",
+   "dm": "Medical Dosimetrists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319093",
+   "dm": "Medical Equipment Preparers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499062",
+   "dm": "Medical Equipment Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292072",
+   "dm": "Medical Records Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191042",
+   "dm": "Medical Scientists, Except Epidemiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "436013",
+   "dm": "Medical Secretaries and Administrative Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319094",
+   "dm": "Medical Transcriptionists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119111",
+   "dm": "Medical and Health Services Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131121",
+   "dm": "Meeting, Convention, and Event Planners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211023",
+   "dm": "Mental Health and Substance Abuse Social Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271026",
+   "dm": "Merchandise Displayers and Window Trimmers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514199",
+   "dm": "Metal Workers and Plastic Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514051",
+   "dm": "Metal-Refining Furnace Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435041",
+   "dm": "Meter Readers, Utilities",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191022",
+   "dm": "Microbiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252022",
+   "dm": "Middle School Teachers, Except Special and Career/Technical Education",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514035",
+   "dm": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499044",
+   "dm": "Millwrights",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172151",
+   "dm": "Mining and Geological Engineers, Including Mining Safety Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512090",
+   "dm": "Miscellaneous Assemblers and Fabricators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474090",
+   "dm": "Miscellaneous Construction and Related Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519023",
+   "dm": "Mixing and Blending Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493042",
+   "dm": "Mobile Heavy Equipment Mechanics, Except Engines",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514061",
+   "dm": "Model Makers, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "517031",
+   "dm": "Model Makers, Wood",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419012",
+   "dm": "Models",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519195",
+   "dm": "Molders, Shapers, and Casters, Except Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514072",
+   "dm": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "394031",
+   "dm": "Morticians, Undertakers, and Funeral Arrangers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393021",
+   "dm": "Motion Picture Projectionists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533099",
+   "dm": "Motor Vehicle Operators, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493051",
+   "dm": "Motorboat Mechanics and Service Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "535022",
+   "dm": "Motorboat Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493052",
+   "dm": "Motorcycle Mechanics",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514081",
+   "dm": "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "254013",
+   "dm": "Museum Technicians and Conservators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272041",
+   "dm": "Music Directors and Composers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499063",
+   "dm": "Musical Instrument Repairers and Tuners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272042",
+   "dm": "Musicians and Singers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119121",
+   "dm": "Natural Sciences Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151244",
+   "dm": "Network and Computer Systems Administrators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291217",
+   "dm": "Neurologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434141",
+   "dm": "New Accounts Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273023",
+   "dm": "News Analysts, Reporters, and Journalists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172161",
+   "dm": "Nuclear Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292033",
+   "dm": "Nuclear Medicine Technologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518011",
+   "dm": "Nuclear Power Reactor Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194051",
+   "dm": "Nuclear Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291151",
+   "dm": "Nurse Anesthetists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291161",
+   "dm": "Nurse Midwives",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291171",
+   "dm": "Nurse Practitioners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "311131",
+   "dm": "Nursing Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251072",
+   "dm": "Nursing Instructors and Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291218",
+   "dm": "Obstetricians and Gynecologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "195011",
+   "dm": "Occupational Health and Safety Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "195012",
+   "dm": "Occupational Health and Safety Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291122",
+   "dm": "Occupational Therapists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "312012",
+   "dm": "Occupational Therapy Aides",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "312011",
+   "dm": "Occupational Therapy Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439061",
+   "dm": "Office Clerks, General",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439071",
+   "dm": "Office Machine Operators, Except Computer",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439199",
+   "dm": "Office and Administrative Support Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472073",
+   "dm": "Operating Engineers and Other Construction Equipment Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "152031",
+   "dm": "Operations Research Analysts",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519083",
+   "dm": "Ophthalmic Laboratory Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292057",
+   "dm": "Ophthalmic Medical Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291241",
+   "dm": "Ophthalmologists, Except Pediatric",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292081",
+   "dm": "Opticians, Dispensing",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291041",
+   "dm": "Optometrists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291022",
+   "dm": "Oral and Maxillofacial Surgeons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434151",
+   "dm": "Order Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "311132",
+   "dm": "Orderlies",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291023",
+   "dm": "Orthodontists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291242",
+   "dm": "Orthopedic Surgeons, Except Pediatric",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292091",
+   "dm": "Orthotists and Prosthetists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493053",
+   "dm": "Outdoor Power Equipment and Other Small Engine Mechanics",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519111",
+   "dm": "Packaging and Filling Machine Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537064",
+   "dm": "Packers and Packagers, Hand",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472141",
+   "dm": "Painters, Construction and Maintenance",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519123",
+   "dm": "Painting, Coating, and Decorating Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519196",
+   "dm": "Paper Goods Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472142",
+   "dm": "Paperhangers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "232011",
+   "dm": "Paralegals and Legal Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292043",
+   "dm": "Paramedics",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536021",
+   "dm": "Parking Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "333041",
+   "dm": "Parking Enforcement Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "412022",
+   "dm": "Parts Salespersons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536061",
+   "dm": "Passenger Attendants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514062",
+   "dm": "Patternmakers, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "517032",
+   "dm": "Patternmakers, Wood",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472071",
+   "dm": "Paving, Surfacing, and Tamping Equipment Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433051",
+   "dm": "Payroll and Timekeeping Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291243",
+   "dm": "Pediatric Surgeons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291221",
+   "dm": "Pediatricians, General",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "399099",
+   "dm": "Personal Care and Service Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132052",
+   "dm": "Personal Financial Advisors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119179",
+   "dm": "Personal Service Managers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "372021",
+   "dm": "Pest Control Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "373012",
+   "dm": "Pesticide Handlers, Sprayers, and Applicators, Vegetation",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "172171",
+   "dm": "Petroleum Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518093",
+   "dm": "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291051",
+   "dm": "Pharmacists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319095",
+   "dm": "Pharmacy Aides",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292052",
+   "dm": "Pharmacy Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251126",
+   "dm": "Philosophy and Religion Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319097",
+   "dm": "Phlebotomists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274021",
+   "dm": "Photographers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519151",
+   "dm": "Photographic Process Workers and Processing Machine Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192099",
+   "dm": "Physical Scientists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "312022",
+   "dm": "Physical Therapist Aides",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "312021",
+   "dm": "Physical Therapist Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291123",
+   "dm": "Physical Therapists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291071",
+   "dm": "Physician Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291229",
+   "dm": "Physicians, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291222",
+   "dm": "Physicians, Pathologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "192012",
+   "dm": "Physicists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251054",
+   "dm": "Physics Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472072",
+   "dm": "Pile Driver Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472151",
+   "dm": "Pipelayers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518099",
+   "dm": "Plant and System Operators, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472161",
+   "dm": "Plasterers and Stucco Masons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514193",
+   "dm": "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472152",
+   "dm": "Plumbers, Pipefitters, and Steamfitters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291081",
+   "dm": "Podiatrists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "333051",
+   "dm": "Police and Sheriff's Patrol Officers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251065",
+   "dm": "Political Science Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193094",
+   "dm": "Political Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435051",
+   "dm": "Postal Service Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435052",
+   "dm": "Postal Service Mail Carriers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435053",
+   "dm": "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119131",
+   "dm": "Postmasters and Mail Superintendents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251199",
+   "dm": "Postsecondary Teachers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514052",
+   "dm": "Pourers and Casters, Metal",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518012",
+   "dm": "Power Distributors and Dispatchers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518013",
+   "dm": "Power Plant Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499069",
+   "dm": "Precision Instrument and Equipment Repairers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "515111",
+   "dm": "Prepress Technicians and Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252011",
+   "dm": "Preschool Teachers, Except Special Education",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516021",
+   "dm": "Pressers, Textile, Garment, and Related Materials",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "515113",
+   "dm": "Print Binding and Finishing Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "515112",
+   "dm": "Printing Press Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339021",
+   "dm": "Private Detectives and Investigators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211092",
+   "dm": "Probation Officers and Correctional Treatment Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433061",
+   "dm": "Procurement Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272012",
+   "dm": "Producers and Directors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519199",
+   "dm": "Production Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435061",
+   "dm": "Production, Planning, and Expediting Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131082",
+   "dm": "Project Management Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439081",
+   "dm": "Proofreaders and Copy Markers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132020",
+   "dm": "Property Appraisers and Assessors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119141",
+   "dm": "Property, Real Estate, and Community Association Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291024",
+   "dm": "Prosthodontists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339099",
+   "dm": "Protective Service Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "311133",
+   "dm": "Psychiatric Aides",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292053",
+   "dm": "Psychiatric Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291223",
+   "dm": "Psychiatrists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193039",
+   "dm": "Psychologists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251066",
+   "dm": "Psychology Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "112032",
+   "dm": "Public Relations Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273031",
+   "dm": "Public Relations Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435031",
+   "dm": "Public Safety Telecommunicators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537072",
+   "dm": "Pump Operators, Except Wellhead Pumpers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113061",
+   "dm": "Purchasing Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291124",
+   "dm": "Radiation Therapists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492021",
+   "dm": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292034",
+   "dm": "Radiologic Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291224",
+   "dm": "Radiologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493043",
+   "dm": "Rail Car Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "534099",
+   "dm": "Rail Transportation Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "534013",
+   "dm": "Rail Yard Engineers, Dinkey Operators, and Hostlers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474061",
+   "dm": "Rail-Track Laying and Maintenance Equipment Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "534022",
+   "dm": "Railroad Brake, Signal, and Switch Operators and Locomotive Firers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "534031",
+   "dm": "Railroad Conductors and Yardmasters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419021",
+   "dm": "Real Estate Brokers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419022",
+   "dm": "Real Estate Sales Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434171",
+   "dm": "Receptionists and Information Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "399032",
+   "dm": "Recreation Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251193",
+   "dm": "Recreation and Fitness Studies Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291125",
+   "dm": "Recreational Therapists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493092",
+   "dm": "Recreational Vehicle Service Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499045",
+   "dm": "Refractory Materials Repairers, Except Brickmasons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537081",
+   "dm": "Refuse and Recyclable Material Collectors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291141",
+   "dm": "Registered Nurses",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211015",
+   "dm": "Rehabilitation Counselors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472171",
+   "dm": "Reinforcing Iron and Rebar Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "212099",
+   "dm": "Religious Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "434181",
+   "dm": "Reservation and Transportation Ticket Agents and Travel Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "399041",
+   "dm": "Residential Advisors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291126",
+   "dm": "Respiratory Therapists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "412031",
+   "dm": "Retail Salespersons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499096",
+   "dm": "Riggers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475051",
+   "dm": "Rock Splitters, Quarry",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514023",
+   "dm": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475043",
+   "dm": "Roof Bolters, Mining",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472181",
+   "dm": "Roofers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475012",
+   "dm": "Rotary Drill Operators, Oil and Gas",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475071",
+   "dm": "Roustabouts, Oil and Gas",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "535011",
+   "dm": "Sailors and Marine Oilers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419031",
+   "dm": "Sales Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "112022",
+   "dm": "Sales Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "413091",
+   "dm": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "414012",
+   "dm": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "414011",
+   "dm": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419099",
+   "dm": "Sales and Related Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "517041",
+   "dm": "Sawing Machine Setters, Operators, and Tenders, Wood",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339094",
+   "dm": "School Bus Monitors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193034",
+   "dm": "School Psychologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252031",
+   "dm": "Secondary School Teachers, Except Special and Career/Technical Education",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "436014",
+   "dm": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "413031",
+   "dm": "Securities, Commodities, and Financial Services Sales Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339032",
+   "dm": "Security Guards",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492098",
+   "dm": "Security and Fire Alarm Systems Installers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "253021",
+   "dm": "Self-Enrichment Teachers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519141",
+   "dm": "Semiconductor Processing Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519012",
+   "dm": "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "474071",
+   "dm": "Septic Tank Servicers and Sewer Pipe Cleaners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475013",
+   "dm": "Service Unit Operators, Oil and Gas",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271027",
+   "dm": "Set and Exhibit Designers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516051",
+   "dm": "Sewers, Hand",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516031",
+   "dm": "Sewing Machine Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "395093",
+   "dm": "Shampooers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472211",
+   "dm": "Sheet Metal Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "535031",
+   "dm": "Ship Engineers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435071",
+   "dm": "Shipping, Receiving, and Inventory Clerks",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516042",
+   "dm": "Shoe Machine Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516041",
+   "dm": "Shoe and Leather Workers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533053",
+   "dm": "Shuttle Drivers and Chauffeurs",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499097",
+   "dm": "Signal and Track Switch Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "395094",
+   "dm": "Skincare Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "513023",
+   "dm": "Slaughterers and Meat Packers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "194061",
+   "dm": "Social Science Research Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251069",
+   "dm": "Social Sciences Teachers, Postsecondary, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193099",
+   "dm": "Social Scientists and Related Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251113",
+   "dm": "Social Work Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211029",
+   "dm": "Social Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "119151",
+   "dm": "Social and Community Service Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211093",
+   "dm": "Social and Human Service Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193041",
+   "dm": "Sociologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "251067",
+   "dm": "Sociology Teachers, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151252",
+   "dm": "Software Developers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151253",
+   "dm": "Software Quality Assurance Analysts and Testers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191013",
+   "dm": "Soil and Plant Scientists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472231",
+   "dm": "Solar Photovoltaic Installers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "274014",
+   "dm": "Sound Engineering Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252059",
+   "dm": "Special Education Teachers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252052",
+   "dm": "Special Education Teachers, Kindergarten and Elementary School",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252057",
+   "dm": "Special Education Teachers, Middle School",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252051",
+   "dm": "Special Education Teachers, Preschool",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "252058",
+   "dm": "Special Education Teachers, Secondary School",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "271014",
+   "dm": "Special Effects Artists and Animators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291127",
+   "dm": "Speech-Language Pathologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518021",
+   "dm": "Stationary Engineers and Boiler Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439111",
+   "dm": "Statistical Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "152041",
+   "dm": "Statisticians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537065",
+   "dm": "Stockers and Order Fillers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472022",
+   "dm": "Stonemasons",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472221",
+   "dm": "Structural Iron and Steel Workers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512041",
+   "dm": "Structural Metal Fabricators and Fitters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "211018",
+   "dm": "Substance Abuse, Behavioral Disorder, and Mental Health Counselors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "253031",
+   "dm": "Substitute Teachers, Short-Term",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "534041",
+   "dm": "Subway and Streetcar Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291249",
+   "dm": "Surgeons, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "299093",
+   "dm": "Surgical Assistants",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292055",
+   "dm": "Surgical Technologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193022",
+   "dm": "Survey Researchers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "173031",
+   "dm": "Surveying and Mapping Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "171022",
+   "dm": "Surveyors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "432011",
+   "dm": "Switchboard Operators, Including Answering Service",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516052",
+   "dm": "Tailors, Dressmakers, and Custom Sewers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537121",
+   "dm": "Tank Car, Truck, and Ship Loaders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472082",
+   "dm": "Tapers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132081",
+   "dm": "Tax Examiners and Collectors, and Revenue Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "132082",
+   "dm": "Tax Preparers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "533054",
+   "dm": "Taxi Drivers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "253099",
+   "dm": "Teachers and Instructors, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "259045",
+   "dm": "Teaching Assistants, Except Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "259044",
+   "dm": "Teaching Assistants, Postsecondary",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273042",
+   "dm": "Technical Writers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "492022",
+   "dm": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499052",
+   "dm": "Telecommunications Line Installers and Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "419041",
+   "dm": "Telemarketers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "432021",
+   "dm": "Telephone Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "433071",
+   "dm": "Tellers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472053",
+   "dm": "Terrazzo Workers and Finishers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516061",
+   "dm": "Textile Bleaching and Dyeing Machine Operators and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516062",
+   "dm": "Textile Cutting Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516063",
+   "dm": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516064",
+   "dm": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516099",
+   "dm": "Textile, Apparel, and Furnishings Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291129",
+   "dm": "Therapists, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "472044",
+   "dm": "Tile and Stone Setters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "512061",
+   "dm": "Timing Device Assemblers and Adjusters",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "519197",
+   "dm": "Tire Builders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "493093",
+   "dm": "Tire Repairers and Changers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "232093",
+   "dm": "Title Examiners, Abstractors, and Searchers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514194",
+   "dm": "Tool Grinders, Filers, and Sharpeners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514111",
+   "dm": "Tool and Die Makers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "397010",
+   "dm": "Tour and Travel Guides",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536041",
+   "dm": "Traffic Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113131",
+   "dm": "Training and Development Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "131151",
+   "dm": "Training and Development Specialists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "333052",
+   "dm": "Transit and Railroad Police",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536051",
+   "dm": "Transportation Inspectors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "339093",
+   "dm": "Transportation Security Screeners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "536099",
+   "dm": "Transportation Workers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "113071",
+   "dm": "Transportation, Storage, and Distribution Managers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "413041",
+   "dm": "Travel Agents",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "373013",
+   "dm": "Tree Trimmers and Pruners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "253041",
+   "dm": "Tutors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "272023",
+   "dm": "Umpires, Referees, and Other Sports Officials",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "475049",
+   "dm": "Underground Mining Machine Operators, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "516093",
+   "dm": "Upholsterers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "193051",
+   "dm": "Urban and Regional Planners",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "393031",
+   "dm": "Ushers, Lobby Attendants, and Ticket Takers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "291131",
+   "dm": "Veterinarians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "319096",
+   "dm": "Veterinary Assistants and Laboratory Animal Caretakers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "292056",
+   "dm": "Veterinary Technologists and Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "353031",
+   "dm": "Waiters and Waitresses",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499064",
+   "dm": "Watch and Clock Repairers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "518031",
+   "dm": "Water and Wastewater Treatment Plant and System Operators",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151254",
+   "dm": "Web Developers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "151255",
+   "dm": "Web and Digital Interface Designers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "435111",
+   "dm": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514121",
+   "dm": "Welders, Cutters, Solderers, and Brazers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "514122",
+   "dm": "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "537073",
+   "dm": "Wellhead Pumpers",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "499081",
+   "dm": "Wind Turbine Service Technicians",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "517099",
+   "dm": "Woodworkers, All Other",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "517042",
+   "dm": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "439022",
+   "dm": "Word Processors and Typists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "273043",
+   "dm": "Writers and Authors",
+   "beginYear": "2025",
+   "endYear": "2025"
+  },
+  {
+   "vm": "191023",
+   "dm": "Zoologists and Wildlife Biologists",
+   "beginYear": "2025",
+   "endYear": "2025"
+  }
+ ],
+ "mapAndTableDataList": null,
+ "emptyMapAndTableDataList": null,
+ "tablesDataByQueryList": null,
+ "profilesTitle": null,
+ "tableHeader": null,
+ "employmentCode": null,
+ "mapHeader": null,
+ "eprs": "",
+ "wprs": "",
+ "hmw": "",
+ "amw": "",
+ "employ": "",
+ "jobDescription": "",
+ "message": "",
+ "footnoteList": null
+}
