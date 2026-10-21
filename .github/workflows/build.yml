@@ -85,11 +85,18 @@ jobs:
         if: hashFiles('pipeline/build.py') != ''
         continue-on-error: true
         run: |
-          mkdir -p /tmp/qa-tool && cd /tmp/qa-tool
-          npm init -y >/dev/null && npm install --silent playwright@1.56.0
-          npx playwright install --with-deps chromium >/dev/null
-          cp "$GITHUB_WORKSPACE/scripts/qa.mjs" .
-          node qa.mjs "$GITHUB_WORKSPACE/site" /tmp/qa-out
+          set +e
+          mkdir -p /tmp/qa-out /tmp/qa-tool
+          (
+            cd /tmp/qa-tool &&
+            npm init -y >/dev/null &&
+            npm install --silent playwright@1.56.0 &&
+            npx playwright install --with-deps chromium &&
+            cp "$GITHUB_WORKSPACE/scripts/qa.mjs" . &&
+            node qa.mjs "$GITHUB_WORKSPACE/site" /tmp/qa-out
+          ) > /tmp/qa-out/run.txt 2>&1
+          echo "exit code $?" >> /tmp/qa-out/run.txt
+          tail -40 /tmp/qa-out/run.txt
           cd /tmp/qa-out
           git init -q -b qa-results
           git config user.name "github-actions[bot]"
