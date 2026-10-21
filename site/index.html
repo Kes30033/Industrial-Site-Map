@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Industrial Site Map</title>
+  <meta name="description" content="Score every U.S. county for a machine shop, manufacturing plant, warehouse or logistics hub using freight access, skilled labor and state business climate data.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M2 21V10l5 3v-3l5 3v-3l5 3V4h4v17z' fill='%23E8590C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { const t = localStorage.getItem('ism-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="app">
+    <!-- ============ Controls ============ -->
+    <aside class="controls" aria-label="Scoring controls">
+      <header class="brand">
+        <h1>Industrial Site Map</h1>
+        <p>Every U.S. county scored on freight access, skilled labor and state business climate. Pick a facility type, then tune what matters to you.</p>
+      </header>
+
+      <section class="block">
+        <h2 class="block-title">Facility type</h2>
+        <div class="facility-grid" role="radiogroup" aria-label="Facility type" id="facilities"></div>
+        <p class="facility-desc" id="facility-desc"></p>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">Must-haves</h2>
+        <div class="must">
+          <label class="field">
+            <span>State</span>
+            <select id="f-state"><option value="">All states</option></select>
+          </label>
+          <label class="field">
+            <span>Interstate within</span>
+            <select id="f-interstate">
+              <option value="">Any distance</option><option value="5">5 mi</option><option value="10">10 mi</option><option value="25">25 mi</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Class I rail within</span>
+            <select id="f-rail">
+              <option value="">Any distance</option><option value="2">2 mi</option><option value="5">5 mi</option><option value="10">10 mi</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Port within</span>
+            <select id="f-port">
+              <option value="">Any distance</option><option value="50">50 mi</option><option value="100">100 mi</option><option value="200">200 mi</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="f-rtw"> Right-to-work states only</label>
+          <label class="check"><input type="checkbox" id="f-metro"> Metro-area counties only</label>
+        </div>
+      </section>
+
+      <section class="block weights">
+        <div class="block-head">
+          <h2 class="block-title">What matters</h2>
+          <button type="button" class="link-btn" id="reset-weights">Reset to preset</button>
+        </div>
+        <p class="hint">Slide a factor to 0 to ignore it. Weights are relative.</p>
+        <div id="weights"></div>
+      </section>
+
+      <footer class="controls-foot">
+        <button type="button" class="link-btn" id="open-about">How scores work &amp; data sources</button>
+        <button type="button" class="link-btn" id="theme-toggle" aria-label="Switch color theme">Theme: auto</button>
+        <p class="built" id="built"></p>
+      </footer>
+    </aside>
+
+    <!-- ============ Map ============ -->
+    <main class="map-wrap">
+      <div id="map" aria-label="Map of county scores"></div>
+      <div class="map-panel layers" id="layers">
+        <button type="button" class="layers-toggle" aria-expanded="true" aria-controls="layers-body">Map layers</button>
+        <div id="layers-body" class="layers-body"></div>
+      </div>
+      <div class="map-panel legend" id="legend" aria-label="Legend"></div>
+      <div class="loading" id="loading" role="status">Loading county data…</div>
+    </main>
+
+    <!-- ============ Results ============ -->
+    <aside class="results" aria-label="Results">
+      <div class="search">
+        <label for="search" class="sr-only">Find a county</label>
+        <input id="search" type="search" list="county-list" placeholder="Find a county, e.g. Kent County, MI" autocomplete="off">
+        <datalist id="county-list"></datalist>
+      </div>
+      <section id="ranking" class="panel-view">
+        <div class="results-head">
+          <h2>Top counties</h2>
+          <button type="button" class="link-btn" id="download">Download CSV</button>
+        </div>
+        <p class="results-sub" id="ranking-sub"></p>
+        <ol class="rank-list" id="rank-list"></ol>
+      </section>
+      <section id="detail" class="panel-view" hidden>
+        <button type="button" class="back-btn" id="back">Back to top counties</button>
+        <div id="detail-body"></div>
+      </section>
+    </aside>
+  </div>
+
+  <dialog id="about" aria-labelledby="about-title">
+    <div class="about-inner">
+      <div class="about-head">
+        <h2 id="about-title">How scores work</h2>
+        <button type="button" class="link-btn" id="close-about">Close</button>
+      </div>
+      <div id="about-body"></div>
+    </div>
+  </dialog>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
