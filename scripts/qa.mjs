@@ -19,12 +19,18 @@ const server = http.createServer((req, res) => {
 }).listen(8765);
 
 const log = [];
+const t00 = Date.now();
 const browser = await chromium.launch();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// Basemap tiles are answered locally with a blank image: from CI runners the imagery server is slow
+// or refuses requests, and waiting on hundreds of tiles stretched this check past ten minutes.
+const BLANK_PNG = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64');
 
 async function session(name, opts, steps) {
   const ctx = await browser.newContext(opts);
+  await ctx.route(/\/MapServer\/tile\//, (route) => route.fulfill({ status: 200, contentType: 'image/png', body: BLANK_PNG }));
   const page = await ctx.newPage();
+  log.push(`[${name}] start at +${((Date.now() - t00) / 1000).toFixed(0)} s`);
   page.on('console', (m) => { if (['error', 'warning'].includes(m.type())) log.push(`[${name}] console.${m.type()}: ${m.text()}`); });
   page.on('pageerror', (e) => log.push(`[${name}] pageerror: ${e.message}`));
   const tileFails = {};
@@ -46,6 +52,7 @@ async function session(name, opts, steps) {
     await page.screenshot({ path: path.join(outDir, `${name}-failed.png`) }).catch(() => {});
   } finally {
     if (Object.keys(tileFails).length) log.push(`[${name}] failed tile requests: ${JSON.stringify(tileFails)}`);
+    log.push(`[${name}] done in ${((Date.now() - t0) / 1000).toFixed(0)} s`);
     fs.writeFileSync(path.join(outDir, 'log.txt'), log.join('\n') + '\n');
     await ctx.close();
   }
