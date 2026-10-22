@@ -161,19 +161,19 @@
     };
   }
 
-  // Esri World Light/Dark Gray Canvas: a quiet base plus a separate labels layer drawn above the counties
+  // Esri World Imagery (satellite) plus a separate place-names layer drawn above the counties
   function tileUrl(kind) {
-    const tone = colors.dark ? 'Dark' : 'Light';
-    const layer = kind === 'labels' ? 'Reference' : 'Base';
-    return `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${tone}_Gray_${layer}/MapServer/tile/{z}/{y}/{x}`;
+    const service = kind === 'labels' ? 'Reference/World_Boundaries_and_Places' : 'World_Imagery';
+    return `https://server.arcgisonline.com/ArcGIS/rest/services/${service}/MapServer/tile/{z}/{y}/{x}`;
   }
 
   function countyStyle(i) {
     if (i == null || i < 0 || !composite) return { fillOpacity: 0, opacity: 0 };
     const border = { color: colors.panel, weight: 0.35, opacity: 0.55 };
-    if (!inScope[i]) return { ...border, fillColor: colors.excluded, fillOpacity: 0.12, opacity: 0.2 };
-    if (!eligible[i]) return { ...border, fillColor: colors.excluded, fillOpacity: 0.6 };
-    return { ...border, fillColor: colors.ramp[bin[i]], fillOpacity: 0.86 };
+    // fills stay translucent so the satellite imagery shows through
+    if (!inScope[i]) return { ...border, fillColor: colors.excluded, fillOpacity: 0.08, opacity: 0.2 };
+    if (!eligible[i]) return { ...border, fillColor: colors.excluded, fillOpacity: 0.4 };
+    return { ...border, fillColor: colors.ramp[bin[i]], fillOpacity: 0.5 };
   }
 
   function restyle() {
@@ -188,7 +188,7 @@
     map.createPane('labels');
     map.getPane('labels').style.zIndex = 450;
     map.getPane('labels').style.pointerEvents = 'none';
-    const attr = 'Basemap &copy; <a href="https://www.esri.com">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors';
+    const attr = 'Imagery &copy; <a href="https://www.esri.com">Esri</a>, Maxar, Earthstar Geographics, and the GIS User Community';
     overlay.base = L.tileLayer(tileUrl('base'), { attribution: attr, maxNativeZoom: 16, maxZoom: 19 }).addTo(map);
     overlay.labels = L.tileLayer(tileUrl('labels'), { pane: 'labels', maxNativeZoom: 16, maxZoom: 19 }).addTo(map);
     renderer = L.canvas({ padding: 0.4, tolerance: 2 });
