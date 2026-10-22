@@ -1,4 +1,7 @@
-/* Scoring configuration: factors, how each is turned into a 0-100 score, and the facility presets.
+/* Scoring configuration: factors, how each is turned into a 0-100 score, and the default weights.
+ *
+ * Each factor's `better` says which raw values score higher (shown under its slider), and
+ * `sources` lists keys of data/meta.json `sources` (or {title, url} objects) linked under it.
  *
  * Score types
  *   dist      100 at 0 miles, halving every `half` miles  (100 * 0.5^(miles / half))
@@ -20,55 +23,93 @@ window.ISM_CONFIG = {
   factors: [
     // ---- Freight access
     { id: 'interstate', group: 'freight', label: 'Interstate highway', src: 'd_interstate', type: 'dist', half: 10,
+      better: 'Closer scores higher', sources: ['interstates'],
       about: 'Straight-line miles from the county’s population center to the nearest Interstate (FHWA Eisenhower Interstate System).' },
     { id: 'class1', group: 'freight', label: 'Class I rail line', src: 'd_class1', type: 'dist', half: 8,
+      better: 'Closer scores higher', sources: ['class1_rail'],
       about: 'Miles to the nearest track in the BTS Class I rail network: lines owned by BNSF, UP, CSX, NS, CN or CPKC, plus short-line and commuter track those railroads run freight over. Plants that need a rail spur want this under about 5 miles.' },
     { id: 'yard', group: 'freight', label: 'Rail yard', src: 'd_yard', type: 'dist', half: 15,
+      better: 'Closer scores higher', sources: ['rail_yards'],
       about: 'Miles to the nearest rail yard of any railroad, including short lines (BTS rail yards layer).' },
     { id: 'intermodal', group: 'freight', label: 'Intermodal rail terminal', src: 'd_intermodal', type: 'dist', half: 40,
+      better: 'Closer scores higher', sources: ['intermodal'],
       about: 'Miles to the nearest container / trailer-on-flatcar rail terminal, where truck freight transfers to rail. Drayage beyond ~100 miles gets expensive.' },
     { id: 'port', group: 'freight', label: 'Seaport or river port', src: 'd_port', type: 'dist', half: 75,
+      better: 'Closer scores higher', sources: ['ports'],
       about: 'Miles to the boundary of the nearest principal port handling 5 million+ short tons a year (USACE). Includes Great Lakes and inland river ports.' },
     { id: 'air', group: 'freight', label: 'Air cargo airport', src: 'd_air', type: 'dist', half: 50,
+      better: 'Closer scores higher', sources: ['air_cargo'],
       about: 'Miles to the nearest airport with 250 million+ lbs of all-cargo landed weight (FAA).' },
     { id: 'market', group: 'freight', label: 'People within 250 miles', src: 'market_pop', type: 'log',
+      better: 'More people scores higher', sources: ['population'],
       about: 'Population within 250 miles, roughly a same-day truck run. A proxy for how many customers a distribution site can reach.' },
 
     // ---- Workforce
     { id: 'trades', group: 'labor', label: 'Production & skilled-trade workers', src: 'shed_trades', type: 'log',
+      better: 'More workers scores higher', sources: ['acs_c24010'],
       about: 'Residents working in production, construction & extraction, or installation, maintenance & repair occupations within 45 miles (ACS 5-year). Includes machinists, welders, electricians and mechanics.' },
     { id: 'logi', group: 'labor', label: 'Drivers & material movers', src: 'shed_logi', type: 'log',
+      better: 'More workers scores higher', sources: ['acs_c24010'],
       about: 'Residents working in transportation and material-moving occupations within 45 miles (ACS 5-year).' },
     { id: 'metal', group: 'labor', label: 'Metalworking & machinery industry', src: 'shed_metal', type: 'log',
+      better: 'More jobs scores higher', sources: ['qcew'],
       about: 'Private jobs in fabricated metal, machinery and transportation-equipment manufacturing within 45 miles (BLS QCEW). Both an experienced labor pool and a customer base for job shops.' },
     { id: 'whse', group: 'labor', label: 'Warehousing & trucking industry', src: 'shed_whse', type: 'log',
+      better: 'More jobs scores higher', sources: ['qcew'],
       about: 'Private jobs in warehousing & storage and truck transportation within 45 miles (BLS QCEW).' },
     { id: 'lq_metal', group: 'labor', label: 'Welder & machinist concentration', src: 'lq_metal', type: 'ratio', lo: 0.5, hi: 2.5,
+      better: 'More concentrated scores higher', sources: ['oews'],
       about: 'How concentrated welders, machinists and CNC operators are in the local labor market compared with the U.S. (average OEWS location quotient; 1.0 = national share, 2.5 or more scores 100). Uses the metro area, or the state’s combined nonmetro areas for rural counties, so every rural county in a state shares one value.' },
     { id: 'lq_elec', group: 'labor', label: 'Electrician & mechanic concentration', src: 'lq_elec', type: 'ratio', lo: 0.5, hi: 2.0,
+      better: 'More concentrated scores higher', sources: ['oews'],
       about: 'Concentration of electricians and industrial machinery mechanics in the local labor market (average OEWS location quotient).' },
-    { id: 'wage_trade', group: 'labor', label: 'Skilled-trade pay (lower scores higher)', src: 'wage_trade', type: 'ratio_inv', lo: 0.8, hi: 1.2,
+    { id: 'wage_trade', group: 'labor', label: 'Skilled-trade pay', src: 'wage_trade', type: 'ratio_inv', lo: 0.8, hi: 1.2,
+      better: 'Lower pay scores higher', sources: ['oews'],
       about: 'Median annual pay for welders, machinists, CNC operators, electricians and industrial mechanics in the local labor market, relative to the U.S. Lower pay means lower labor cost: 20% below the U.S. scores 100, 20% above scores 0.' },
-    { id: 'wage_logi', group: 'labor', label: 'Driver & warehouse pay (lower scores higher)', src: 'wage_logi', type: 'ratio_inv', lo: 0.8, hi: 1.2,
+    { id: 'wage_logi', group: 'labor', label: 'Driver & warehouse pay', src: 'wage_logi', type: 'ratio_inv', lo: 0.8, hi: 1.2,
+      better: 'Lower pay scores higher', sources: ['oews'],
       about: 'Median annual pay for heavy-truck drivers and hand material movers in the local labor market, relative to the U.S.' },
 
     // ---- Taxes, regulation & costs (state level)
     { id: 'tax', group: 'business', label: 'Overall state tax climate', state: 'tf_overall', type: 'rank',
+      better: 'Better-ranked state scores higher', sources: ['tax_index'],
       about: 'Tax Foundation State Tax Competitiveness Index, overall rank (1 = best).' },
     { id: 'corp', group: 'business', label: 'Corporate tax', state: 'tf_corp', type: 'rank',
+      better: 'Better-ranked state scores higher', sources: ['tax_index', 'corp_rates'],
       about: 'Tax Foundation corporate tax component rank. Accounts for gross receipts taxes in states without a corporate income tax.' },
     { id: 'prop', group: 'business', label: 'Property tax', state: 'tf_prop', type: 'rank',
+      better: 'Better-ranked state scores higher', sources: ['tax_index'],
       about: 'Tax Foundation property tax component rank. Matters for land, buildings and equipment.' },
     { id: 'friendly', group: 'business', label: 'Regulatory & legal climate', state: 'cnbc_bf', type: 'rank',
+      better: 'Better-ranked state scores higher', sources: ['cnbc'],
       about: 'CNBC Top States for Business, “Business Friendliness” category rank, which grades each state’s legal and regulatory framework.' },
     { id: 'regs', group: 'business', label: 'Volume of state regulations', state: 'restrictions', type: 'state_inv',
+      better: 'Fewer regulations scores higher', sources: ['regulation'],
       about: 'Count of regulatory restrictions (“shall”, “must”, “may not”…) in each state’s administrative code (Mercatus QuantGov State RegData). Fewer scores higher. Not available for Arkansas or West Virginia.' },
     { id: 'rtw', group: 'business', label: 'Right-to-work law', state: 'rtw', type: 'bool',
+      better: 'Right-to-work states score higher',
+      sources: [{ name: 'National Right to Work Foundation', title: 'National Right to Work Foundation: right-to-work states', url: 'https://www.nrtw.org/right-to-work-states/' }],
       about: 'Whether the state has a right-to-work law (26 states).' },
     { id: 'power', group: 'business', label: 'Industrial electricity price', state: 'elec', type: 'state_inv',
+      better: 'Cheaper power scores higher', sources: ['electricity'],
       about: 'Average price paid by industrial customers, year to date (EIA Electric Power Monthly). Cheaper scores higher.' },
   ],
 
+  // Short names for the source links under the sliders (full titles come from data/meta.json)
+  sourceNames: {
+    interstates: 'FHWA Interstate System', class1_rail: 'BTS Class I rail network', rail_yards: 'BTS rail yards',
+    intermodal: 'BTS intermodal terminals', ports: 'USACE principal ports', air_cargo: 'FAA all-cargo airports',
+    population: 'Census population estimates', acs_c24010: 'Census ACS 5-year', qcew: 'BLS QCEW', oews: 'BLS OEWS',
+    tax_index: 'Tax Foundation index', corp_rates: 'Tax Foundation corporate rates', cnbc: 'CNBC Top States',
+    regulation: 'Mercatus QuantGov', electricity: 'EIA Electric Power Monthly',
+  },
+
+  // Starting weights (0-10) for every factor: everything counts equally until the sliders are moved.
+  defaults: { interstate: 5, class1: 5, yard: 5, intermodal: 5, port: 5, air: 5, market: 5,
+              trades: 5, logi: 5, metal: 5, whse: 5, lq_metal: 5, lq_elec: 5, wage_trade: 5, wage_logi: 5,
+              tax: 5, corp: 5, prop: 5, friendly: 5, regs: 5, rtw: 5, power: 5 },
+
+  // Facility presets: not shown on the site for now (the facility picker was removed), kept for later.
   presets: [
     {
       id: 'machine', label: 'Machine shop',

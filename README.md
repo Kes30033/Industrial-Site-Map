@@ -4,7 +4,7 @@ An interactive map that scores every U.S. county as a location for a **machine s
 
 **Live site:** https://kes30033.github.io/Industrial-Site-Map/
 
-Pick a facility type and the map recolors by rank (darkest blue = top 1% of counties). Every factor has a weight slider, so you can tune the score to your own priorities. Must-have filters (state, distance to interstate / Class I rail / port, right-to-work, metro only) take counties out of the ranking entirely. Click any county for the evidence behind its score: nearest rail yard, intermodal terminal, port and cargo airport; workforce counts; welder, machinist and electrician concentration and pay in the local labor market; and state tax, regulation and power-price figures. Settings are saved in the URL, so you can share a link to a specific view, and the ranked list downloads as CSV.
+The map colors counties by rank (darkest blue = top 1% of counties). Every factor has a weight slider, starting with all factors weighted equally, so you can tune the score to your own priorities; under each slider is which counties that factor favors and a link to its data source. Must-have filters (state, distance to interstate / Class I rail / port, right-to-work, metro only) take counties out of the ranking entirely. Click any county for the evidence behind its score: nearest rail yard, intermodal terminal, port and cargo airport; workforce counts; welder, machinist and electrician concentration and pay in the local labor market; and state tax, regulation and power-price figures. Settings are saved in the URL, so you can share a link to a specific view, and the ranked list downloads as CSV.
 
 ## What goes into the score
 
@@ -16,7 +16,7 @@ Pick a facility type and the map recolors by rank (darkest blue = top 1% of coun
 
 Each factor becomes a 0–100 score (distance factors halve every N miles; counts use percentile rank; state ranks map 1→100, 50→0), and the overall score is the weighted average. The site's "How scores work" panel lists every factor, its formula and the exact source vintage.
 
-**Warehouse vs. logistics hub:** they overlap. The warehouse preset is about reaching customers by truck (interstates, population within a day's drive). The logistics hub preset is about switching freight between rail, sea, air and truck (intermodal terminals, Class I lines, ports, air cargo).
+**Facility presets** (machine shop, plant, warehouse, logistics hub) are still defined in `site/config.js` but the picker is hidden for now. Old shared links with `f=<preset>` still load that preset's weights.
 
 ## How it's built
 
@@ -24,7 +24,7 @@ Each factor becomes a 0–100 score (distance factors halve every N miles; count
 pipeline/fetch.py    downloads every source into cache/ (saved to the data-cache branch)
 pipeline/build.py    computes per-county distances, labor sheds and state tables -> site/data/
 site/                the static website (Leaflet map, no build step)
-site/config.js       factors, scoring rules and facility presets: edit this to change weights
+site/config.js       factors, scoring rules, source links and default weights: edit this to change weights
 .github/workflows/build.yml   runs fetch + build monthly and deploys site/ to the gh-pages branch
 scripts/qa.mjs       headless-browser check run by the workflow; screenshots land on the qa-results branch
 ```

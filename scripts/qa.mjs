@@ -54,24 +54,17 @@ async function session(name, opts, steps) {
 const shot = (page, n, full = false) => page.screenshot({ path: path.join(outDir, `${n}.png`), fullPage: full });
 
 await session('desktop', { viewport: { width: 1440, height: 900 }, colorScheme: 'light' }, async (page) => {
-  await shot(page, '01-desktop-machine-shop');
+  await shot(page, '01-desktop-default');
   const top = await page.$$eval('.rank-item', (els) => els.slice(0, 10).map((e) => e.innerText.replace(/\s+/g, ' ')));
-  log.push('[desktop] machine shop top 10: ' + JSON.stringify(top));
-  for (const p of ['plant', 'warehouse', 'hub']) {
-    await page.click(`.facility[data-preset="${p}"]`);
-    await sleep(600);
-    const t = await page.$$eval('.rank-item', (els) => els.slice(0, 10).map((e) => e.innerText.replace(/\s+/g, ' ')));
-    log.push(`[desktop] ${p} top 10: ` + JSON.stringify(t));
-  }
-  await shot(page, '02-desktop-logistics-hub');
-  await page.click('.facility[data-preset="machine"]');
+  log.push('[desktop] default weights top 10: ' + JSON.stringify(top));
+  const links = await page.$$eval('.wmeta a', (els) => els.length);
+  log.push(`[desktop] source links under sliders: ${links}`);
   await page.check('#per-state');
   await sleep(500);
   const ps = await page.$$eval('.rank-item', (els) => els.slice(0, 12).map((e) => e.innerText.replace(/\s+/g, ' ')));
-  log.push('[desktop] machine shop, best per state: ' + JSON.stringify(ps));
-  await shot(page, '02b-desktop-per-state');
+  log.push('[desktop] best per state: ' + JSON.stringify(ps));
+  await shot(page, '02-desktop-per-state');
   await page.uncheck('#per-state');
-  await page.click('.facility[data-preset="hub"]');
   // timing of a weight change
   const ms = await page.evaluate(async () => {
     const el = document.querySelector('#w-port');
@@ -101,12 +94,10 @@ await session('desktop', { viewport: { width: 1440, height: 900 }, colorScheme: 
 });
 
 await session('dark', { viewport: { width: 1280, height: 820 }, colorScheme: 'dark' }, async (page) => {
-  await page.click('.facility[data-preset="warehouse"]');
-  await sleep(800);
   const r = await page.$('.rank-item');
   await r.click();
   await sleep(1800);
-  await shot(page, '07-dark-warehouse-detail');
+  await shot(page, '07-dark-detail');
 });
 
 await session('mobile', { viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true }, async (page) => {

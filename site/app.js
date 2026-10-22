@@ -11,7 +11,6 @@
   const BIN_LABELS = ['Bottom half', 'Top 50%', 'Top 35%', 'Top 20%', 'Top 10%', 'Top 5%', 'Top 1%'];
 
   const state = {
-    preset: 'machine',
     weights: {},
     filters: { state: '', interstate: '', rail: '', port: '', rtw: false, metro: false },
     selected: -1,
@@ -327,45 +326,42 @@
   }
 
   // ------------------------------------------------------------------ controls
-  function presetById(id) { return CFG.presets.find((p) => p.id === id); }
-
   function isCustom() {
-    const p = presetById(state.preset);
-    return FACTORS.some((f) => (state.weights[f.id] || 0) !== (p.w[f.id] || 0));
+    return FACTORS.some((f) => (state.weights[f.id] || 0) !== (CFG.defaults[f.id] || 0));
   }
 
-  function buildControls() {
-    const grid = $('#facilities');
-    grid.innerHTML = CFG.presets.map((p) => `
-      <button type="button" class="facility" role="radio" aria-checked="false" data-preset="${p.id}">
-        <svg viewBox="0 0 24 24" aria-hidden="true">${p.icon}</svg>${esc(p.label)}
-      </button>`).join('');
-    grid.addEventListener('click', (e) => {
-      const b = e.target.closest('.facility');
-      if (!b) return;
-      setPreset(b.dataset.preset);
-    });
-    grid.addEventListener('keydown', (e) => {
-      if (!['ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowUp'].includes(e.key)) return;
-      const ids = CFG.presets.map((p) => p.id);
-      let k = ids.indexOf(state.preset) + (e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : -1);
-      k = (k + ids.length) % ids.length;
-      setPreset(ids[k]);
-      grid.querySelector(`[data-preset="${ids[k]}"]`).focus();
-      e.preventDefault();
-    });
+  // A source entry is a key into data/meta.json `sources` or an inline {name, title, url}
+  function sourceInfo(s) {
+    if (typeof s === 'object') return s;
+    const m = (D.meta.sources || {})[s] || {};
+    const url = String(m.url || '').includes('<') ? String(m.url).split('/industry/')[0] : m.url;
+    const title = m.title ? `${m.title}${m.vintage && m.vintage !== 'None' ? `, ${m.vintage}` : ''}` : '';
+    return { name: CFG.sourceNames[s] || m.title || s, title, url };
+  }
 
+  function sourceLinks(f) {
+    return (f.sources || []).map(sourceInfo).filter((s) => s.url)
+      .map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}">${esc(s.name)}</a>`).join(', ');
+  }
+
+  const levelWord = (v) => (v === 0 ? 'Ignored' : v <= 3 ? 'Low' : v <= 6 ? 'Medium' : v <= 9 ? 'High' : 'Highest');
+
+  function buildControls() {
     const wrap = $('#weights');
     const open = !matchMedia('(max-width: 900px)').matches;
     wrap.innerHTML = CFG.groups.map((g) => `
       <details class="wgroup" data-group="${g.id}" ${open ? 'open' : ''}>
         <summary>${esc(g.label)}<span class="share" data-share="${g.id}"></span></summary>
-        <div class="wrows">${FACTORS.filter((f) => f.group === g.id).map((f) => `
+        <div class="wrows">${FACTORS.filter((f) => f.group === g.id).map((f) => {
+          const links = sourceLinks(f);
+          return `
           <div class="wrow" data-row="${f.id}">
             <label for="w-${f.id}" title="${esc(f.about)}">${esc(f.label)}</label>
             <output for="w-${f.id}" id="o-${f.id}"></output>
-            <input type="range" id="w-${f.id}" min="0" max="10" step="1" data-factor="${f.id}" aria-describedby="o-${f.id}">
-          </div>`).join('')}
+            <input type="range" id="w-${f.id}" min="0" max="10" step="1" data-factor="${f.id}" aria-describedby="o-${f.id} m-${f.id}">
+            <p class="wmeta" id="m-${f.id}"><span class="better">${esc(f.better || '')}</span>${links ? `<span class="src">Data: ${links}</span>` : ''}</p>
+          </div>`;
+        }).join('')}
         </div>
       </details>`).join('');
     let raf = 0;
@@ -374,11 +370,10 @@
       if (!id) return;
       state.weights[id] = +e.target.value;
       syncSlider(id);
-      renderPresetState();
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(recompute);
     });
-    $('#reset-weights').addEventListener('click', () => setPreset(state.preset));
+    $('#reset-weights').addEventListener('click', resetWeights);
 
     const sel = $('#f-state');
     const sts = Object.entries(D.states).sort((a, b) => a[1].name.localeCompare(b[1].name));
@@ -427,7 +422,8 @@
     const v = state.weights[id] || 0;
     el.value = v;
     el.style.setProperty('--fill', `${v * 10}%`);
-    $(`#o-${id}`).textContent = v;
+    $(`#o-${id}`).textContent = `${levelWord(v)} · ${v}`;
+    el.setAttribute('aria-valuetext', `${v} of 10, ${levelWord(v).toLowerCase()}`);
     el.closest('.wrow').classList.toggle('off', v === 0);
   }
 
@@ -439,18 +435,9 @@
     }
   }
 
-  function renderPresetState() {
-    document.querySelectorAll('.facility').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.preset === state.preset)));
-    document.querySelectorAll('.facility').forEach((b) => b.tabIndex = b.dataset.preset === state.preset ? 0 : -1);
-    const p = presetById(state.preset);
-    $('#facility-desc').innerHTML = esc(p.desc) + (isCustom() ? ' <span class="custom">Weights adjusted.</span>' : '');
-  }
-
-  function setPreset(id) {
-    state.preset = id;
-    state.weights = { ...presetById(id).w };
+  function resetWeights() {
+    state.weights = { ...CFG.defaults };
     FACTORS.forEach((f) => syncSlider(f.id));
-    renderPresetState();
     recompute();
   }
 
@@ -463,12 +450,11 @@
 
   // ------------------------------------------------------------------ ranking
   function renderRanking() {
-    const p = presetById(state.preset);
     const fl = state.filters;
     const scope = fl.state ? D.states[fl.state].name : 'the U.S.';
     const total = fl.state ? D.m.st.filter((s) => s === fl.state).length : N;
     const excl = total - ranked.length;
-    $('#ranking-sub').textContent = `${isCustom() ? 'Custom weights based on ' + p.label.toLowerCase() : p.label} weights. ${int(ranked.length)} counties in ${scope} ranked${excl ? `, ${int(excl)} excluded by must-haves` : ''}.`;
+    $('#ranking-sub').textContent = `${isCustom() ? 'Your weights' : 'Equal weights'}. ${int(ranked.length)} counties in ${scope} ranked${excl ? `, ${int(excl)} excluded by must-haves` : ''}.`;
     const list = $('#rank-list');
     if (!ranked.length) {
       list.innerHTML = '<li class="empty">No county meets every must-have. Loosen a distance limit or clear a checkbox.</li>';
@@ -569,7 +555,6 @@
     const m = D.m;
     const st = D.states[m.st[i]] || {};
     const area = D.areas.areas[m.area[i]];
-    const p = presetById(state.preset);
     const sc = composite[i];
     const n = ranked.length;
     let standing;
@@ -578,7 +563,7 @@
     else {
       const top = (rank[i] - 1) / Math.max(1, n);
       const label = top < 0.5 ? BIN_LABELS[bin[i]].replace('Top', 'top') : 'bottom half';
-      standing = `Rank <b>#${int(rank[i])}</b> of ${int(n)}<br>In the ${label} for a ${esc(isCustom() ? 'custom ' + p.label.toLowerCase() : p.label.toLowerCase())}`;
+      standing = `Rank <b>#${int(rank[i])}</b> of ${int(n)}<br>In the ${label} with ${isCustom() ? 'your' : 'equal'} weights`;
     }
     const areaLine = area ? (area.type === 'metro' ? `${area.name} metro area` : area.type === 'nonmetro' ? 'Outside metro areas' : '') : '';
 
@@ -658,7 +643,7 @@
     const blob = new Blob([[head.join(','), ...rows].join('\n')], { type: 'text/csv' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `county-scores-${state.preset}${isCustom() ? '-custom' : ''}${state.filters.state ? '-' + state.filters.state : ''}.csv`;
+    a.download = `county-scores${isCustom() ? '-custom' : ''}${state.filters.state ? '-' + state.filters.state : ''}.csv`;
     document.body.appendChild(a);
     a.click();
     setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
@@ -689,11 +674,9 @@
       <p>Every county gets a 0–100 score for each factor below. The overall score is the weighted average of those factor scores using the sliders, so a factor at weight 0 is ignored and a factor at 10 counts ten times as much as one at 1. Counties are then colored by rank among the counties that pass your must-haves: the darkest blue is the top 1%.</p>
       <p><strong>Distances</strong> are straight-line miles from each county’s center of population (Census 2020), not drive times. A county can be large, so always check the specific parcel. <strong>Workforce</strong> counts add up every county whose population center is within ${D.meta.labor_radius_mi} miles, a typical commute. <strong>Occupation concentration and pay</strong> come from the metro area a county belongs to; rural counties use their state’s combined nonmetro areas. <strong>Taxes and regulation</strong> are state-level, so every county in a state shares them.</p>
       <h3>Factors</h3>
-      <table><thead><tr><th>Factor</th><th>What it measures</th><th>Scoring</th></tr></thead><tbody>
-        ${FACTORS.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.about)}</td><td>${esc(fmtType(f))}</td></tr>`).join('')}
+      <table><thead><tr><th>Factor</th><th>What it measures</th><th>Scoring</th><th>Data</th></tr></thead><tbody>
+        ${FACTORS.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.about)}</td><td>${esc(fmtType(f))}</td><td>${sourceLinks(f)}</td></tr>`).join('')}
       </tbody></table>
-      <h3>Facility presets</h3>
-      <ul>${CFG.presets.map((p) => `<li><strong>${esc(p.label)}.</strong> ${esc(p.desc)}</li>`).join('')}</ul>
       <h3>Data sources</h3>
       <ul>${srcRows}</ul>
       <p>The data refreshes automatically on the 4th of each month through a GitHub Actions workflow in this site’s repository. Basemap © Esri, HERE, Garmin and OpenStreetMap contributors.</p>
@@ -731,7 +714,6 @@
   // ------------------------------------------------------------------ URL state
   function writeHash() {
     const p = new URLSearchParams();
-    p.set('f', state.preset);
     if (isCustom()) p.set('w', encodeWeights());
     const fl = state.filters;
     if (fl.state) p.set('st', fl.state);
@@ -746,9 +728,9 @@
 
   function readHash() {
     const p = new URLSearchParams(location.hash.slice(1));
-    const f = p.get('f');
-    if (f && presetById(f)) state.preset = f;
-    state.weights = { ...presetById(state.preset).w };
+    // Links from before the facility picker was removed carry f=<preset>; use those weights when no w= is given
+    const legacy = CFG.presets.find((pr) => pr.id === p.get('f'));
+    state.weights = { ...(legacy ? legacy.w : CFG.defaults) };
     const w = p.get('w');
     if (w && w.length === FACTORS.length) {
       FACTORS.forEach((fa, k) => { const v = w[k] === 'a' ? 10 : +w[k]; if (!isNaN(v)) state.weights[fa.id] = v; });
@@ -787,7 +769,6 @@
     buildControls();
     const sel = readHash();
     FACTORS.forEach((f) => syncSlider(f.id));
-    renderPresetState();
     computeScores();
     initMap();
     recompute();

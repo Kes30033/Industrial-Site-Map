@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Industrial Site Map</title>
-  <meta name="description" content="Score every U.S. county for a machine shop, manufacturing plant, warehouse or logistics hub using freight access, skilled labor and state business climate data.">
+  <meta name="description" content="Score every U.S. county as an industrial site using freight access, skilled labor and state business climate data.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M2 21V10l5 3v-3l5 3v-3l5 3V4h4v17z' fill='%23E8590C'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,14 +21,8 @@
     <aside class="controls" aria-label="Scoring controls">
       <header class="brand c-brand">
         <h1>Industrial Site Map</h1>
-        <p>Every U.S. county scored on freight access, skilled labor and state business climate. Pick a facility type, then tune what matters to you.</p>
+        <p>Every U.S. county scored on freight access, skilled labor and state business climate. Set the must-haves, then tune what matters to you.</p>
       </header>
-
-      <section class="block c-facility">
-        <h2 class="block-title">Facility type</h2>
-        <div class="facility-grid" role="radiogroup" aria-label="Facility type" id="facilities"></div>
-        <p class="facility-desc" id="facility-desc"></p>
-      </section>
 
       <section class="block c-must">
         <h2 class="block-title">Must-haves</h2>
@@ -63,9 +57,10 @@
       <section class="block weights c-weights">
         <div class="block-head">
           <h2 class="block-title">What matters</h2>
-          <button type="button" class="link-btn" id="reset-weights">Reset to preset</button>
+          <button type="button" class="link-btn" id="reset-weights">Reset weights</button>
         </div>
-        <p class="hint">Slide a factor to 0 to ignore it. Weights are relative.</p>
+        <p class="hint">Each slider sets how much a factor counts toward a county’s score. Slide left to make it count less (all the way left ignores it), right to make it count more. The line under each slider says which counties that factor favors.</p>
+        <div class="scale-key" aria-hidden="true"><span>← Ignore</span><span>Counts most →</span></div>
         <div id="weights"></div>
       </section>
 
