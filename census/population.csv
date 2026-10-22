@@ -1,0 +1,3145 @@
+SUMLEV,STATE,COUNTY,STNAME,CTYNAME,POP
+050,01,001,Alabama,Autauga County,61920
+050,01,003,Alabama,Baldwin County,267761
+050,01,005,Alabama,Barbour County,24607
+050,01,007,Alabama,Bibb County,22262
+050,01,009,Alabama,Blount County,60156
+050,01,011,Alabama,Bullock County,9780
+050,01,013,Alabama,Butler County,18100
+050,01,015,Alabama,Calhoun County,115834
+050,01,017,Alabama,Chambers County,34253
+050,01,019,Alabama,Cherokee County,26413
+050,01,021,Alabama,Chilton County,47708
+050,01,023,Alabama,Choctaw County,11904
+050,01,025,Alabama,Clarke County,22014
+050,01,027,Alabama,Clay County,14207
+050,01,029,Alabama,Cleburne County,15970
+050,01,031,Alabama,Coffee County,56953
+050,01,033,Alabama,Colbert County,59474
+050,01,035,Alabama,Conecuh County,10899
+050,01,037,Alabama,Coosa County,10161
+050,01,039,Alabama,Covington County,37947
+050,01,041,Alabama,Crenshaw County,13175
+050,01,043,Alabama,Cullman County,94009
+050,01,045,Alabama,Dale County,49912
+050,01,047,Alabama,Dallas County,35140
+050,01,049,Alabama,DeKalb County,74085
+050,01,051,Alabama,Elmore County,91577
+050,01,053,Alabama,Escambia County,36665
+050,01,055,Alabama,Etowah County,103886
+050,01,057,Alabama,Fayette County,15872
+050,01,059,Alabama,Franklin County,32449
+050,01,061,Alabama,Geneva County,27554
+050,01,063,Alabama,Greene County,7067
+050,01,065,Alabama,Hale County,15194
+050,01,067,Alabama,Henry County,18394
+050,01,069,Alabama,Houston County,110318
+050,01,071,Alabama,Jackson County,54281
+050,01,073,Alabama,Jefferson County,665742
+050,01,075,Alabama,Lamar County,13587
+050,01,077,Alabama,Lauderdale County,97135
+050,01,079,Alabama,Lawrence County,33843
+050,01,081,Alabama,Lee County,189881
+050,01,083,Alabama,Limestone County,122928
+050,01,085,Alabama,Lowndes County,9359
+050,01,087,Alabama,Macon County,18132
+050,01,089,Alabama,Madison County,433516
+050,01,091,Alabama,Marengo County,18311
+050,01,093,Alabama,Marion County,29097
+050,01,095,Alabama,Marshall County,103537
+050,01,097,Alabama,Mobile County,411658
+050,01,099,Alabama,Monroe County,18965
+050,01,101,Alabama,Montgomery County,225891
+050,01,103,Alabama,Morgan County,126483
+050,01,105,Alabama,Perry County,7425
+050,01,107,Alabama,Pickens County,18221
+050,01,109,Alabama,Pike County,33688
+050,01,111,Alabama,Randolph County,23163
+050,01,113,Alabama,Russell County,58898
+050,01,115,Alabama,St. Clair County,98206
+050,01,117,Alabama,Shelby County,238552
+050,01,119,Alabama,Sumter County,11588
+050,01,121,Alabama,Talladega County,81603
+050,01,123,Alabama,Tallapoosa County,40953
+050,01,125,Alabama,Tuscaloosa County,241368
+050,01,127,Alabama,Walker County,65140
+050,01,129,Alabama,Washington County,14822
+050,01,131,Alabama,Wilcox County,9666
+050,01,133,Alabama,Winston County,23829
+050,02,013,Alaska,Aleutians East Borough,3479
+050,02,016,Alaska,Aleutians West Census Area,5240
+050,02,020,Alaska,Anchorage Municipality,287155
+050,02,050,Alaska,Bethel Census Area,18391
+050,02,060,Alaska,Bristol Bay Borough,847
+050,02,063,Alaska,Chugach Census Area,6553
+050,02,066,Alaska,Copper River Census Area,2666
+050,02,068,Alaska,Denali Borough,1616
+050,02,070,Alaska,Dillingham Census Area,4483
+050,02,090,Alaska,Fairbanks North Star Borough,93972
+050,02,100,Alaska,Haines Borough,2068
+050,02,105,Alaska,Hoonah-Angoon Census Area,2271
+050,02,110,Alaska,Juneau City and Borough,31609
+050,02,122,Alaska,Kenai Peninsula Borough,61951
+050,02,130,Alaska,Ketchikan Gateway Borough,13549
+050,02,150,Alaska,Kodiak Island Borough,12387
+050,02,158,Alaska,Kusilvak Census Area,7932
+050,02,164,Alaska,Lake and Peninsula Borough,1357
+050,02,170,Alaska,Matanuska-Susitna Borough,118666
+050,02,180,Alaska,Nome Census Area,9830
+050,02,185,Alaska,North Slope Borough,10582
+050,02,188,Alaska,Northwest Arctic Borough,7095
+050,02,195,Alaska,Petersburg Borough,3394
+050,02,198,Alaska,Prince of Wales-Hyder Census Area,5777
+050,02,220,Alaska,Sitka City and Borough,8319
+050,02,230,Alaska,Skagway Municipality,1104
+050,02,240,Alaska,Southeast Fairbanks Census Area,7270
+050,02,275,Alaska,Wrangell City and Borough,2007
+050,02,282,Alaska,Yakutat City and Borough,672
+050,02,290,Alaska,Yukon-Koyukuk Census Area,5028
+050,04,001,Arizona,Apache County,64445
+050,04,003,Arizona,Cochise County,126332
+050,04,005,Arizona,Coconino County,144368
+050,04,007,Arizona,Gila County,53801
+050,04,009,Arizona,Graham County,40157
+050,04,011,Arizona,Greenlee County,9312
+050,04,012,Arizona,La Paz County,16711
+050,04,013,Arizona,Maricopa County,4689558
+050,04,015,Arizona,Mohave County,228102
+050,04,017,Arizona,Navajo County,109946
+050,04,019,Arizona,Pima County,1074685
+050,04,021,Arizona,Pinal County,539380
+050,04,023,Arizona,Santa Cruz County,50020
+050,04,025,Arizona,Yavapai County,252552
+050,04,027,Arizona,Yuma County,224449
+050,05,001,Arkansas,Arkansas County,15836
+050,05,003,Arkansas,Ashley County,17831
+050,05,005,Arkansas,Baxter County,42982
+050,05,007,Arkansas,Benton County,332554
+050,05,009,Arkansas,Boone County,38628
+050,05,011,Arkansas,Bradley County,9828
+050,05,013,Arkansas,Calhoun County,4632
+050,05,015,Arkansas,Carroll County,29263
+050,05,017,Arkansas,Chicot County,9107
+050,05,019,Arkansas,Clark County,20938
+050,05,021,Arkansas,Clay County,14052
+050,05,023,Arkansas,Cleburne County,25672
+050,05,025,Arkansas,Cleveland County,7224
+050,05,027,Arkansas,Columbia County,21894
+050,05,029,Arkansas,Conway County,21393
+050,05,031,Arkansas,Craighead County,116957
+050,05,033,Arkansas,Crawford County,62657
+050,05,035,Arkansas,Crittenden County,46210
+050,05,037,Arkansas,Cross County,16186
+050,05,039,Arkansas,Dallas County,6011
+050,05,041,Arkansas,Desha County,9984
+050,05,043,Arkansas,Drew County,17054
+050,05,045,Arkansas,Faulkner County,133979
+050,05,047,Arkansas,Franklin County,17725
+050,05,049,Arkansas,Fulton County,12492
+050,05,051,Arkansas,Garland County,99695
+050,05,053,Arkansas,Grant County,18756
+050,05,055,Arkansas,Greene County,47411
+050,05,057,Arkansas,Hempstead County,19080
+050,05,059,Arkansas,Hot Spring County,33451
+050,05,061,Arkansas,Howard County,12306
+050,05,063,Arkansas,Independence County,38785
+050,05,065,Arkansas,Izard County,14405
+050,05,067,Arkansas,Jackson County,16741
+050,05,069,Arkansas,Jefferson County,62987
+050,05,071,Arkansas,Johnson County,26225
+050,05,073,Arkansas,Lafayette County,5888
+050,05,075,Arkansas,Lawrence County,16273
+050,05,077,Arkansas,Lee County,8029
+050,05,079,Arkansas,Lincoln County,12764
+050,05,081,Arkansas,Little River County,11763
+050,05,083,Arkansas,Logan County,21633
+050,05,085,Arkansas,Lonoke County,76664
+050,05,087,Arkansas,Madison County,18410
+050,05,089,Arkansas,Marion County,17593
+050,05,091,Arkansas,Miller County,42357
+050,05,093,Arkansas,Mississippi County,37828
+050,05,095,Arkansas,Monroe County,6244
+050,05,097,Arkansas,Montgomery County,8579
+050,05,099,Arkansas,Nevada County,7942
+050,05,101,Arkansas,Newton County,7026
+050,05,103,Arkansas,Ouachita County,21731
+050,05,105,Arkansas,Perry County,10309
+050,05,107,Arkansas,Phillips County,14255
+050,05,109,Arkansas,Pike County,9964
+050,05,111,Arkansas,Poinsett County,22483
+050,05,113,Arkansas,Polk County,19486
+050,05,115,Arkansas,Pope County,64976
+050,05,117,Arkansas,Prairie County,7923
+050,05,119,Arkansas,Pulaski County,404611
+050,05,121,Arkansas,Randolph County,18876
+050,05,123,Arkansas,St. Francis County,21800
+050,05,125,Arkansas,Saline County,133288
+050,05,127,Arkansas,Scott County,9965
+050,05,129,Arkansas,Searcy County,7848
+050,05,131,Arkansas,Sebastian County,130641
+050,05,133,Arkansas,Sevier County,15758
+050,05,135,Arkansas,Sharp County,18122
+050,05,137,Arkansas,Stone County,12703
+050,05,139,Arkansas,Union County,36926
+050,05,141,Arkansas,Van Buren County,16238
+050,05,143,Arkansas,Washington County,271213
+050,05,145,Arkansas,White County,80085
+050,05,147,Arkansas,Woodruff County,5710
+050,05,149,Arkansas,Yell County,19956
+050,06,001,California,Alameda County,1636630
+050,06,003,California,Alpine County,1043
+050,06,005,California,Amador County,41876
+050,06,007,California,Butte County,209211
+050,06,009,California,Calaveras County,46605
+050,06,011,California,Colusa County,21836
+050,06,013,California,Contra Costa County,1170070
+050,06,015,California,Del Norte County,26410
+050,06,017,California,El Dorado County,192323
+050,06,019,California,Fresno County,1035456
+050,06,021,California,Glenn County,28141
+050,06,023,California,Humboldt County,131647
+050,06,025,California,Imperial County,181411
+050,06,027,California,Inyo County,18158
+050,06,029,California,Kern County,927068
+050,06,031,California,Kings County,154327
+050,06,033,California,Lake County,67772
+050,06,035,California,Lassen County,28117
+050,06,037,California,Los Angeles County,9694934
+050,06,039,California,Madera County,167927
+050,06,041,California,Marin County,253694
+050,06,043,California,Mariposa County,16918
+050,06,045,California,Mendocino County,88122
+050,06,047,California,Merced County,297260
+050,06,049,California,Modoc County,8426
+050,06,051,California,Mono County,12505
+050,06,053,California,Monterey County,433729
+050,06,055,California,Napa County,132949
+050,06,057,California,Nevada County,101911
+050,06,059,California,Orange County,3149507
+050,06,061,California,Placer County,442081
+050,06,063,California,Plumas County,18583
+050,06,065,California,Riverside County,2544916
+050,06,067,California,Sacramento County,1618460
+050,06,069,California,San Benito County,70082
+050,06,071,California,San Bernardino County,2224091
+050,06,073,California,San Diego County,3282248
+050,06,075,California,San Francisco County,826079
+050,06,077,California,San Joaquin County,823815
+050,06,079,California,San Luis Obispo County,282367
+050,06,081,California,San Mateo County,743568
+050,06,083,California,Santa Barbara County,442065
+050,06,085,California,Santa Clara County,1914391
+050,06,087,California,Santa Cruz County,258852
+050,06,089,California,Shasta County,181648
+050,06,091,California,Sierra County,3098
+050,06,093,California,Siskiyou County,42013
+050,06,095,California,Solano County,455376
+050,06,097,California,Sonoma County,486444
+050,06,099,California,Stanislaus County,557719
+050,06,101,California,Sutter County,98787
+050,06,103,California,Tehama County,64665
+050,06,105,California,Trinity County,15720
+050,06,107,California,Tulare County,485146
+050,06,109,California,Tuolumne County,53160
+050,06,111,California,Ventura County,830851
+050,06,113,California,Yolo County,224410
+050,06,115,California,Yuba County,88691
+050,08,001,Colorado,Adams County,554668
+050,08,003,Colorado,Alamosa County,16688
+050,08,005,Colorado,Arapahoe County,673820
+050,08,007,Colorado,Archuleta County,14306
+050,08,009,Colorado,Baca County,3347
+050,08,011,Colorado,Bent County,5716
+050,08,013,Colorado,Boulder County,328560
+050,08,014,Colorado,Broomfield County,79174
+050,08,015,Colorado,Chaffee County,20831
+050,08,017,Colorado,Cheyenne County,1713
+050,08,019,Colorado,Clear Creek County,8994
+050,08,021,Colorado,Conejos County,7529
+050,08,023,Colorado,Costilla County,3679
+050,08,025,Colorado,Crowley County,5677
+050,08,027,Colorado,Custer County,5590
+050,08,029,Colorado,Delta County,32178
+050,08,031,Colorado,Denver County,740613
+050,08,033,Colorado,Dolores County,2466
+050,08,035,Colorado,Douglas County,399396
+050,08,037,Colorado,Eagle County,54291
+050,08,039,Colorado,Elbert County,30534
+050,08,041,Colorado,El Paso County,757040
+050,08,043,Colorado,Fremont County,50039
+050,08,045,Colorado,Garfield County,63474
+050,08,047,Colorado,Gilpin County,6073
+050,08,049,Colorado,Grand County,16496
+050,08,051,Colorado,Gunnison County,17439
+050,08,053,Colorado,Hinsdale County,753
+050,08,055,Colorado,Huerfano County,7011
+050,08,057,Colorado,Jackson County,1211
+050,08,059,Colorado,Jefferson County,580451
+050,08,061,Colorado,Kiowa County,1412
+050,08,063,Colorado,Kit Carson County,7069
+050,08,065,Colorado,Lake County,7552
+050,08,067,Colorado,La Plata County,56898
+050,08,069,Colorado,Larimer County,377292
+050,08,071,Colorado,Las Animas County,14391
+050,08,073,Colorado,Lincoln County,5645
+050,08,075,Colorado,Logan County,20654
+050,08,077,Colorado,Mesa County,162845
+050,08,079,Colorado,Mineral County,910
+050,08,081,Colorado,Moffat County,13122
+050,08,083,Colorado,Montezuma County,26678
+050,08,085,Colorado,Montrose County,44591
+050,08,087,Colorado,Morgan County,30306
+050,08,089,Colorado,Otero County,17683
+050,08,091,Colorado,Ouray County,5265
+050,08,093,Colorado,Park County,18314
+050,08,095,Colorado,Phillips County,4420
+050,08,097,Colorado,Pitkin County,16625
+050,08,099,Colorado,Prowers County,11884
+050,08,101,Colorado,Pueblo County,169277
+050,08,103,Colorado,Rio Blanco County,6683
+050,08,105,Colorado,Rio Grande County,11087
+050,08,107,Colorado,Routt County,25329
+050,08,109,Colorado,Saguache County,6732
+050,08,111,Colorado,San Juan County,813
+050,08,113,Colorado,San Miguel County,7753
+050,08,115,Colorado,Sedgwick County,2247
+050,08,117,Colorado,Summit County,31517
+050,08,119,Colorado,Teller County,24756
+050,08,121,Colorado,Washington County,4732
+050,08,123,Colorado,Weld County,378426
+050,08,125,Colorado,Yuma County,9896
+050,09,110,Connecticut,Capitol Planning Region,994115
+050,09,120,Connecticut,Greater Bridgeport Planning Region,337697
+050,09,130,Connecticut,Lower Connecticut River Valley Planning Region,177311
+050,09,140,Connecticut,Naugatuck Valley Planning Region,463349
+050,09,150,Connecticut,Northeastern Connecticut Planning Region,98096
+050,09,160,Connecticut,Northwest Hills Planning Region,114690
+050,09,170,Connecticut,South Central Connecticut Planning Region,578741
+050,09,180,Connecticut,Southeastern Connecticut Planning Region,284015
+050,09,190,Connecticut,Western Connecticut Planning Region,640482
+050,10,001,Delaware,Kent County,194786
+050,10,003,Delaware,New Castle County,588026
+050,10,005,Delaware,Sussex County,277140
+050,11,001,District of Columbia,District of Columbia,693645
+050,12,001,Florida,Alachua County,290028
+050,12,003,Florida,Baker County,29737
+050,12,005,Florida,Bay County,204479
+050,12,007,Florida,Bradford County,28307
+050,12,009,Florida,Brevard County,663982
+050,12,011,Florida,Broward County,2013317
+050,12,013,Florida,Calhoun County,13289
+050,12,015,Florida,Charlotte County,217212
+050,12,017,Florida,Citrus County,171666
+050,12,019,Florida,Clay County,239593
+050,12,021,Florida,Collier County,417131
+050,12,023,Florida,Columbia County,74094
+050,12,027,Florida,DeSoto County,37078
+050,12,029,Florida,Dixie County,18038
+050,12,031,Florida,Duval County,1062963
+050,12,033,Florida,Escambia County,333834
+050,12,035,Florida,Flagler County,140360
+050,12,037,Florida,Franklin County,13029
+050,12,039,Florida,Gadsden County,44298
+050,12,041,Florida,Gilchrist County,20488
+050,12,043,Florida,Glades County,13270
+050,12,045,Florida,Gulf County,15943
+050,12,047,Florida,Hamilton County,14180
+050,12,049,Florida,Hardee County,25932
+050,12,051,Florida,Hendry County,48276
+050,12,053,Florida,Hernando County,221701
+050,12,055,Florida,Highlands County,111122
+050,12,057,Florida,Hillsborough County,1574115
+050,12,059,Florida,Holmes County,20119
+050,12,061,Florida,Indian River County,172799
+050,12,063,Florida,Jackson County,49629
+050,12,065,Florida,Jefferson County,16007
+050,12,067,Florida,Lafayette County,8792
+050,12,069,Florida,Lake County,456068
+050,12,071,Florida,Lee County,875607
+050,12,073,Florida,Leon County,299048
+050,12,075,Florida,Levy County,48520
+050,12,077,Florida,Liberty County,8035
+050,12,079,Florida,Madison County,18759
+050,12,081,Florida,Manatee County,468200
+050,12,083,Florida,Marion County,442660
+050,12,085,Florida,Martin County,166272
+050,12,086,Florida,Miami-Dade County,2802029
+050,12,087,Florida,Monroe County,80406
+050,12,089,Florida,Nassau County,106879
+050,12,091,Florida,Okaloosa County,221810
+050,12,093,Florida,Okeechobee County,42608
+050,12,095,Florida,Orange County,1528002
+050,12,097,Florida,Osceola County,481718
+050,12,099,Florida,Palm Beach County,1575726
+050,12,101,Florida,Pasco County,674516
+050,12,103,Florida,Pinellas County,948563
+050,12,105,Florida,Polk County,874790
+050,12,107,Florida,Putnam County,77734
+050,12,109,Florida,St. Johns County,346328
+050,12,111,Florida,St. Lucie County,402449
+050,12,113,Florida,Santa Rosa County,211115
+050,12,115,Florida,Sarasota County,479958
+050,12,117,Florida,Seminole County,491884
+050,12,119,Florida,Sumter County,157772
+050,12,121,Florida,Suwannee County,48149
+050,12,123,Florida,Taylor County,21210
+050,12,125,Florida,Union County,16250
+050,12,127,Florida,Volusia County,606573
+050,12,129,Florida,Wakulla County,38089
+050,12,131,Florida,Walton County,93288
+050,12,133,Florida,Washington County,26695
+050,13,001,Georgia,Appling County,19100
+050,13,003,Georgia,Atkinson County,8454
+050,13,005,Georgia,Bacon County,11070
+050,13,007,Georgia,Baker County,2725
+050,13,009,Georgia,Baldwin County,44029
+050,13,011,Georgia,Banks County,21273
+050,13,013,Georgia,Barrow County,99773
+050,13,015,Georgia,Bartow County,120800
+050,13,017,Georgia,Ben Hill County,17099
+050,13,019,Georgia,Berrien County,18932
+050,13,021,Georgia,Bibb County,157556
+050,13,023,Georgia,Bleckley County,12866
+050,13,025,Georgia,Brantley County,18936
+050,13,027,Georgia,Brooks County,16101
+050,13,029,Georgia,Bryan County,52062
+050,13,031,Georgia,Bulloch County,86949
+050,13,033,Georgia,Burke County,24408
+050,13,035,Georgia,Butts County,27218
+050,13,037,Georgia,Calhoun County,5413
+050,13,039,Georgia,Camden County,60143
+050,13,043,Georgia,Candler County,11275
+050,13,045,Georgia,Carroll County,131036
+050,13,047,Georgia,Catoosa County,69628
+050,13,049,Georgia,Charlton County,13121
+050,13,051,Georgia,Chatham County,311855
+050,13,053,Georgia,Chattahoochee County,8465
+050,13,055,Georgia,Chattooga County,25300
+050,13,057,Georgia,Cherokee County,299273
+050,13,059,Georgia,Clarke County,129921
+050,13,061,Georgia,Clay County,2815
+050,13,063,Georgia,Clayton County,297471
+050,13,065,Georgia,Clinch County,6847
+050,13,067,Georgia,Cobb County,793345
+050,13,069,Georgia,Coffee County,44407
+050,13,071,Georgia,Colquitt County,47438
+050,13,073,Georgia,Columbia County,169189
+050,13,075,Georgia,Cook County,18232
+050,13,077,Georgia,Coweta County,160240
+050,13,079,Georgia,Crawford County,12206
+050,13,081,Georgia,Crisp County,19237
+050,13,083,Georgia,Dade County,16154
+050,13,085,Georgia,Dawson County,35365
+050,13,087,Georgia,Decatur County,29432
+050,13,089,Georgia,DeKalb County,774394
+050,13,091,Georgia,Dodge County,19663
+050,13,093,Georgia,Dooly County,11156
+050,13,095,Georgia,Dougherty County,82616
+050,13,097,Georgia,Douglas County,154293
+050,13,099,Georgia,Early County,10455
+050,13,101,Georgia,Echols County,3685
+050,13,103,Georgia,Effingham County,74397
+050,13,105,Georgia,Elbert County,20072
+050,13,107,Georgia,Emanuel County,23147
+050,13,109,Georgia,Evans County,11028
+050,13,111,Georgia,Fannin County,26111
+050,13,113,Georgia,Fayette County,125156
+050,13,115,Georgia,Floyd County,101378
+050,13,117,Georgia,Forsyth County,282805
+050,13,119,Georgia,Franklin County,25948
+050,13,121,Georgia,Fulton County,1098791
+050,13,123,Georgia,Gilmer County,33894
+050,13,125,Georgia,Glascock County,3141
+050,13,127,Georgia,Glynn County,87599
+050,13,129,Georgia,Gordon County,61701
+050,13,131,Georgia,Grady County,26590
+050,13,133,Georgia,Greene County,21367
+050,13,135,Georgia,Gwinnett County,1018099
+050,13,137,Georgia,Habersham County,50416
+050,13,139,Georgia,Hall County,226568
+050,13,141,Georgia,Hancock County,8682
+050,13,143,Georgia,Haralson County,33066
+050,13,145,Georgia,Harris County,37280
+050,13,147,Georgia,Hart County,28639
+050,13,149,Georgia,Heard County,12149
+050,13,151,Georgia,Henry County,264922
+050,13,153,Georgia,Houston County,178214
+050,13,155,Georgia,Irwin County,9020
+050,13,157,Georgia,Jackson County,99265
+050,13,159,Georgia,Jasper County,17632
+050,13,161,Georgia,Jeff Davis County,15219
+050,13,163,Georgia,Jefferson County,15011
+050,13,165,Georgia,Jenkins County,8843
+050,13,167,Georgia,Johnson County,9310
+050,13,169,Georgia,Jones County,29171
+050,13,171,Georgia,Lamar County,20941
+050,13,173,Georgia,Lanier County,10623
+050,13,175,Georgia,Laurens County,51041
+050,13,177,Georgia,Lee County,34179
+050,13,179,Georgia,Liberty County,70313
+050,13,181,Georgia,Lincoln County,8112
+050,13,183,Georgia,Long County,21557
+050,13,185,Georgia,Lowndes County,122867
+050,13,187,Georgia,Lumpkin County,36178
+050,13,189,Georgia,McDuffie County,21640
+050,13,191,Georgia,McIntosh County,11989
+050,13,193,Georgia,Macon County,11756
+050,13,195,Georgia,Madison County,32919
+050,13,197,Georgia,Marion County,7676
+050,13,199,Georgia,Meriwether County,21516
+050,13,201,Georgia,Miller County,5812
+050,13,205,Georgia,Mitchell County,20467
+050,13,207,Georgia,Monroe County,32023
+050,13,209,Georgia,Montgomery County,8635
+050,13,211,Georgia,Morgan County,22095
+050,13,213,Georgia,Murray County,41607
+050,13,215,Georgia,Muscogee County,202171
+050,13,217,Georgia,Newton County,125583
+050,13,219,Georgia,Oconee County,44893
+050,13,221,Georgia,Oglethorpe County,16415
+050,13,223,Georgia,Paulding County,190996
+050,13,225,Georgia,Peach County,29877
+050,13,227,Georgia,Pickens County,37167
+050,13,229,Georgia,Pierce County,20764
+050,13,231,Georgia,Pike County,20932
+050,13,233,Georgia,Polk County,45514
+050,13,235,Georgia,Pulaski County,10172
+050,13,237,Georgia,Putnam County,23722
+050,13,239,Georgia,Quitman County,2254
+050,13,241,Georgia,Rabun County,17764
+050,13,243,Georgia,Randolph County,6156
+050,13,245,Georgia,Richmond County,206559
+050,13,247,Georgia,Rockdale County,98416
+050,13,249,Georgia,Schley County,4593
+050,13,251,Georgia,Screven County,14408
+050,13,253,Georgia,Seminole County,9162
+050,13,255,Georgia,Spalding County,70775
+050,13,257,Georgia,Stephens County,27854
+050,13,259,Georgia,Stewart County,4631
+050,13,261,Georgia,Sumter County,28801
+050,13,263,Georgia,Talbot County,5709
+050,13,265,Georgia,Taliaferro County,1662
+050,13,267,Georgia,Tattnall County,24376
+050,13,269,Georgia,Taylor County,7818
+050,13,271,Georgia,Telfair County,11195
+050,13,273,Georgia,Terrell County,8656
+050,13,275,Georgia,Thomas County,46368
+050,13,277,Georgia,Tift County,42254
+050,13,279,Georgia,Toombs County,27545
+050,13,281,Georgia,Towns County,13285
+050,13,283,Georgia,Treutlen County,6466
+050,13,285,Georgia,Troup County,72844
+050,13,287,Georgia,Turner County,8983
+050,13,289,Georgia,Twiggs County,7597
+050,13,291,Georgia,Union County,27859
+050,13,293,Georgia,Upson County,28500
+050,13,295,Georgia,Walker County,70250
+050,13,297,Georgia,Walton County,112696
+050,13,299,Georgia,Ware County,36906
+050,13,301,Georgia,Warren County,5269
+050,13,303,Georgia,Washington County,19453
+050,13,305,Georgia,Wayne County,32481
+050,13,307,Georgia,Webster County,2369
+050,13,309,Georgia,Wheeler County,7570
+050,13,311,Georgia,White County,29802
+050,13,313,Georgia,Whitfield County,106212
+050,13,315,Georgia,Wilcox County,8797
+050,13,317,Georgia,Wilkes County,9540
+050,13,319,Georgia,Wilkinson County,8650
+050,13,321,Georgia,Worth County,20059
+050,15,001,Hawaii,Hawaii County,210043
+050,15,003,Hawaii,Honolulu County,988703
+050,15,005,Hawaii,Kalawao County,82
+050,15,007,Hawaii,Kauai County,73400
+050,15,009,Hawaii,Maui County,160592
+050,16,001,Idaho,Ada County,546141
+050,16,003,Idaho,Adams County,5013
+050,16,005,Idaho,Bannock County,91591
+050,16,007,Idaho,Bear Lake County,6727
+050,16,009,Idaho,Benewah County,10508
+050,16,011,Idaho,Bingham County,51153
+050,16,013,Idaho,Blaine County,25517
+050,16,015,Idaho,Boise County,8545
+050,16,017,Idaho,Bonner County,54420
+050,16,019,Idaho,Bonneville County,135771
+050,16,021,Idaho,Boundary County,13997
+050,16,023,Idaho,Butte County,2783
+050,16,025,Idaho,Camas County,1316
+050,16,027,Idaho,Canyon County,275123
+050,16,029,Idaho,Caribou County,7252
+050,16,031,Idaho,Cassia County,26397
+050,16,033,Idaho,Clark County,783
+050,16,035,Idaho,Clearwater County,9118
+050,16,037,Idaho,Custer County,4636
+050,16,039,Idaho,Elmore County,29465
+050,16,041,Idaho,Franklin County,15889
+050,16,043,Idaho,Fremont County,14208
+050,16,045,Idaho,Gem County,21773
+050,16,047,Idaho,Gooding County,16446
+050,16,049,Idaho,Idaho County,17874
+050,16,051,Idaho,Jefferson County,35297
+050,16,053,Idaho,Jerome County,26362
+050,16,055,Idaho,Kootenai County,191864
+050,16,057,Idaho,Latah County,41842
+050,16,059,Idaho,Lemhi County,8474
+050,16,061,Idaho,Lewis County,3704
+050,16,063,Idaho,Lincoln County,5603
+050,16,065,Idaho,Madison County,55172
+050,16,067,Idaho,Minidoka County,22911
+050,16,069,Idaho,Nez Perce County,42905
+050,16,071,Idaho,Oneida County,5085
+050,16,073,Idaho,Owyhee County,12661
+050,16,075,Idaho,Payette County,27824
+050,16,077,Idaho,Power County,8246
+050,16,079,Idaho,Shoshone County,14130
+050,16,081,Idaho,Teton County,13254
+050,16,083,Idaho,Twin Falls County,97539
+050,16,085,Idaho,Valley County,12831
+050,16,087,Idaho,Washington County,11583
+050,17,001,Illinois,Adams County,64267
+050,17,003,Illinois,Alexander County,4570
+050,17,005,Illinois,Bond County,16959
+050,17,007,Illinois,Boone County,53568
+050,17,009,Illinois,Brown County,6401
+050,17,011,Illinois,Bureau County,32510
+050,17,013,Illinois,Calhoun County,4300
+050,17,015,Illinois,Carroll County,15419
+050,17,017,Illinois,Cass County,12463
+050,17,019,Illinois,Champaign County,209972
+050,17,021,Illinois,Christian County,33443
+050,17,023,Illinois,Clark County,15114
+050,17,025,Illinois,Clay County,12793
+050,17,027,Illinois,Clinton County,37128
+050,17,029,Illinois,Coles County,46607
+050,17,031,Illinois,Cook County,5194625
+050,17,033,Illinois,Crawford County,18648
+050,17,035,Illinois,Cumberland County,10208
+050,17,037,Illinois,DeKalb County,101835
+050,17,039,Illinois,De Witt County,15118
+050,17,041,Illinois,Douglas County,19880
+050,17,043,Illinois,DuPage County,934298
+050,17,045,Illinois,Edgar County,16323
+050,17,047,Illinois,Edwards County,5898
+050,17,049,Illinois,Effingham County,34519
+050,17,051,Illinois,Fayette County,20790
+050,17,053,Illinois,Ford County,13216
+050,17,055,Illinois,Franklin County,36916
+050,17,057,Illinois,Fulton County,32901
+050,17,059,Illinois,Gallatin County,4616
+050,17,061,Illinois,Greene County,11313
+050,17,063,Illinois,Grundy County,54052
+050,17,065,Illinois,Hamilton County,7859
+050,17,067,Illinois,Hancock County,16803
+050,17,069,Illinois,Hardin County,3588
+050,17,071,Illinois,Henderson County,5984
+050,17,073,Illinois,Henry County,48095
+050,17,075,Illinois,Iroquois County,26150
+050,17,077,Illinois,Jackson County,52501
+050,17,079,Illinois,Jasper County,9032
+050,17,081,Illinois,Jefferson County,36147
+050,17,083,Illinois,Jersey County,21160
+050,17,085,Illinois,Jo Daviess County,21594
+050,17,087,Illinois,Johnson County,13363
+050,17,089,Illinois,Kane County,525757
+050,17,091,Illinois,Kankakee County,105525
+050,17,093,Illinois,Kendall County,145470
+050,17,095,Illinois,Knox County,47767
+050,17,097,Illinois,Lake County,719339
+050,17,099,Illinois,LaSalle County,107773
+050,17,101,Illinois,Lawrence County,13790
+050,17,103,Illinois,Lee County,32914
+050,17,105,Illinois,Livingston County,35057
+050,17,107,Illinois,Logan County,27182
+050,17,109,Illinois,McDonough County,25916
+050,17,111,Illinois,McHenry County,317751
+050,17,113,Illinois,McLean County,171419
+050,17,115,Illinois,Macon County,99300
+050,17,117,Illinois,Macoupin County,43748
+050,17,119,Illinois,Madison County,263110
+050,17,121,Illinois,Marion County,36382
+050,17,123,Illinois,Marshall County,11473
+050,17,125,Illinois,Mason County,12411
+050,17,127,Illinois,Massac County,13502
+050,17,129,Illinois,Menard County,11863
+050,17,131,Illinois,Mercer County,15229
+050,17,133,Illinois,Monroe County,34840
+050,17,135,Illinois,Montgomery County,28076
+050,17,137,Illinois,Morgan County,32515
+050,17,139,Illinois,Moultrie County,14371
+050,17,141,Illinois,Ogle County,51399
+050,17,143,Illinois,Peoria County,178553
+050,17,145,Illinois,Perry County,20160
+050,17,147,Illinois,Piatt County,16791
+050,17,149,Illinois,Pike County,14231
+050,17,151,Illinois,Pope County,3672
+050,17,153,Illinois,Pulaski County,4820
+050,17,155,Illinois,Putnam County,5619
+050,17,157,Illinois,Randolph County,29921
+050,17,159,Illinois,Richland County,15219
+050,17,161,Illinois,Rock Island County,141869
+050,17,163,Illinois,St. Clair County,250708
+050,17,165,Illinois,Saline County,22772
+050,17,167,Illinois,Sangamon County,194170
+050,17,169,Illinois,Schuyler County,6657
+050,17,171,Illinois,Scott County,4866
+050,17,173,Illinois,Shelby County,20576
+050,17,175,Illinois,Stark County,5319
+050,17,177,Illinois,Stephenson County,43220
+050,17,179,Illinois,Tazewell County,130049
+050,17,181,Illinois,Union County,16656
+050,17,183,Illinois,Vermilion County,71259
+050,17,185,Illinois,Wabash County,10907
+050,17,187,Illinois,Warren County,16222
+050,17,189,Illinois,Washington County,13564
+050,17,191,Illinois,Wayne County,15882
+050,17,193,Illinois,White County,13250
+050,17,195,Illinois,Whiteside County,54121
+050,17,197,Illinois,Will County,712253
+050,17,199,Illinois,Williamson County,67225
+050,17,201,Illinois,Winnebago County,283674
+050,17,203,Illinois,Woodford County,38111
+050,18,001,Indiana,Adams County,36650
+050,18,003,Indiana,Allen County,402329
+050,18,005,Indiana,Bartholomew County,85729
+050,18,007,Indiana,Benton County,8883
+050,18,009,Indiana,Blackford County,11730
+050,18,011,Indiana,Boone County,80689
+050,18,013,Indiana,Brown County,15777
+050,18,015,Indiana,Carroll County,20655
+050,18,017,Indiana,Cass County,37836
+050,18,019,Indiana,Clark County,130451
+050,18,021,Indiana,Clay County,26410
+050,18,023,Indiana,Clinton County,33322
+050,18,025,Indiana,Crawford County,10509
+050,18,027,Indiana,Daviess County,34209
+050,18,029,Indiana,Dearborn County,51609
+050,18,031,Indiana,Decatur County,26576
+050,18,033,Indiana,DeKalb County,44535
+050,18,035,Indiana,Delaware County,113106
+050,18,037,Indiana,Dubois County,44016
+050,18,039,Indiana,Elkhart County,208774
+050,18,041,Indiana,Fayette County,23533
+050,18,043,Indiana,Floyd County,82153
+050,18,045,Indiana,Fountain County,17013
+050,18,047,Indiana,Franklin County,23286
+050,18,049,Indiana,Fulton County,20091
+050,18,051,Indiana,Gibson County,33091
+050,18,053,Indiana,Grant County,66524
+050,18,055,Indiana,Greene County,31165
+050,18,057,Indiana,Hamilton County,387036
+050,18,059,Indiana,Hancock County,90969
+050,18,061,Indiana,Harrison County,40437
+050,18,063,Indiana,Hendricks County,193510
+050,18,065,Indiana,Henry County,49137
+050,18,067,Indiana,Howard County,83904
+050,18,069,Indiana,Huntington County,37224
+050,18,071,Indiana,Jackson County,47370
+050,18,073,Indiana,Jasper County,33894
+050,18,075,Indiana,Jay County,20118
+050,18,077,Indiana,Jefferson County,33279
+050,18,079,Indiana,Jennings County,27622
+050,18,081,Indiana,Johnson County,174262
+050,18,083,Indiana,Knox County,35652
+050,18,085,Indiana,Kosciusko County,80892
+050,18,087,Indiana,LaGrange County,41305
+050,18,089,Indiana,Lake County,504612
+050,18,091,Indiana,LaPorte County,111294
+050,18,093,Indiana,Lawrence County,45568
+050,18,095,Indiana,Madison County,135088
+050,18,097,Indiana,Marion County,992196
+050,18,099,Indiana,Marshall County,46599
+050,18,101,Indiana,Martin County,9856
+050,18,103,Indiana,Miami County,34487
+050,18,105,Indiana,Monroe County,143345
+050,18,107,Indiana,Montgomery County,38954
+050,18,109,Indiana,Morgan County,74967
+050,18,111,Indiana,Newton County,14188
+050,18,113,Indiana,Noble County,47937
+050,18,115,Indiana,Ohio County,5994
+050,18,117,Indiana,Orange County,19834
+050,18,119,Indiana,Owen County,21886
+050,18,121,Indiana,Parke County,16642
+050,18,123,Indiana,Perry County,19389
+050,18,125,Indiana,Pike County,12003
+050,18,127,Indiana,Porter County,176049
+050,18,129,Indiana,Posey County,24988
+050,18,131,Indiana,Pulaski County,12463
+050,18,133,Indiana,Putnam County,37876
+050,18,135,Indiana,Randolph County,24438
+050,18,137,Indiana,Ripley County,29434
+050,18,139,Indiana,Rush County,16767
+050,18,141,Indiana,St. Joseph County,272861
+050,18,143,Indiana,Scott County,25053
+050,18,145,Indiana,Shelby County,45882
+050,18,147,Indiana,Spencer County,20061
+050,18,149,Indiana,Starke County,23425
+050,18,151,Indiana,Steuben County,34799
+050,18,153,Indiana,Sullivan County,20831
+050,18,155,Indiana,Switzerland County,10037
+050,18,157,Indiana,Tippecanoe County,190456
+050,18,159,Indiana,Tipton County,15319
+050,18,161,Indiana,Union County,6863
+050,18,163,Indiana,Vanderburgh County,181995
+050,18,165,Indiana,Vermillion County,15488
+050,18,167,Indiana,Vigo County,106512
+050,18,169,Indiana,Wabash County,30713
+050,18,171,Indiana,Warren County,8474
+050,18,173,Indiana,Warrick County,66803
+050,18,175,Indiana,Washington County,28383
+050,18,177,Indiana,Wayne County,66169
+050,18,179,Indiana,Wells County,28883
+050,18,181,Indiana,White County,25164
+050,18,183,Indiana,Whitley County,35046
+050,19,001,Iowa,Adair County,7403
+050,19,003,Iowa,Adams County,3617
+050,19,005,Iowa,Allamakee County,14238
+050,19,007,Iowa,Appanoose County,12077
+050,19,009,Iowa,Audubon County,5509
+050,19,011,Iowa,Benton County,26004
+050,19,013,Iowa,Black Hawk County,131532
+050,19,015,Iowa,Boone County,26799
+050,19,017,Iowa,Bremer County,25296
+050,19,019,Iowa,Buchanan County,20883
+050,19,021,Iowa,Buena Vista County,20449
+050,19,023,Iowa,Butler County,14049
+050,19,025,Iowa,Calhoun County,9562
+050,19,027,Iowa,Carroll County,20303
+050,19,029,Iowa,Cass County,12960
+050,19,031,Iowa,Cedar County,18359
+050,19,033,Iowa,Cerro Gordo County,42372
+050,19,035,Iowa,Cherokee County,11369
+050,19,037,Iowa,Chickasaw County,11663
+050,19,039,Iowa,Clarke County,9574
+050,19,041,Iowa,Clay County,16202
+050,19,043,Iowa,Clayton County,16845
+050,19,045,Iowa,Clinton County,46002
+050,19,047,Iowa,Crawford County,16237
+050,19,049,Iowa,Dallas County,118457
+050,19,051,Iowa,Davis County,9230
+050,19,053,Iowa,Decatur County,7655
+050,19,055,Iowa,Delaware County,17674
+050,19,057,Iowa,Des Moines County,38077
+050,19,059,Iowa,Dickinson County,18077
+050,19,061,Iowa,Dubuque County,99381
+050,19,063,Iowa,Emmet County,9107
+050,19,065,Iowa,Fayette County,19047
+050,19,067,Iowa,Floyd County,14901
+050,19,069,Iowa,Franklin County,9868
+050,19,071,Iowa,Fremont County,6522
+050,19,073,Iowa,Greene County,8658
+050,19,075,Iowa,Grundy County,12361
+050,19,077,Iowa,Guthrie County,10782
+050,19,079,Iowa,Hamilton County,14944
+050,19,081,Iowa,Hancock County,10528
+050,19,083,Iowa,Hardin County,16455
+050,19,085,Iowa,Harrison County,14623
+050,19,087,Iowa,Henry County,19349
+050,19,089,Iowa,Howard County,9415
+050,19,091,Iowa,Humboldt County,9409
+050,19,093,Iowa,Ida County,6777
+050,19,095,Iowa,Iowa County,16504
+050,19,097,Iowa,Jackson County,19288
+050,19,099,Iowa,Jasper County,38153
+050,19,101,Iowa,Jefferson County,15291
+050,19,103,Iowa,Johnson County,160044
+050,19,105,Iowa,Jones County,21253
+050,19,107,Iowa,Keokuk County,9797
+050,19,109,Iowa,Kossuth County,14322
+050,19,111,Iowa,Lee County,32306
+050,19,113,Iowa,Linn County,232028
+050,19,115,Iowa,Louisa County,10416
+050,19,117,Iowa,Lucas County,8847
+050,19,119,Iowa,Lyon County,12354
+050,19,121,Iowa,Madison County,17270
+050,19,123,Iowa,Mahaska County,21880
+050,19,125,Iowa,Marion County,34192
+050,19,127,Iowa,Marshall County,39890
+050,19,129,Iowa,Mills County,14793
+050,19,131,Iowa,Mitchell County,10650
+050,19,133,Iowa,Monona County,8539
+050,19,135,Iowa,Monroe County,7406
+050,19,137,Iowa,Montgomery County,10002
+050,19,139,Iowa,Muscatine County,41853
+050,19,141,Iowa,O'Brien County,14220
+050,19,143,Iowa,Osceola County,5980
+050,19,145,Iowa,Page County,14856
+050,19,147,Iowa,Palo Alto County,8899
+050,19,149,Iowa,Plymouth County,25697
+050,19,151,Iowa,Pocahontas County,6819
+050,19,153,Iowa,Polk County,516546
+050,19,155,Iowa,Pottawattamie County,92996
+050,19,157,Iowa,Poweshiek County,18368
+050,19,159,Iowa,Ringgold County,4642
+050,19,161,Iowa,Sac County,9525
+050,19,163,Iowa,Scott County,175259
+050,19,165,Iowa,Shelby County,11689
+050,19,167,Iowa,Sioux County,36774
+050,19,169,Iowa,Story County,101291
+050,19,171,Iowa,Tama County,16796
+050,19,173,Iowa,Taylor County,5835
+050,19,175,Iowa,Union County,11829
+050,19,177,Iowa,Van Buren County,7131
+050,19,179,Iowa,Wapello County,35210
+050,19,181,Iowa,Warren County,57331
+050,19,183,Iowa,Washington County,22667
+050,19,185,Iowa,Wayne County,6738
+050,19,187,Iowa,Webster County,36838
+050,19,189,Iowa,Winnebago County,10251
+050,19,191,Iowa,Winneshiek County,19733
+050,19,193,Iowa,Woodbury County,106649
+050,19,195,Iowa,Worth County,7338
+050,19,197,Iowa,Wright County,12801
+050,20,001,Kansas,Allen County,12302
+050,20,003,Kansas,Anderson County,8018
+050,20,005,Kansas,Atchison County,16172
+050,20,007,Kansas,Barber County,4083
+050,20,009,Kansas,Barton County,24790
+050,20,011,Kansas,Bourbon County,14319
+050,20,013,Kansas,Brown County,9104
+050,20,015,Kansas,Butler County,69484
+050,20,017,Kansas,Chase County,2572
+050,20,019,Kansas,Chautauqua County,3321
+050,20,021,Kansas,Cherokee County,19105
+050,20,023,Kansas,Cheyenne County,2604
+050,20,025,Kansas,Clark County,1900
+050,20,027,Kansas,Clay County,7990
+050,20,029,Kansas,Cloud County,8833
+050,20,031,Kansas,Coffey County,8467
+050,20,033,Kansas,Comanche County,1673
+050,20,035,Kansas,Cowley County,34382
+050,20,037,Kansas,Crawford County,39008
+050,20,039,Kansas,Decatur County,2716
+050,20,041,Kansas,Dickinson County,18637
+050,20,043,Kansas,Doniphan County,7594
+050,20,045,Kansas,Douglas County,120920
+050,20,047,Kansas,Edwards County,2640
+050,20,049,Kansas,Elk County,2458
+050,20,051,Kansas,Ellis County,29075
+050,20,053,Kansas,Ellsworth County,6257
+050,20,055,Kansas,Finney County,37505
+050,20,057,Kansas,Ford County,33993
+050,20,059,Kansas,Franklin County,26299
+050,20,061,Kansas,Geary County,36338
+050,20,063,Kansas,Gove County,2631
+050,20,065,Kansas,Graham County,2371
+050,20,067,Kansas,Grant County,7028
+050,20,069,Kansas,Gray County,5652
+050,20,071,Kansas,Greeley County,1182
+050,20,073,Kansas,Greenwood County,5826
+050,20,075,Kansas,Hamilton County,2500
+050,20,077,Kansas,Harper County,5370
+050,20,079,Kansas,Harvey County,33580
+050,20,081,Kansas,Haskell County,3599
+050,20,083,Kansas,Hodgeman County,1619
+050,20,085,Kansas,Jackson County,13438
+050,20,087,Kansas,Jefferson County,18296
+050,20,089,Kansas,Jewell County,2830
+050,20,091,Kansas,Johnson County,636906
+050,20,093,Kansas,Kearny County,3888
+050,20,095,Kansas,Kingman County,7029
+050,20,097,Kansas,Kiowa County,2432
+050,20,099,Kansas,Labette County,19685
+050,20,101,Kansas,Lane County,1508
+050,20,103,Kansas,Leavenworth County,84590
+050,20,105,Kansas,Lincoln County,2861
+050,20,107,Kansas,Linn County,9950
+050,20,109,Kansas,Logan County,2661
+050,20,111,Kansas,Lyon County,32266
+050,20,113,Kansas,McPherson County,30064
+050,20,115,Kansas,Marion County,11634
+050,20,117,Kansas,Marshall County,9852
+050,20,119,Kansas,Meade County,3852
+050,20,121,Kansas,Miami County,36240
+050,20,123,Kansas,Mitchell County,5590
+050,20,125,Kansas,Montgomery County,30177
+050,20,127,Kansas,Morris County,5348
+050,20,129,Kansas,Morton County,2470
+050,20,131,Kansas,Nemaha County,10054
+050,20,133,Kansas,Neosho County,15637
+050,20,135,Kansas,Ness County,2617
+050,20,137,Kansas,Norton County,5288
+050,20,139,Kansas,Osage County,15693
+050,20,141,Kansas,Osborne County,3285
+050,20,143,Kansas,Ottawa County,5744
+050,20,145,Kansas,Pawnee County,5991
+050,20,147,Kansas,Phillips County,4728
+050,20,149,Kansas,Pottawatomie County,27186
+050,20,151,Kansas,Pratt County,9117
+050,20,153,Kansas,Rawlins County,2431
+050,20,155,Kansas,Reno County,61539
+050,20,157,Kansas,Republic County,4640
+050,20,159,Kansas,Rice County,9266
+050,20,161,Kansas,Riley County,72598
+050,20,163,Kansas,Rooks County,4646
+050,20,165,Kansas,Rush County,2845
+050,20,167,Kansas,Russell County,6581
+050,20,169,Kansas,Saline County,53377
+050,20,171,Kansas,Scott County,4815
+050,20,173,Kansas,Sedgwick County,538433
+050,20,175,Kansas,Seward County,21073
+050,20,177,Kansas,Shawnee County,178607
+050,20,179,Kansas,Sheridan County,2427
+050,20,181,Kansas,Sherman County,5763
+050,20,183,Kansas,Smith County,3566
+050,20,185,Kansas,Stafford County,4005
+050,20,187,Kansas,Stanton County,1986
+050,20,189,Kansas,Stevens County,4984
+050,20,191,Kansas,Sumner County,22312
+050,20,193,Kansas,Thomas County,7725
+050,20,195,Kansas,Trego County,2740
+050,20,197,Kansas,Wabaunsee County,7018
+050,20,199,Kansas,Wallace County,1441
+050,20,201,Kansas,Washington County,5533
+050,20,203,Kansas,Wichita County,2031
+050,20,205,Kansas,Wilson County,8299
+050,20,207,Kansas,Woodson County,3118
+050,20,209,Kansas,Wyandotte County,170597
+050,21,001,Kentucky,Adair County,19423
+050,21,003,Kentucky,Allen County,22536
+050,21,005,Kentucky,Anderson County,25225
+050,21,007,Kentucky,Ballard County,7594
+050,21,009,Kentucky,Barren County,45641
+050,21,011,Kentucky,Bath County,13176
+050,21,013,Kentucky,Bell County,22829
+050,21,015,Kentucky,Boone County,145316
+050,21,017,Kentucky,Bourbon County,20243
+050,21,019,Kentucky,Boyd County,47751
+050,21,021,Kentucky,Boyle County,31632
+050,21,023,Kentucky,Bracken County,8511
+050,21,025,Kentucky,Breathitt County,12558
+050,21,027,Kentucky,Breckinridge County,21503
+050,21,029,Kentucky,Bullitt County,86454
+050,21,031,Kentucky,Butler County,12520
+050,21,033,Kentucky,Caldwell County,12609
+050,21,035,Kentucky,Calloway County,39421
+050,21,037,Kentucky,Campbell County,95441
+050,21,039,Kentucky,Carlisle County,4747
+050,21,041,Kentucky,Carroll County,11141
+050,21,043,Kentucky,Carter County,26149
+050,21,045,Kentucky,Casey County,16205
+050,21,047,Kentucky,Christian County,70115
+050,21,049,Kentucky,Clark County,37888
+050,21,051,Kentucky,Clay County,19465
+050,21,053,Kentucky,Clinton County,9139
+050,21,055,Kentucky,Crittenden County,8807
+050,21,057,Kentucky,Cumberland County,5992
+050,21,059,Kentucky,Daviess County,104898
+050,21,061,Kentucky,Edmonson County,12749
+050,21,063,Kentucky,Elliott County,7265
+050,21,065,Kentucky,Estill County,13962
+050,21,067,Kentucky,Fayette County,329751
+050,21,069,Kentucky,Fleming County,15787
+050,21,071,Kentucky,Floyd County,34401
+050,21,073,Kentucky,Franklin County,52649
+050,21,075,Kentucky,Fulton County,6218
+050,21,077,Kentucky,Gallatin County,8840
+050,21,079,Kentucky,Garrard County,18207
+050,21,081,Kentucky,Grant County,26181
+050,21,083,Kentucky,Graves County,37050
+050,21,085,Kentucky,Grayson County,27406
+050,21,087,Kentucky,Green County,11644
+050,21,089,Kentucky,Greenup County,35213
+050,21,091,Kentucky,Hancock County,9050
+050,21,093,Kentucky,Hardin County,113482
+050,21,095,Kentucky,Harlan County,24725
+050,21,097,Kentucky,Harrison County,19627
+050,21,099,Kentucky,Hart County,20117
+050,21,101,Kentucky,Henderson County,44255
+050,21,103,Kentucky,Henry County,16447
+050,21,105,Kentucky,Hickman County,4372
+050,21,107,Kentucky,Hopkins County,45127
+050,21,109,Kentucky,Jackson County,13325
+050,21,111,Kentucky,Jefferson County,795222
+050,21,113,Kentucky,Jessamine County,57147
+050,21,115,Kentucky,Johnson County,22051
+050,21,117,Kentucky,Kenton County,175779
+050,21,119,Kentucky,Knott County,13321
+050,21,121,Kentucky,Knox County,29532
+050,21,123,Kentucky,Larue County,15184
+050,21,125,Kentucky,Laurel County,63746
+050,21,127,Kentucky,Lawrence County,15765
+050,21,129,Kentucky,Lee County,7297
+050,21,131,Kentucky,Leslie County,9627
+050,21,133,Kentucky,Letcher County,19952
+050,21,135,Kentucky,Lewis County,12901
+050,21,137,Kentucky,Lincoln County,25353
+050,21,139,Kentucky,Livingston County,8863
+050,21,141,Kentucky,Logan County,28669
+050,21,143,Kentucky,Lyon County,9123
+050,21,145,Kentucky,McCracken County,67553
+050,21,147,Kentucky,McCreary County,17124
+050,21,149,Kentucky,McLean County,9064
+050,21,151,Kentucky,Madison County,101696
+050,21,153,Kentucky,Magoffin County,11110
+050,21,155,Kentucky,Marion County,20115
+050,21,157,Kentucky,Marshall County,31659
+050,21,159,Kentucky,Martin County,10697
+050,21,161,Kentucky,Mason County,16936
+050,21,163,Kentucky,Meade County,30699
+050,21,165,Kentucky,Menifee County,6430
+050,21,167,Kentucky,Mercer County,23733
+050,21,169,Kentucky,Metcalfe County,10583
+050,21,171,Kentucky,Monroe County,11191
+050,21,173,Kentucky,Montgomery County,28822
+050,21,175,Kentucky,Morgan County,14415
+050,21,177,Kentucky,Muhlenberg County,30634
+050,21,179,Kentucky,Nelson County,49036
+050,21,181,Kentucky,Nicholas County,7949
+050,21,183,Kentucky,Ohio County,23934
+050,21,185,Kentucky,Oldham County,70986
+050,21,187,Kentucky,Owen County,11601
+050,21,189,Kentucky,Owsley County,3932
+050,21,191,Kentucky,Pendleton County,14800
+050,21,193,Kentucky,Perry County,26555
+050,21,195,Kentucky,Pike County,54721
+050,21,197,Kentucky,Powell County,12812
+050,21,199,Kentucky,Pulaski County,67384
+050,21,201,Kentucky,Robertson County,2325
+050,21,203,Kentucky,Rockcastle County,16148
+050,21,205,Kentucky,Rowan County,24476
+050,21,207,Kentucky,Russell County,18608
+050,21,209,Kentucky,Scott County,62262
+050,21,211,Kentucky,Shelby County,51243
+050,21,213,Kentucky,Simpson County,20788
+050,21,215,Kentucky,Spencer County,20998
+050,21,217,Kentucky,Taylor County,26763
+050,21,219,Kentucky,Todd County,12972
+050,21,221,Kentucky,Trigg County,14512
+050,21,223,Kentucky,Trimble County,8701
+050,21,225,Kentucky,Union County,12839
+050,21,227,Kentucky,Warren County,149375
+050,21,229,Kentucky,Washington County,12368
+050,21,231,Kentucky,Wayne County,19597
+050,21,233,Kentucky,Webster County,12929
+050,21,235,Kentucky,Whitley County,37297
+050,21,237,Kentucky,Wolfe County,6298
+050,21,239,Kentucky,Woodford County,27883
+050,22,001,Louisiana,Acadia Parish,57032
+050,22,003,Louisiana,Allen Parish,22672
+050,22,005,Louisiana,Ascension Parish,135105
+050,22,007,Louisiana,Assumption Parish,19720
+050,22,009,Louisiana,Avoyelles Parish,37941
+050,22,011,Louisiana,Beauregard Parish,36673
+050,22,013,Louisiana,Bienville Parish,12269
+050,22,015,Louisiana,Bossier Parish,131867
+050,22,017,Louisiana,Caddo Parish,224226
+050,22,019,Louisiana,Calcasieu Parish,208466
+050,22,021,Louisiana,Caldwell Parish,9344
+050,22,023,Louisiana,Cameron Parish,4718
+050,22,025,Louisiana,Catahoula Parish,8223
+050,22,027,Louisiana,Claiborne Parish,13354
+050,22,029,Louisiana,Concordia Parish,17836
+050,22,031,Louisiana,De Soto Parish,27381
+050,22,033,Louisiana,East Baton Rouge Parish,456180
+050,22,035,Louisiana,East Carroll Parish,6760
+050,22,037,Louisiana,East Feliciana Parish,18911
+050,22,039,Louisiana,Evangeline Parish,31980
+050,22,041,Louisiana,Franklin Parish,19002
+050,22,043,Louisiana,Grant Parish,22075
+050,22,045,Louisiana,Iberia Parish,66846
+050,22,047,Louisiana,Iberville Parish,29579
+050,22,049,Louisiana,Jackson Parish,15834
+050,22,051,Louisiana,Jefferson Parish,431398
+050,22,053,Louisiana,Jefferson Davis Parish,31471
+050,22,055,Louisiana,Lafayette Parish,257949
+050,22,057,Louisiana,Lafourche Parish,95505
+050,22,059,Louisiana,LaSalle Parish,15154
+050,22,061,Louisiana,Lincoln Parish,48360
+050,22,063,Louisiana,Livingston Parish,155036
+050,22,065,Louisiana,Madison Parish,8844
+050,22,067,Louisiana,Morehouse Parish,23705
+050,22,069,Louisiana,Natchitoches Parish,36089
+050,22,071,Louisiana,Orleans Parish,362154
+050,22,073,Louisiana,Ouachita Parish,158542
+050,22,075,Louisiana,Plaquemines Parish,22256
+050,22,077,Louisiana,Pointe Coupee Parish,19520
+050,22,079,Louisiana,Rapides Parish,125877
+050,22,081,Louisiana,Red River Parish,7165
+050,22,083,Louisiana,Richland Parish,19582
+050,22,085,Louisiana,Sabine Parish,21834
+050,22,087,Louisiana,St. Bernard Parish,45642
+050,22,089,Louisiana,St. Charles Parish,50586
+050,22,091,Louisiana,St. Helena Parish,10758
+050,22,093,Louisiana,St. James Parish,18938
+050,22,095,Louisiana,St. John the Baptist Parish,39875
+050,22,097,Louisiana,St. Landry Parish,80765
+050,22,099,Louisiana,St. Martin Parish,51106
+050,22,101,Louisiana,St. Mary Parish,46552
+050,22,103,Louisiana,St. Tammany Parish,279108
+050,22,105,Louisiana,Tangipahoa Parish,141346
+050,22,107,Louisiana,Tensas Parish,3700
+050,22,109,Louisiana,Terrebonne Parish,104163
+050,22,111,Louisiana,Union Parish,20561
+050,22,113,Louisiana,Vermilion Parish,57671
+050,22,115,Louisiana,Vernon Parish,45091
+050,22,117,Louisiana,Washington Parish,44937
+050,22,119,Louisiana,Webster Parish,34948
+050,22,121,Louisiana,West Baton Rouge Parish,28756
+050,22,123,Louisiana,West Carroll Parish,9156
+050,22,125,Louisiana,West Feliciana Parish,15134
+050,22,127,Louisiana,Winn Parish,14961
+050,23,001,Maine,Androscoggin County,116487
+050,23,003,Maine,Aroostook County,66609
+050,23,005,Maine,Cumberland County,317222
+050,23,007,Maine,Franklin County,30824
+050,23,009,Maine,Hancock County,57171
+050,23,011,Maine,Kennebec County,129067
+050,23,013,Maine,Knox County,41117
+050,23,015,Maine,Lincoln County,36595
+050,23,017,Maine,Oxford County,60346
+050,23,019,Maine,Penobscot County,157967
+050,23,021,Maine,Piscataquis County,17409
+050,23,023,Maine,Sagadahoc County,37979
+050,23,025,Maine,Somerset County,51620
+050,23,027,Maine,Waldo County,40693
+050,23,029,Maine,Washington County,31334
+050,23,031,Maine,York County,222434
+050,24,001,Maryland,Allegany County,66848
+050,24,003,Maryland,Anne Arundel County,603380
+050,24,005,Maryland,Baltimore County,847650
+050,24,009,Maryland,Calvert County,94484
+050,24,011,Maryland,Caroline County,34116
+050,24,013,Maryland,Carroll County,176677
+050,24,015,Maryland,Cecil County,107131
+050,24,017,Maryland,Charles County,176593
+050,24,019,Maryland,Dorchester County,33628
+050,24,021,Maryland,Frederick County,302883
+050,24,023,Maryland,Garrett County,28370
+050,24,025,Maryland,Harford County,266446
+050,24,027,Maryland,Howard County,339183
+050,24,029,Maryland,Kent County,19565
+050,24,031,Maryland,Montgomery County,1074582
+050,24,033,Maryland,Prince George's County,970374
+050,24,035,Maryland,Queen Anne's County,54448
+050,24,037,Maryland,St. Mary's County,116692
+050,24,039,Maryland,Somerset County,24973
+050,24,041,Maryland,Talbot County,38238
+050,24,043,Maryland,Washington County,157731
+050,24,045,Maryland,Wicomico County,106899
+050,24,047,Maryland,Worcester County,54459
+050,24,510,Maryland,Baltimore city,569997
+050,25,001,Massachusetts,Barnstable County,233539
+050,25,003,Massachusetts,Berkshire County,128224
+050,25,005,Massachusetts,Bristol County,593640
+050,25,007,Massachusetts,Dukes County,21219
+050,25,009,Massachusetts,Essex County,826653
+050,25,011,Massachusetts,Franklin County,70698
+050,25,013,Massachusetts,Hampden County,464338
+050,25,015,Massachusetts,Hampshire County,164065
+050,25,017,Massachusetts,Middlesex County,1669979
+050,25,019,Massachusetts,Nantucket County,14758
+050,25,021,Massachusetts,Norfolk County,739749
+050,25,023,Massachusetts,Plymouth County,546829
+050,25,025,Massachusetts,Suffolk County,791891
+050,25,027,Massachusetts,Worcester County,888502
+050,26,001,Michigan,Alcona County,10556
+050,26,003,Michigan,Alger County,8641
+050,26,005,Michigan,Allegan County,123188
+050,26,007,Michigan,Alpena County,28853
+050,26,009,Michigan,Antrim County,24698
+050,26,011,Michigan,Arenac County,15068
+050,26,013,Michigan,Baraga County,8169
+050,26,015,Michigan,Barry County,63991
+050,26,017,Michigan,Bay County,102123
+050,26,019,Michigan,Benzie County,18568
+050,26,021,Michigan,Berrien County,152444
+050,26,023,Michigan,Branch County,45993
+050,26,025,Michigan,Calhoun County,133408
+050,26,027,Michigan,Cass County,51677
+050,26,029,Michigan,Charlevoix County,26036
+050,26,031,Michigan,Cheboygan County,25793
+050,26,033,Michigan,Chippewa County,36081
+050,26,035,Michigan,Clare County,31543
+050,26,037,Michigan,Clinton County,80432
+050,26,039,Michigan,Crawford County,13722
+050,26,041,Michigan,Delta County,36582
+050,26,043,Michigan,Dickinson County,25827
+050,26,045,Michigan,Eaton County,109581
+050,26,047,Michigan,Emmet County,33775
+050,26,049,Michigan,Genesee County,401093
+050,26,051,Michigan,Gladwin County,26077
+050,26,053,Michigan,Gogebic County,14285
+050,26,055,Michigan,Grand Traverse County,96729
+050,26,057,Michigan,Gratiot County,41190
+050,26,059,Michigan,Hillsdale County,45738
+050,26,061,Michigan,Houghton County,37842
+050,26,063,Michigan,Huron County,30530
+050,26,065,Michigan,Ingham County,289709
+050,26,067,Michigan,Ionia County,66557
+050,26,069,Michigan,Iosco County,25266
+050,26,071,Michigan,Iron County,11757
+050,26,073,Michigan,Isabella County,64691
+050,26,075,Michigan,Jackson County,159552
+050,26,077,Michigan,Kalamazoo County,263795
+050,26,079,Michigan,Kalkaska County,18693
+050,26,081,Michigan,Kent County,675232
+050,26,083,Michigan,Keweenaw County,2186
+050,26,085,Michigan,Lake County,13182
+050,26,087,Michigan,Lapeer County,89516
+050,26,089,Michigan,Leelanau County,22982
+050,26,091,Michigan,Lenawee County,97779
+050,26,093,Michigan,Livingston County,197315
+050,26,095,Michigan,Luce County,6339
+050,26,097,Michigan,Mackinac County,11236
+050,26,099,Michigan,Macomb County,886221
+050,26,101,Michigan,Manistee County,25656
+050,26,103,Michigan,Marquette County,68064
+050,26,105,Michigan,Mason County,29040
+050,26,107,Michigan,Mecosta County,42320
+050,26,109,Michigan,Menominee County,22941
+050,26,111,Michigan,Midland County,83754
+050,26,113,Michigan,Missaukee County,15274
+050,26,115,Michigan,Monroe County,156004
+050,26,117,Michigan,Montcalm County,69406
+050,26,119,Michigan,Montmorency County,9842
+050,26,121,Michigan,Muskegon County,177901
+050,26,123,Michigan,Newaygo County,51622
+050,26,125,Michigan,Oakland County,1288337
+050,26,127,Michigan,Oceana County,27177
+050,26,129,Michigan,Ogemaw County,21121
+050,26,131,Michigan,Ontonagon County,5823
+050,26,133,Michigan,Osceola County,23516
+050,26,135,Michigan,Oscoda County,8723
+050,26,137,Michigan,Otsego County,26080
+050,26,139,Michigan,Ottawa County,308459
+050,26,141,Michigan,Presque Isle County,13128
+050,26,143,Michigan,Roscommon County,23914
+050,26,145,Michigan,Saginaw County,187688
+050,26,147,Michigan,St. Clair County,160486
+050,26,149,Michigan,St. Joseph County,60968
+050,26,151,Michigan,Sanilac County,40083
+050,26,153,Michigan,Schoolcraft County,8187
+050,26,155,Michigan,Shiawassee County,67681
+050,26,157,Michigan,Tuscola County,52680
+050,26,159,Michigan,Van Buren County,76071
+050,26,161,Michigan,Washtenaw County,370214
+050,26,163,Michigan,Wayne County,1769038
+050,26,165,Michigan,Wexford County,34445
+050,27,001,Minnesota,Aitkin County,16252
+050,27,003,Minnesota,Anoka County,381605
+050,27,005,Minnesota,Becker County,35497
+050,27,007,Minnesota,Beltrami County,47055
+050,27,009,Minnesota,Benton County,41744
+050,27,011,Minnesota,Big Stone County,5054
+050,27,013,Minnesota,Blue Earth County,70634
+050,27,015,Minnesota,Brown County,25517
+050,27,017,Minnesota,Carlton County,36711
+050,27,019,Minnesota,Carver County,114379
+050,27,021,Minnesota,Cass County,31430
+050,27,023,Minnesota,Chippewa County,12406
+050,27,025,Minnesota,Chisago County,59142
+050,27,027,Minnesota,Clay County,67734
+050,27,029,Minnesota,Clearwater County,8647
+050,27,031,Minnesota,Cook County,5522
+050,27,033,Minnesota,Cottonwood County,11405
+050,27,035,Minnesota,Crow Wing County,69132
+050,27,037,Minnesota,Dakota County,457710
+050,27,039,Minnesota,Dodge County,21376
+050,27,041,Minnesota,Douglas County,40120
+050,27,043,Minnesota,Faribault County,13888
+050,27,045,Minnesota,Fillmore County,21540
+050,27,047,Minnesota,Freeborn County,30440
+050,27,049,Minnesota,Goodhue County,48195
+050,27,051,Minnesota,Grant County,6085
+050,27,053,Minnesota,Hennepin County,1284784
+050,27,055,Minnesota,Houston County,18400
+050,27,057,Minnesota,Hubbard County,22369
+050,27,059,Minnesota,Isanti County,44386
+050,27,061,Minnesota,Itasca County,45404
+050,27,063,Minnesota,Jackson County,9857
+050,27,065,Minnesota,Kanabec County,16628
+050,27,067,Minnesota,Kandiyohi County,44720
+050,27,069,Minnesota,Kittson County,4031
+050,27,071,Minnesota,Koochiching County,11587
+050,27,073,Minnesota,Lac qui Parle County,6704
+050,27,075,Minnesota,Lake County,10746
+050,27,077,Minnesota,Lake of the Woods County,3770
+050,27,079,Minnesota,Le Sueur County,29453
+050,27,081,Minnesota,Lincoln County,5583
+050,27,083,Minnesota,Lyon County,25684
+050,27,085,Minnesota,McLeod County,36631
+050,27,087,Minnesota,Mahnomen County,5153
+050,27,089,Minnesota,Marshall County,8798
+050,27,091,Minnesota,Martin County,19440
+050,27,093,Minnesota,Meeker County,23603
+050,27,095,Minnesota,Mille Lacs County,27753
+050,27,097,Minnesota,Morrison County,34620
+050,27,099,Minnesota,Mower County,40971
+050,27,101,Minnesota,Murray County,7942
+050,27,103,Minnesota,Nicollet County,34273
+050,27,105,Minnesota,Nobles County,22338
+050,27,107,Minnesota,Norman County,6336
+050,27,109,Minnesota,Olmsted County,166731
+050,27,111,Minnesota,Otter Tail County,61041
+050,27,113,Minnesota,Pennington County,13686
+050,27,115,Minnesota,Pine County,30472
+050,27,117,Minnesota,Pipestone County,9260
+050,27,119,Minnesota,Polk County,30545
+050,27,121,Minnesota,Pope County,11420
+050,27,123,Minnesota,Ramsey County,541623
+050,27,125,Minnesota,Red Lake County,3940
+050,27,127,Minnesota,Redwood County,15265
+050,27,129,Minnesota,Renville County,14356
+050,27,131,Minnesota,Rice County,69939
+050,27,133,Minnesota,Rock County,9524
+050,27,135,Minnesota,Roseau County,15246
+050,27,137,Minnesota,St. Louis County,200518
+050,27,139,Minnesota,Scott County,159017
+050,27,141,Minnesota,Sherburne County,104194
+050,27,143,Minnesota,Sibley County,15356
+050,27,145,Minnesota,Stearns County,164110
+050,27,147,Minnesota,Steele County,37464
+050,27,149,Minnesota,Stevens County,9747
+050,27,151,Minnesota,Swift County,9763
+050,27,153,Minnesota,Todd County,26060
+050,27,155,Minnesota,Traverse County,3130
+050,27,157,Minnesota,Wabasha County,21537
+050,27,159,Minnesota,Wadena County,14388
+050,27,161,Minnesota,Waseca County,18688
+050,27,163,Minnesota,Washington County,286895
+050,27,165,Minnesota,Watonwan County,11459
+050,27,167,Minnesota,Wilkin County,6288
+050,27,169,Minnesota,Winona County,50523
+050,27,171,Minnesota,Wright County,157559
+050,27,173,Minnesota,Yellow Medicine County,9477
+050,28,001,Mississippi,Adams County,30061
+050,28,003,Mississippi,Alcorn County,34569
+050,28,005,Mississippi,Amite County,12487
+050,28,007,Mississippi,Attala County,17100
+050,28,009,Mississippi,Benton County,7502
+050,28,011,Mississippi,Bolivar County,28262
+050,28,013,Mississippi,Calhoun County,12643
+050,28,015,Mississippi,Carroll County,9226
+050,28,017,Mississippi,Chickasaw County,16730
+050,28,019,Mississippi,Choctaw County,8048
+050,28,021,Mississippi,Claiborne County,8058
+050,28,023,Mississippi,Clarke County,15102
+050,28,025,Mississippi,Clay County,18238
+050,28,027,Mississippi,Coahoma County,19849
+050,28,029,Mississippi,Copiah County,27497
+050,28,031,Mississippi,Covington County,17898
+050,28,033,Mississippi,DeSoto County,197918
+050,28,035,Mississippi,Forrest County,79034
+050,28,037,Mississippi,Franklin County,7491
+050,28,039,Mississippi,George County,26331
+050,28,041,Mississippi,Greene County,13707
+050,28,043,Mississippi,Grenada County,20868
+050,28,045,Mississippi,Hancock County,46873
+050,28,047,Mississippi,Harrison County,217136
+050,28,049,Mississippi,Hinds County,211888
+050,28,051,Mississippi,Holmes County,15465
+050,28,053,Mississippi,Humphreys County,7001
+050,28,055,Mississippi,Issaquena County,1263
+050,28,057,Mississippi,Itawamba County,24152
+050,28,059,Mississippi,Jackson County,147666
+050,28,061,Mississippi,Jasper County,15785
+050,28,063,Mississippi,Jefferson County,6825
+050,28,065,Mississippi,Jefferson Davis County,10941
+050,28,067,Mississippi,Jones County,66496
+050,28,069,Mississippi,Kemper County,8600
+050,28,071,Mississippi,Lafayette County,59597
+050,28,073,Mississippi,Lamar County,67403
+050,28,075,Mississippi,Lauderdale County,70317
+050,28,077,Mississippi,Lawrence County,11819
+050,28,079,Mississippi,Leake County,21662
+050,28,081,Mississippi,Lee County,83731
+050,28,083,Mississippi,Leflore County,25686
+050,28,085,Mississippi,Lincoln County,35012
+050,28,087,Mississippi,Lowndes County,57346
+050,28,089,Mississippi,Madison County,116298
+050,28,091,Mississippi,Marion County,24001
+050,28,093,Mississippi,Marshall County,34654
+050,28,095,Mississippi,Monroe County,33318
+050,28,097,Mississippi,Montgomery County,9354
+050,28,099,Mississippi,Neshoba County,28732
+050,28,101,Mississippi,Newton County,20960
+050,28,103,Mississippi,Noxubee County,9798
+050,28,105,Mississippi,Oktibbeha County,51896
+050,28,107,Mississippi,Panola County,32691
+050,28,109,Mississippi,Pearl River County,59363
+050,28,111,Mississippi,Perry County,11577
+050,28,113,Mississippi,Pike County,38712
+050,28,115,Mississippi,Pontotoc County,32096
+050,28,117,Mississippi,Prentiss County,25284
+050,28,119,Mississippi,Quitman County,5364
+050,28,121,Mississippi,Rankin County,162181
+050,28,123,Mississippi,Scott County,28073
+050,28,125,Mississippi,Sharkey County,3097
+050,28,127,Mississippi,Simpson County,25498
+050,28,129,Mississippi,Smith County,13991
+050,28,131,Mississippi,Stone County,19654
+050,28,133,Mississippi,Sunflower County,22893
+050,28,135,Mississippi,Tallahatchie County,10877
+050,28,137,Mississippi,Tate County,28725
+050,28,139,Mississippi,Tippah County,21389
+050,28,141,Mississippi,Tishomingo County,18639
+050,28,143,Mississippi,Tunica County,8819
+050,28,145,Mississippi,Union County,28459
+050,28,147,Mississippi,Walthall County,13928
+050,28,149,Mississippi,Warren County,41759
+050,28,151,Mississippi,Washington County,40446
+050,28,153,Mississippi,Wayne County,19807
+050,28,155,Mississippi,Webster County,10167
+050,28,157,Mississippi,Wilkinson County,7582
+050,28,159,Mississippi,Winston County,17473
+050,28,161,Mississippi,Yalobusha County,12375
+050,28,163,Mississippi,Yazoo County,22947
+050,29,001,Missouri,Adair County,25684
+050,29,003,Missouri,Andrew County,18241
+050,29,005,Missouri,Atchison County,5175
+050,29,007,Missouri,Audrain County,24528
+050,29,009,Missouri,Barry County,36200
+050,29,011,Missouri,Barton County,11795
+050,29,013,Missouri,Bates County,16512
+050,29,015,Missouri,Benton County,20536
+050,29,017,Missouri,Bollinger County,10646
+050,29,019,Missouri,Boone County,191746
+050,29,021,Missouri,Buchanan County,83540
+050,29,023,Missouri,Butler County,41904
+050,29,025,Missouri,Caldwell County,9012
+050,29,027,Missouri,Callaway County,45765
+050,29,029,Missouri,Camden County,44047
+050,29,031,Missouri,Cape Girardeau County,83999
+050,29,033,Missouri,Carroll County,8417
+050,29,035,Missouri,Carter County,5418
+050,29,037,Missouri,Cass County,115859
+050,29,039,Missouri,Cedar County,14888
+050,29,041,Missouri,Chariton County,7377
+050,29,043,Missouri,Christian County,96725
+050,29,045,Missouri,Clark County,6475
+050,29,047,Missouri,Clay County,265032
+050,29,049,Missouri,Clinton County,21661
+050,29,051,Missouri,Cole County,77908
+050,29,053,Missouri,Cooper County,17136
+050,29,055,Missouri,Crawford County,22929
+050,29,057,Missouri,Dade County,7804
+050,29,059,Missouri,Dallas County,18025
+050,29,061,Missouri,Daviess County,8558
+050,29,063,Missouri,DeKalb County,9795
+050,29,065,Missouri,Dent County,14584
+050,29,067,Missouri,Douglas County,12342
+050,29,069,Missouri,Dunklin County,26855
+050,29,071,Missouri,Franklin County,108090
+050,29,073,Missouri,Gasconade County,14784
+050,29,075,Missouri,Gentry County,6384
+050,29,077,Missouri,Greene County,309286
+050,29,079,Missouri,Grundy County,9744
+050,29,081,Missouri,Harrison County,8281
+050,29,083,Missouri,Henry County,22671
+050,29,085,Missouri,Hickory County,9044
+050,29,087,Missouri,Holt County,4200
+050,29,089,Missouri,Howard County,10180
+050,29,091,Missouri,Howell County,40798
+050,29,093,Missouri,Iron County,9318
+050,29,095,Missouri,Jackson County,732994
+050,29,097,Missouri,Jasper County,127428
+050,29,099,Missouri,Jefferson County,233132
+050,29,101,Missouri,Johnson County,56670
+050,29,103,Missouri,Knox County,3728
+050,29,105,Missouri,Laclede County,36943
+050,29,107,Missouri,Lafayette County,33531
+050,29,109,Missouri,Lawrence County,39401
+050,29,111,Missouri,Lewis County,9879
+050,29,113,Missouri,Lincoln County,66676
+050,29,115,Missouri,Linn County,11815
+050,29,117,Missouri,Livingston County,14708
+050,29,119,Missouri,McDonald County,23992
+050,29,121,Missouri,Macon County,15190
+050,29,123,Missouri,Madison County,12858
+050,29,125,Missouri,Maries County,8397
+050,29,127,Missouri,Marion County,28525
+050,29,129,Missouri,Mercer County,3404
+050,29,131,Missouri,Miller County,25817
+050,29,133,Missouri,Mississippi County,12003
+050,29,135,Missouri,Moniteau County,15428
+050,29,137,Missouri,Monroe County,8959
+050,29,139,Missouri,Montgomery County,11590
+050,29,141,Missouri,Morgan County,22418
+050,29,143,Missouri,New Madrid County,15086
+050,29,145,Missouri,Newton County,62263
+050,29,147,Missouri,Nodaway County,20174
+050,29,149,Missouri,Oregon County,8709
+050,29,151,Missouri,Osage County,13611
+050,29,153,Missouri,Ozark County,9172
+050,29,155,Missouri,Pemiscot County,14465
+050,29,157,Missouri,Perry County,19093
+050,29,159,Missouri,Pettis County,44254
+050,29,161,Missouri,Phelps County,45247
+050,29,163,Missouri,Pike County,17955
+050,29,165,Missouri,Platte County,114400
+050,29,167,Missouri,Polk County,33604
+050,29,169,Missouri,Pulaski County,54442
+050,29,171,Missouri,Putnam County,4546
+050,29,173,Missouri,Ralls County,10444
+050,29,175,Missouri,Randolph County,24513
+050,29,177,Missouri,Ray County,23398
+050,29,179,Missouri,Reynolds County,5992
+050,29,181,Missouri,Ripley County,10717
+050,29,183,Missouri,St. Charles County,426499
+050,29,185,Missouri,St. Clair County,9976
+050,29,186,Missouri,Ste. Genevieve County,18689
+050,29,187,Missouri,St. Francois County,67809
+050,29,189,Missouri,St. Louis County,990911
+050,29,195,Missouri,Saline County,23265
+050,29,197,Missouri,Schuyler County,4140
+050,29,199,Missouri,Scotland County,4796
+050,29,201,Missouri,Scott County,37975
+050,29,203,Missouri,Shannon County,7285
+050,29,205,Missouri,Shelby County,5870
+050,29,207,Missouri,Stoddard County,28284
+050,29,209,Missouri,Stone County,32503
+050,29,211,Missouri,Sullivan County,5738
+050,29,213,Missouri,Taney County,57001
+050,29,215,Missouri,Texas County,25994
+050,29,217,Missouri,Vernon County,19946
+050,29,219,Missouri,Warren County,39016
+050,29,221,Missouri,Washington County,23810
+050,29,223,Missouri,Wayne County,10782
+050,29,225,Missouri,Webster County,43054
+050,29,227,Missouri,Worth County,1914
+050,29,229,Missouri,Wright County,19671
+050,29,510,Missouri,St. Louis city,278144
+050,30,001,Montana,Beaverhead County,10043
+050,30,003,Montana,Big Horn County,12752
+050,30,005,Montana,Blaine County,6860
+050,30,007,Montana,Broadwater County,8493
+050,30,009,Montana,Carbon County,11466
+050,30,011,Montana,Carter County,1383
+050,30,013,Montana,Cascade County,85029
+050,30,015,Montana,Chouteau County,5865
+050,30,017,Montana,Custer County,12034
+050,30,019,Montana,Daniels County,1612
+050,30,021,Montana,Dawson County,8692
+050,30,023,Montana,Deer Lodge County,9709
+050,30,025,Montana,Fallon County,2959
+050,30,027,Montana,Fergus County,11825
+050,30,029,Montana,Flathead County,115429
+050,30,031,Montana,Gallatin County,128740
+050,30,033,Montana,Garfield County,1148
+050,30,035,Montana,Glacier County,13463
+050,30,037,Montana,Golden Valley County,844
+050,30,039,Montana,Granite County,3658
+050,30,041,Montana,Hill County,16167
+050,30,043,Montana,Jefferson County,13329
+050,30,045,Montana,Judith Basin County,2162
+050,30,047,Montana,Lake County,33392
+050,30,049,Montana,Lewis and Clark County,75331
+050,30,051,Montana,Liberty County,1957
+050,30,053,Montana,Lincoln County,22328
+050,30,055,Montana,McCone County,1720
+050,30,057,Montana,Madison County,10026
+050,30,059,Montana,Meagher County,2137
+050,30,061,Montana,Mineral County,5185
+050,30,063,Montana,Missoula County,123513
+050,30,065,Montana,Musselshell County,5582
+050,30,067,Montana,Park County,18214
+050,30,069,Montana,Petroleum County,548
+050,30,071,Montana,Phillips County,4203
+050,30,073,Montana,Pondera County,6072
+050,30,075,Montana,Powder River County,1781
+050,30,077,Montana,Powell County,7157
+050,30,079,Montana,Prairie County,1112
+050,30,081,Montana,Ravalli County,48582
+050,30,083,Montana,Richland County,11377
+050,30,085,Montana,Roosevelt County,10242
+050,30,087,Montana,Rosebud County,8253
+050,30,089,Montana,Sanders County,14062
+050,30,091,Montana,Sheridan County,3436
+050,30,093,Montana,Silver Bow County,36118
+050,30,095,Montana,Stillwater County,9445
+050,30,097,Montana,Sweet Grass County,3762
+050,30,099,Montana,Teton County,6496
+050,30,101,Montana,Toole County,5211
+050,30,103,Montana,Treasure County,728
+050,30,105,Montana,Valley County,7385
+050,30,107,Montana,Wheatland County,2100
+050,30,109,Montana,Wibaux County,885
+050,30,111,Montana,Yellowstone County,172692
+050,31,001,Nebraska,Adams County,31071
+050,31,003,Nebraska,Antelope County,6352
+050,31,005,Nebraska,Arthur County,396
+050,31,007,Nebraska,Banner County,686
+050,31,009,Nebraska,Blaine County,458
+050,31,011,Nebraska,Boone County,5355
+050,31,013,Nebraska,Box Butte County,10494
+050,31,015,Nebraska,Boyd County,1674
+050,31,017,Nebraska,Brown County,2826
+050,31,019,Nebraska,Buffalo County,51172
+050,31,021,Nebraska,Burt County,6678
+050,31,023,Nebraska,Butler County,8507
+050,31,025,Nebraska,Cass County,27657
+050,31,027,Nebraska,Cedar County,8373
+050,31,029,Nebraska,Chase County,3718
+050,31,031,Nebraska,Cherry County,5561
+050,31,033,Nebraska,Cheyenne County,9528
+050,31,035,Nebraska,Clay County,6170
+050,31,037,Nebraska,Colfax County,10934
+050,31,039,Nebraska,Cuming County,8823
+050,31,041,Nebraska,Custer County,10500
+050,31,043,Nebraska,Dakota County,21687
+050,31,045,Nebraska,Dawes County,7858
+050,31,047,Nebraska,Dawson County,24452
+050,31,049,Nebraska,Deuel County,1862
+050,31,051,Nebraska,Dixon County,5602
+050,31,053,Nebraska,Dodge County,38057
+050,31,055,Nebraska,Douglas County,606460
+050,31,057,Nebraska,Dundy County,1568
+050,31,059,Nebraska,Fillmore County,5458
+050,31,061,Nebraska,Franklin County,2795
+050,31,063,Nebraska,Frontier County,2655
+050,31,065,Nebraska,Furnas County,4524
+050,31,067,Nebraska,Gage County,21711
+050,31,069,Nebraska,Garden County,1804
+050,31,071,Nebraska,Garfield County,1710
+050,31,073,Nebraska,Gosper County,1803
+050,31,075,Nebraska,Grant County,561
+050,31,077,Nebraska,Greeley County,2154
+050,31,079,Nebraska,Hall County,63633
+050,31,081,Nebraska,Hamilton County,9678
+050,31,083,Nebraska,Harlan County,3000
+050,31,085,Nebraska,Hayes County,821
+050,31,087,Nebraska,Hitchcock County,2467
+050,31,089,Nebraska,Holt County,10067
+050,31,091,Nebraska,Hooker County,686
+050,31,093,Nebraska,Howard County,6538
+050,31,095,Nebraska,Jefferson County,7070
+050,31,097,Nebraska,Johnson County,5218
+050,31,099,Nebraska,Kearney County,6790
+050,31,101,Nebraska,Keith County,8100
+050,31,103,Nebraska,Keya Paha County,792
+050,31,105,Nebraska,Kimball County,3391
+050,31,107,Nebraska,Knox County,8335
+050,31,109,Nebraska,Lancaster County,334049
+050,31,111,Nebraska,Lincoln County,33303
+050,31,113,Nebraska,Logan County,669
+050,31,115,Nebraska,Loup County,570
+050,31,117,Nebraska,McPherson County,369
+050,31,119,Nebraska,Madison County,36106
+050,31,121,Nebraska,Merrick County,7905
+050,31,123,Nebraska,Morrill County,4404
+050,31,125,Nebraska,Nance County,3290
+050,31,127,Nebraska,Nemaha County,7102
+050,31,129,Nebraska,Nuckolls County,4100
+050,31,131,Nebraska,Otoe County,16531
+050,31,133,Nebraska,Pawnee County,2510
+050,31,135,Nebraska,Perkins County,2849
+050,31,137,Nebraska,Phelps County,8994
+050,31,139,Nebraska,Pierce County,7378
+050,31,141,Nebraska,Platte County,35649
+050,31,143,Nebraska,Polk County,5270
+050,31,145,Nebraska,Red Willow County,10307
+050,31,147,Nebraska,Richardson County,7530
+050,31,149,Nebraska,Rock County,1259
+050,31,151,Nebraska,Saline County,14996
+050,31,153,Nebraska,Sarpy County,208303
+050,31,155,Nebraska,Saunders County,23702
+050,31,157,Nebraska,Scotts Bluff County,35586
+050,31,159,Nebraska,Seward County,18032
+050,31,161,Nebraska,Sheridan County,4809
+050,31,163,Nebraska,Sherman County,2924
+050,31,165,Nebraska,Sioux County,1188
+050,31,167,Nebraska,Stanton County,5744
+050,31,169,Nebraska,Thayer County,4842
+050,31,171,Nebraska,Thomas County,639
+050,31,173,Nebraska,Thurston County,6752
+050,31,175,Nebraska,Valley County,4094
+050,31,177,Nebraska,Washington County,21302
+050,31,179,Nebraska,Wayne County,10020
+050,31,181,Nebraska,Webster County,3336
+050,31,183,Nebraska,Wheeler County,789
+050,31,185,Nebraska,York County,14564
+050,32,001,Nevada,Churchill County,25851
+050,32,003,Nevada,Clark County,2407226
+050,32,005,Nevada,Douglas County,50111
+050,32,007,Nevada,Elko County,54815
+050,32,009,Nevada,Esmeralda County,729
+050,32,011,Nevada,Eureka County,1867
+050,32,013,Nevada,Humboldt County,17267
+050,32,015,Nevada,Lander County,5872
+050,32,017,Nevada,Lincoln County,4320
+050,32,019,Nevada,Lyon County,65088
+050,32,021,Nevada,Mineral County,4407
+050,32,023,Nevada,Nye County,57336
+050,32,027,Nevada,Pershing County,6421
+050,32,029,Nevada,Storey County,4260
+050,32,031,Nevada,Washoe County,509386
+050,32,033,Nevada,White Pine County,8661
+050,32,510,Nevada,Carson City,58571
+050,33,001,New Hampshire,Belknap County,65147
+050,33,003,New Hampshire,Carroll County,52784
+050,33,005,New Hampshire,Cheshire County,78269
+050,33,007,New Hampshire,Coos County,31343
+050,33,009,New Hampshire,Grafton County,93225
+050,33,011,New Hampshire,Hillsborough County,433415
+050,33,013,New Hampshire,Merrimack County,158078
+050,33,015,New Hampshire,Rockingham County,324077
+050,33,017,New Hampshire,Strafford County,135043
+050,33,019,New Hampshire,Sullivan County,43961
+050,34,001,New Jersey,Atlantic County,278657
+050,34,003,New Jersey,Bergen County,977026
+050,34,005,New Jersey,Burlington County,481439
+050,34,007,New Jersey,Camden County,535799
+050,34,009,New Jersey,Cape May County,93390
+050,34,011,New Jersey,Cumberland County,157148
+050,34,013,New Jersey,Essex County,896379
+050,34,015,New Jersey,Gloucester County,312638
+050,34,017,New Jersey,Hudson County,735033
+050,34,019,New Jersey,Hunterdon County,131781
+050,34,021,New Jersey,Mercer County,399289
+050,34,023,New Jersey,Middlesex County,883335
+050,34,025,New Jersey,Monmouth County,651035
+050,34,027,New Jersey,Morris County,524251
+050,34,029,New Jersey,Ocean County,673746
+050,34,031,New Jersey,Passaic County,531624
+050,34,033,New Jersey,Salem County,66280
+050,34,035,New Jersey,Somerset County,356486
+050,34,037,New Jersey,Sussex County,148063
+050,34,039,New Jersey,Union County,601863
+050,34,041,New Jersey,Warren County,112953
+050,35,001,New Mexico,Bernalillo County,667601
+050,35,003,New Mexico,Catron County,3827
+050,35,005,New Mexico,Chaves County,63364
+050,35,006,New Mexico,Cibola County,26807
+050,35,007,New Mexico,Colfax County,12184
+050,35,009,New Mexico,Curry County,46655
+050,35,011,New Mexico,De Baca County,1647
+050,35,013,New Mexico,Doña Ana County,229091
+050,35,015,New Mexico,Eddy County,62509
+050,35,017,New Mexico,Grant County,27252
+050,35,019,New Mexico,Guadalupe County,4343
+050,35,021,New Mexico,Harding County,617
+050,35,023,New Mexico,Hidalgo County,3929
+050,35,025,New Mexico,Lea County,74749
+050,35,027,New Mexico,Lincoln County,19844
+050,35,028,New Mexico,Los Alamos County,19407
+050,35,029,New Mexico,Luna County,25407
+050,35,031,New Mexico,McKinley County,68119
+050,35,033,New Mexico,Mora County,4051
+050,35,035,New Mexico,Otero County,70368
+050,35,037,New Mexico,Quay County,8454
+050,35,039,New Mexico,Rio Arriba County,39832
+050,35,041,New Mexico,Roosevelt County,18615
+050,35,043,New Mexico,Sandoval County,159565
+050,35,045,New Mexico,San Juan County,120340
+050,35,047,New Mexico,San Miguel County,26260
+050,35,049,New Mexico,Santa Fe County,156907
+050,35,051,New Mexico,Sierra County,11395
+050,35,053,New Mexico,Socorro County,15838
+050,35,055,New Mexico,Taos County,34564
+050,35,057,New Mexico,Torrance County,16100
+050,35,059,New Mexico,Union County,3844
+050,35,061,New Mexico,Valencia County,82013
+050,36,001,New York,Albany County,321225
+050,36,003,New York,Allegany County,46800
+050,36,005,New York,Bronx County,1406332
+050,36,007,New York,Broome County,195736
+050,36,009,New York,Cattaraugus County,75390
+050,36,011,New York,Cayuga County,74365
+050,36,013,New York,Chautauqua County,124126
+050,36,015,New York,Chemung County,80415
+050,36,017,New York,Chenango County,45715
+050,36,019,New York,Clinton County,78138
+050,36,021,New York,Columbia County,60168
+050,36,023,New York,Cortland County,45850
+050,36,025,New York,Delaware County,44305
+050,36,027,New York,Dutchess County,300708
+050,36,029,New York,Erie County,946741
+050,36,031,New York,Essex County,36438
+050,36,033,New York,Franklin County,46500
+050,36,035,New York,Fulton County,52216
+050,36,037,New York,Genesee County,58416
+050,36,039,New York,Greene County,47238
+050,36,041,New York,Hamilton County,5006
+050,36,043,New York,Herkimer County,59219
+050,36,045,New York,Jefferson County,111540
+050,36,047,New York,Kings County,2653963
+050,36,049,New York,Lewis County,26479
+050,36,051,New York,Livingston County,61438
+050,36,053,New York,Madison County,67120
+050,36,055,New York,Monroe County,750506
+050,36,057,New York,Montgomery County,50046
+050,36,059,New York,Nassau County,1398939
+050,36,061,New York,New York County,1664862
+050,36,063,New York,Niagara County,208912
+050,36,065,New York,Oneida County,226392
+050,36,067,New York,Onondaga County,466584
+050,36,069,New York,Ontario County,113130
+050,36,071,New York,Orange County,417669
+050,36,073,New York,Orleans County,39825
+050,36,075,New York,Oswego County,118569
+050,36,077,New York,Otsego County,60589
+050,36,079,New York,Putnam County,99028
+050,36,081,New York,Queens County,2358182
+050,36,083,New York,Rensselaer County,160510
+050,36,085,New York,Richmond County,501290
+050,36,087,New York,Rockland County,357397
+050,36,089,New York,St. Lawrence County,105488
+050,36,091,New York,Saratoga County,241343
+050,36,093,New York,Schenectady County,162581
+050,36,095,New York,Schoharie County,30176
+050,36,097,New York,Schuyler County,16924
+050,36,099,New York,Seneca County,32883
+050,36,101,New York,Steuben County,91855
+050,36,103,New York,Suffolk County,1546090
+050,36,105,New York,Sullivan County,80586
+050,36,107,New York,Tioga County,47453
+050,36,109,New York,Tompkins County,104047
+050,36,111,New York,Ulster County,183330
+050,36,113,New York,Warren County,65020
+050,36,115,New York,Washington County,59353
+050,36,117,New York,Wayne County,91250
+050,36,119,New York,Westchester County,1015743
+050,36,121,New York,Wyoming County,39741
+050,36,123,New York,Yates County,24547
+050,37,001,North Carolina,Alamance County,186177
+050,37,003,North Carolina,Alexander County,36958
+050,37,005,North Carolina,Alleghany County,11479
+050,37,007,North Carolina,Anson County,21758
+050,37,009,North Carolina,Ashe County,27514
+050,37,011,North Carolina,Avery County,18110
+050,37,013,North Carolina,Beaufort County,44670
+050,37,015,North Carolina,Bertie County,17086
+050,37,017,North Carolina,Bladen County,30007
+050,37,019,North Carolina,Brunswick County,174702
+050,37,021,North Carolina,Buncombe County,277417
+050,37,023,North Carolina,Burke County,88655
+050,37,025,North Carolina,Cabarrus County,249725
+050,37,027,North Carolina,Caldwell County,81105
+050,37,029,North Carolina,Camden County,11315
+050,37,031,North Carolina,Carteret County,70469
+050,37,033,North Carolina,Caswell County,22563
+050,37,035,North Carolina,Catawba County,170172
+050,37,037,North Carolina,Chatham County,85111
+050,37,039,North Carolina,Cherokee County,30830
+050,37,041,North Carolina,Chowan County,14082
+050,37,043,North Carolina,Clay County,12239
+050,37,045,North Carolina,Cleveland County,103325
+050,37,047,North Carolina,Columbus County,50487
+050,37,049,North Carolina,Craven County,105025
+050,37,051,North Carolina,Cumberland County,338473
+050,37,053,North Carolina,Currituck County,33158
+050,37,055,North Carolina,Dare County,38245
+050,37,057,North Carolina,Davidson County,180182
+050,37,059,North Carolina,Davie County,45855
+050,37,061,North Carolina,Duplin County,51571
+050,37,063,North Carolina,Durham County,347240
+050,37,065,North Carolina,Edgecombe County,49121
+050,37,067,North Carolina,Forsyth County,401718
+050,37,069,North Carolina,Franklin County,82037
+050,37,071,North Carolina,Gaston County,246558
+050,37,073,North Carolina,Gates County,10234
+050,37,075,North Carolina,Graham County,8190
+050,37,077,North Carolina,Granville County,61421
+050,37,079,North Carolina,Greene County,20700
+050,37,081,North Carolina,Guilford County,562234
+050,37,083,North Carolina,Halifax County,46534
+050,37,085,North Carolina,Harnett County,150137
+050,37,087,North Carolina,Haywood County,63369
+050,37,089,North Carolina,Henderson County,122375
+050,37,091,North Carolina,Hertford County,19015
+050,37,093,North Carolina,Hoke County,56939
+050,37,095,North Carolina,Hyde County,4554
+050,37,097,North Carolina,Iredell County,211798
+050,37,099,North Carolina,Jackson County,45039
+050,37,101,North Carolina,Johnston County,256448
+050,37,103,North Carolina,Jones County,9575
+050,37,105,North Carolina,Lee County,70258
+050,37,107,North Carolina,Lenoir County,55837
+050,37,109,North Carolina,Lincoln County,98654
+050,37,111,North Carolina,McDowell County,45198
+050,37,113,North Carolina,Macon County,39232
+050,37,115,North Carolina,Madison County,22553
+050,37,117,North Carolina,Martin County,21601
+050,37,119,North Carolina,Mecklenburg County,1233383
+050,37,121,North Carolina,Mitchell County,15062
+050,37,123,North Carolina,Montgomery County,26403
+050,37,125,North Carolina,Moore County,110619
+050,37,127,North Carolina,Nash County,99365
+050,37,129,North Carolina,New Hanover County,245959
+050,37,131,North Carolina,Northampton County,16491
+050,37,133,North Carolina,Onslow County,217175
+050,37,135,North Carolina,Orange County,152498
+050,37,137,North Carolina,Pamlico County,12758
+050,37,139,North Carolina,Pasquotank County,42201
+050,37,141,North Carolina,Pender County,72111
+050,37,143,North Carolina,Perquimans County,13490
+050,37,145,North Carolina,Person County,40636
+050,37,147,North Carolina,Pitt County,182936
+050,37,149,North Carolina,Polk County,20533
+050,37,151,North Carolina,Randolph County,149516
+050,37,153,North Carolina,Richmond County,42041
+050,37,155,North Carolina,Robeson County,119941
+050,37,157,North Carolina,Rockingham County,94195
+050,37,159,North Carolina,Rowan County,155096
+050,37,161,North Carolina,Rutherford County,65745
+050,37,163,North Carolina,Sampson County,61504
+050,37,165,North Carolina,Scotland County,33322
+050,37,167,North Carolina,Stanly County,68830
+050,37,169,North Carolina,Stokes County,46126
+050,37,171,North Carolina,Surry County,72287
+050,37,173,North Carolina,Swain County,14024
+050,37,175,North Carolina,Transylvania County,34211
+050,37,177,North Carolina,Tyrrell County,3537
+050,37,179,North Carolina,Union County,267674
+050,37,181,North Carolina,Vance County,42638
+050,37,183,North Carolina,Wake County,1257235
+050,37,185,North Carolina,Warren County,18898
+050,37,187,North Carolina,Washington County,10638
+050,37,189,North Carolina,Watauga County,54786
+050,37,191,North Carolina,Wayne County,122278
+050,37,193,North Carolina,Wilkes County,66233
+050,37,195,North Carolina,Wilson County,81150
+050,37,197,North Carolina,Yadkin County,38325
+050,37,199,North Carolina,Yancey County,19084
+050,38,001,North Dakota,Adams County,2275
+050,38,003,North Dakota,Barnes County,10573
+050,38,005,North Dakota,Benson County,5759
+050,38,007,North Dakota,Billings County,1071
+050,38,009,North Dakota,Bottineau County,6284
+050,38,011,North Dakota,Bowman County,2762
+050,38,013,North Dakota,Burke County,2132
+050,38,015,North Dakota,Burleigh County,103251
+050,38,017,North Dakota,Cass County,201794
+050,38,019,North Dakota,Cavalier County,3497
+050,38,021,North Dakota,Dickey County,4895
+050,38,023,North Dakota,Divide County,2110
+050,38,025,North Dakota,Dunn County,4058
+050,38,027,North Dakota,Eddy County,2329
+050,38,029,North Dakota,Emmons County,3215
+050,38,031,North Dakota,Foster County,3212
+050,38,033,North Dakota,Golden Valley County,1808
+050,38,035,North Dakota,Grand Forks County,74501
+050,38,037,North Dakota,Grant County,2206
+050,38,039,North Dakota,Griggs County,2239
+050,38,041,North Dakota,Hettinger County,2492
+050,38,043,North Dakota,Kidder County,2393
+050,38,045,North Dakota,LaMoure County,4135
+050,38,047,North Dakota,Logan County,1859
+050,38,049,North Dakota,McHenry County,5130
+050,38,051,North Dakota,McIntosh County,2451
+050,38,053,North Dakota,McKenzie County,15192
+050,38,055,North Dakota,McLean County,9740
+050,38,057,North Dakota,Mercer County,8441
+050,38,059,North Dakota,Morton County,34601
+050,38,061,North Dakota,Mountrail County,9395
+050,38,063,North Dakota,Nelson County,2963
+050,38,065,North Dakota,Oliver County,1898
+050,38,067,North Dakota,Pembina County,6568
+050,38,069,North Dakota,Pierce County,3838
+050,38,071,North Dakota,Ramsey County,11530
+050,38,073,North Dakota,Ransom County,5617
+050,38,075,North Dakota,Renville County,2331
+050,38,077,North Dakota,Richland County,16731
+050,38,079,North Dakota,Rolette County,11688
+050,38,081,North Dakota,Sargent County,3711
+050,38,083,North Dakota,Sheridan County,1296
+050,38,085,North Dakota,Sioux County,3667
+050,38,087,North Dakota,Slope County,628
+050,38,089,North Dakota,Stark County,34013
+050,38,091,North Dakota,Steele County,1797
+050,38,093,North Dakota,Stutsman County,21414
+050,38,095,North Dakota,Towner County,2040
+050,38,097,North Dakota,Traill County,7920
+050,38,099,North Dakota,Walsh County,10179
+050,38,101,North Dakota,Ward County,68233
+050,38,103,North Dakota,Wells County,3729
+050,38,105,North Dakota,Williams County,41767
+050,39,001,Ohio,Adams County,27865
+050,39,003,Ohio,Allen County,100881
+050,39,005,Ohio,Ashland County,52523
+050,39,007,Ohio,Ashtabula County,96713
+050,39,009,Ohio,Athens County,63197
+050,39,011,Ohio,Auglaize County,45909
+050,39,013,Ohio,Belmont County,64434
+050,39,015,Ohio,Brown County,44397
+050,39,017,Ohio,Butler County,400128
+050,39,019,Ohio,Carroll County,26475
+050,39,021,Ohio,Champaign County,38820
+050,39,023,Ohio,Clark County,135340
+050,39,025,Ohio,Clermont County,216977
+050,39,027,Ohio,Clinton County,42301
+050,39,029,Ohio,Columbiana County,99377
+050,39,031,Ohio,Coshocton County,37188
+050,39,033,Ohio,Crawford County,41896
+050,39,035,Ohio,Cuyahoga County,1232925
+050,39,037,Ohio,Darke County,51520
+050,39,039,Ohio,Defiance County,38292
+050,39,041,Ohio,Delaware County,242032
+050,39,043,Ohio,Erie County,73296
+050,39,045,Ohio,Fairfield County,169752
+050,39,047,Ohio,Fayette County,28552
+050,39,049,Ohio,Franklin County,1361536
+050,39,051,Ohio,Fulton County,41853
+050,39,053,Ohio,Gallia County,29072
+050,39,055,Ohio,Geauga County,95676
+050,39,057,Ohio,Greene County,174322
+050,39,059,Ohio,Guernsey County,38379
+050,39,061,Ohio,Hamilton County,838418
+050,39,063,Ohio,Hancock County,75034
+050,39,065,Ohio,Hardin County,30072
+050,39,067,Ohio,Harrison County,14070
+050,39,069,Ohio,Henry County,27598
+050,39,071,Ohio,Highland County,43823
+050,39,073,Ohio,Hocking County,27512
+050,39,075,Ohio,Holmes County,44970
+050,39,077,Ohio,Huron County,58250
+050,39,079,Ohio,Jackson County,32817
+050,39,081,Ohio,Jefferson County,63597
+050,39,083,Ohio,Knox County,64002
+050,39,085,Ohio,Lake County,232217
+050,39,087,Ohio,Lawrence County,55710
+050,39,089,Ohio,Licking County,185564
+050,39,091,Ohio,Logan County,46302
+050,39,093,Ohio,Lorain County,323219
+050,39,095,Ohio,Lucas County,423347
+050,39,097,Ohio,Madison County,46985
+050,39,099,Ohio,Mahoning County,224706
+050,39,101,Ohio,Marion County,65115
+050,39,103,Ohio,Medina County,185025
+050,39,105,Ohio,Meigs County,21587
+050,39,107,Ohio,Mercer County,42737
+050,39,109,Ohio,Miami County,112634
+050,39,111,Ohio,Monroe County,12994
+050,39,113,Ohio,Montgomery County,539598
+050,39,115,Ohio,Morgan County,13626
+050,39,117,Ohio,Morrow County,36305
+050,39,119,Ohio,Muskingum County,87014
+050,39,121,Ohio,Noble County,14276
+050,39,123,Ohio,Ottawa County,39481
+050,39,125,Ohio,Paulding County,18727
+050,39,127,Ohio,Perry County,35918
+050,39,129,Ohio,Pickaway County,62978
+050,39,131,Ohio,Pike County,27061
+050,39,133,Ohio,Portage County,163404
+050,39,135,Ohio,Preble County,40664
+050,39,137,Ohio,Putnam County,34380
+050,39,139,Ohio,Richland County,124893
+050,39,141,Ohio,Ross County,76429
+050,39,143,Ohio,Sandusky County,58655
+050,39,145,Ohio,Scioto County,71365
+050,39,147,Ohio,Seneca County,54522
+050,39,149,Ohio,Shelby County,48065
+050,39,151,Ohio,Stark County,373771
+050,39,153,Ohio,Summit County,538376
+050,39,155,Ohio,Trumbull County,198972
+050,39,157,Ohio,Tuscarawas County,92373
+050,39,159,Ohio,Union County,73446
+050,39,161,Ohio,Van Wert County,29013
+050,39,163,Ohio,Vinton County,12645
+050,39,165,Ohio,Warren County,257181
+050,39,167,Ohio,Washington County,58389
+050,39,169,Ohio,Wayne County,116758
+050,39,171,Ohio,Williams County,36549
+050,39,173,Ohio,Wood County,134176
+050,39,175,Ohio,Wyandot County,21567
+050,40,001,Oklahoma,Adair County,19828
+050,40,003,Oklahoma,Alfalfa County,5649
+050,40,005,Oklahoma,Atoka County,14609
+050,40,007,Oklahoma,Beaver County,4882
+050,40,009,Oklahoma,Beckham County,22159
+050,40,011,Oklahoma,Blaine County,8515
+050,40,013,Oklahoma,Bryan County,51367
+050,40,015,Oklahoma,Caddo County,26130
+050,40,017,Oklahoma,Canadian County,187189
+050,40,019,Oklahoma,Carter County,48910
+050,40,021,Oklahoma,Cherokee County,49196
+050,40,023,Oklahoma,Choctaw County,14059
+050,40,025,Oklahoma,Cimarron County,2059
+050,40,027,Oklahoma,Cleveland County,303973
+050,40,029,Oklahoma,Coal County,5436
+050,40,031,Oklahoma,Comanche County,122158
+050,40,033,Oklahoma,Cotton County,5432
+050,40,035,Oklahoma,Craig County,14518
+050,40,037,Oklahoma,Creek County,74967
+050,40,039,Oklahoma,Custer County,28175
+050,40,041,Oklahoma,Delaware County,41910
+050,40,043,Oklahoma,Dewey County,4207
+050,40,045,Oklahoma,Ellis County,3613
+050,40,047,Oklahoma,Garfield County,61779
+050,40,049,Oklahoma,Garvin County,26377
+050,40,051,Oklahoma,Grady County,59128
+050,40,053,Oklahoma,Grant County,4067
+050,40,055,Oklahoma,Greer County,5373
+050,40,057,Oklahoma,Harmon County,2327
+050,40,059,Oklahoma,Harper County,3172
+050,40,061,Oklahoma,Haskell County,11787
+050,40,063,Oklahoma,Hughes County,13455
+050,40,065,Oklahoma,Jackson County,24764
+050,40,067,Oklahoma,Jefferson County,5431
+050,40,069,Oklahoma,Johnston County,10448
+050,40,071,Oklahoma,Kay County,43490
+050,40,073,Oklahoma,Kingfisher County,15795
+050,40,075,Oklahoma,Kiowa County,8181
+050,40,077,Oklahoma,Latimer County,9645
+050,40,079,Oklahoma,Le Flore County,50196
+050,40,081,Oklahoma,Lincoln County,35278
+050,40,083,Oklahoma,Logan County,55473
+050,40,085,Oklahoma,Love County,10780
+050,40,087,Oklahoma,McClain County,49647
+050,40,089,Oklahoma,McCurtain County,30744
+050,40,091,Oklahoma,McIntosh County,19758
+050,40,093,Oklahoma,Major County,7536
+050,40,095,Oklahoma,Marshall County,16255
+050,40,097,Oklahoma,Mayes County,40416
+050,40,099,Oklahoma,Murray County,13805
+050,40,101,Oklahoma,Muskogee County,66708
+050,40,103,Oklahoma,Noble County,10899
+050,40,105,Oklahoma,Nowata County,9522
+050,40,107,Oklahoma,Okfuskee County,11451
+050,40,109,Oklahoma,Oklahoma County,822125
+050,40,111,Oklahoma,Okmulgee County,37241
+050,40,113,Oklahoma,Osage County,46794
+050,40,115,Oklahoma,Ottawa County,30438
+050,40,117,Oklahoma,Pawnee County,16029
+050,40,119,Oklahoma,Payne County,83889
+050,40,121,Oklahoma,Pittsburg County,43320
+050,40,123,Oklahoma,Pontotoc County,38528
+050,40,125,Oklahoma,Pottawatomie County,75102
+050,40,127,Oklahoma,Pushmataha County,10807
+050,40,129,Oklahoma,Roger Mills County,3259
+050,40,131,Oklahoma,Rogers County,102197
+050,40,133,Oklahoma,Seminole County,23441
+050,40,135,Oklahoma,Sequoyah County,40842
+050,40,137,Oklahoma,Stephens County,44310
+050,40,139,Oklahoma,Texas County,20322
+050,40,141,Oklahoma,Tillman County,6780
+050,40,143,Oklahoma,Tulsa County,698782
+050,40,145,Oklahoma,Wagoner County,93263
+050,40,147,Oklahoma,Washington County,54037
+050,40,149,Oklahoma,Washita County,10884
+050,40,151,Oklahoma,Woods County,8443
+050,40,153,Oklahoma,Woodward County,19827
+050,41,001,Oregon,Baker County,16658
+050,41,003,Oregon,Benton County,97728
+050,41,005,Oregon,Clackamas County,426280
+050,41,007,Oregon,Clatsop County,40926
+050,41,009,Oregon,Columbia County,54091
+050,41,011,Oregon,Coos County,63992
+050,41,013,Oregon,Crook County,27564
+050,41,015,Oregon,Curry County,22621
+050,41,017,Oregon,Deschutes County,213072
+050,41,019,Oregon,Douglas County,111951
+050,41,021,Oregon,Gilliam County,1971
+050,41,023,Oregon,Grant County,7075
+050,41,025,Oregon,Harney County,7380
+050,41,027,Oregon,Hood River County,23720
+050,41,029,Oregon,Jackson County,221795
+050,41,031,Oregon,Jefferson County,25740
+050,41,033,Oregon,Josephine County,87867
+050,41,035,Oregon,Klamath County,70274
+050,41,037,Oregon,Lake County,8187
+050,41,039,Oregon,Lane County,381584
+050,41,041,Oregon,Lincoln County,50636
+050,41,043,Oregon,Linn County,132843
+050,41,045,Oregon,Malheur County,32261
+050,41,047,Oregon,Marion County,355777
+050,41,049,Oregon,Morrow County,12602
+050,41,051,Oregon,Multnomah County,795391
+050,41,053,Oregon,Polk County,90037
+050,41,055,Oregon,Sherman County,2051
+050,41,057,Oregon,Tillamook County,27384
+050,41,059,Oregon,Umatilla County,81119
+050,41,061,Oregon,Union County,25900
+050,41,063,Oregon,Wallowa County,7595
+050,41,065,Oregon,Wasco County,26310
+050,41,067,Oregon,Washington County,611708
+050,41,069,Oregon,Wheeler County,1472
+050,41,071,Oregon,Yamhill County,110024
+050,42,001,Pennsylvania,Adams County,107594
+050,42,003,Pennsylvania,Allegheny County,1225035
+050,42,005,Pennsylvania,Armstrong County,63698
+050,42,007,Pennsylvania,Beaver County,166032
+050,42,009,Pennsylvania,Bedford County,47480
+050,42,011,Pennsylvania,Berks County,440072
+050,42,013,Pennsylvania,Blair County,119541
+050,42,015,Pennsylvania,Bradford County,59600
+050,42,017,Pennsylvania,Bucks County,647828
+050,42,019,Pennsylvania,Butler County,200169
+050,42,021,Pennsylvania,Cambria County,128968
+050,42,023,Pennsylvania,Cameron County,4211
+050,42,025,Pennsylvania,Carbon County,65868
+050,42,027,Pennsylvania,Centre County,157393
+050,42,029,Pennsylvania,Chester County,557116
+050,42,031,Pennsylvania,Clarion County,36680
+050,42,033,Pennsylvania,Clearfield County,78100
+050,42,035,Pennsylvania,Clinton County,37870
+050,42,037,Pennsylvania,Columbia County,66193
+050,42,039,Pennsylvania,Crawford County,81792
+050,42,041,Pennsylvania,Cumberland County,277270
+050,42,043,Pennsylvania,Dauphin County,293351
+050,42,045,Pennsylvania,Delaware County,580937
+050,42,047,Pennsylvania,Elk County,29926
+050,42,049,Pennsylvania,Erie County,265832
+050,42,051,Pennsylvania,Fayette County,123021
+050,42,053,Pennsylvania,Forest County,6614
+050,42,055,Pennsylvania,Franklin County,160652
+050,42,057,Pennsylvania,Fulton County,14483
+050,42,059,Pennsylvania,Greene County,33885
+050,42,061,Pennsylvania,Huntingdon County,43001
+050,42,063,Pennsylvania,Indiana County,82878
+050,42,065,Pennsylvania,Jefferson County,43255
+050,42,067,Pennsylvania,Juniata County,23403
+050,42,069,Pennsylvania,Lackawanna County,216502
+050,42,071,Pennsylvania,Lancaster County,563159
+050,42,073,Pennsylvania,Lawrence County,83911
+050,42,075,Pennsylvania,Lebanon County,146380
+050,42,077,Pennsylvania,Lehigh County,384383
+050,42,079,Pennsylvania,Luzerne County,332126
+050,42,081,Pennsylvania,Lycoming County,112587
+050,42,083,Pennsylvania,McKean County,38984
+050,42,085,Pennsylvania,Mercer County,107860
+050,42,087,Pennsylvania,Mifflin County,46127
+050,42,089,Pennsylvania,Monroe County,167179
+050,42,091,Pennsylvania,Montgomery County,877643
+050,42,093,Pennsylvania,Montour County,17868
+050,42,095,Pennsylvania,Northampton County,324411
+050,42,097,Pennsylvania,Northumberland County,89920
+050,42,099,Pennsylvania,Perry County,46806
+050,42,101,Pennsylvania,Philadelphia County,1574281
+050,42,103,Pennsylvania,Pike County,62808
+050,42,105,Pennsylvania,Potter County,15897
+050,42,107,Pennsylvania,Schuylkill County,145085
+050,42,109,Pennsylvania,Snyder County,39655
+050,42,111,Pennsylvania,Somerset County,72004
+050,42,113,Pennsylvania,Sullivan County,5856
+050,42,115,Pennsylvania,Susquehanna County,38237
+050,42,117,Pennsylvania,Tioga County,40502
+050,42,119,Pennsylvania,Union County,42313
+050,42,121,Pennsylvania,Venango County,49346
+050,42,123,Pennsylvania,Warren County,37038
+050,42,125,Pennsylvania,Washington County,210802
+050,42,127,Pennsylvania,Wayne County,51703
+050,42,129,Pennsylvania,Westmoreland County,349324
+050,42,131,Pennsylvania,Wyoming County,25790
+050,42,133,Pennsylvania,York County,473197
+050,44,001,Rhode Island,Bristol County,50001
+050,44,003,Rhode Island,Kent County,173495
+050,44,005,Rhode Island,Newport County,83051
+050,44,007,Rhode Island,Providence County,678179
+050,44,009,Rhode Island,Washington County,129795
+050,45,001,South Carolina,Abbeville County,24836
+050,45,003,South Carolina,Aiken County,181515
+050,45,005,South Carolina,Allendale County,7355
+050,45,007,South Carolina,Anderson County,219930
+050,45,009,South Carolina,Bamberg County,12796
+050,45,011,South Carolina,Barnwell County,20653
+050,45,013,South Carolina,Beaufort County,204433
+050,45,015,South Carolina,Berkeley County,274666
+050,45,017,South Carolina,Calhoun County,14188
+050,45,019,South Carolina,Charleston County,436200
+050,45,021,South Carolina,Cherokee County,58275
+050,45,023,South Carolina,Chester County,33001
+050,45,025,South Carolina,Chesterfield County,44740
+050,45,027,South Carolina,Clarendon County,31043
+050,45,029,South Carolina,Colleton County,39382
+050,45,031,South Carolina,Darlington County,62888
+050,45,033,South Carolina,Dillon County,27458
+050,45,035,South Carolina,Dorchester County,178397
+050,45,037,South Carolina,Edgefield County,29808
+050,45,039,South Carolina,Fairfield County,20340
+050,45,041,South Carolina,Florence County,138504
+050,45,043,South Carolina,Georgetown County,65912
+050,45,045,South Carolina,Greenville County,583125
+050,45,047,South Carolina,Greenwood County,70379
+050,45,049,South Carolina,Hampton County,18174
+050,45,051,South Carolina,Horry County,427551
+050,45,053,South Carolina,Jasper County,38533
+050,45,055,South Carolina,Kershaw County,73166
+050,45,057,South Carolina,Lancaster County,114296
+050,45,059,South Carolina,Laurens County,71848
+050,45,061,South Carolina,Lee County,15730
+050,45,063,South Carolina,Lexington County,317588
+050,45,065,South Carolina,McCormick County,10215
+050,45,067,South Carolina,Marion County,28242
+050,45,069,South Carolina,Marlboro County,25488
+050,45,071,South Carolina,Newberry County,39561
+050,45,073,South Carolina,Oconee County,83775
+050,45,075,South Carolina,Orangeburg County,83177
+050,45,077,South Carolina,Pickens County,139198
+050,45,079,South Carolina,Richland County,434956
+050,45,081,South Carolina,Saluda County,19680
+050,45,083,South Carolina,Spartanburg County,380857
+050,45,085,South Carolina,Sumter County,105067
+050,45,087,South Carolina,Union County,26799
+050,45,089,South Carolina,Williamsburg County,29662
+050,45,091,South Carolina,York County,306887
+050,46,003,South Dakota,Aurora County,2801
+050,46,005,South Dakota,Beadle County,19624
+050,46,007,South Dakota,Bennett County,3307
+050,46,009,South Dakota,Bon Homme County,7244
+050,46,011,South Dakota,Brookings County,37635
+050,46,013,South Dakota,Brown County,37561
+050,46,015,South Dakota,Brule County,5278
+050,46,017,South Dakota,Buffalo County,1802
+050,46,019,South Dakota,Butte County,10856
+050,46,021,South Dakota,Campbell County,1377
+050,46,023,South Dakota,Charles Mix County,9303
+050,46,025,South Dakota,Clark County,4031
+050,46,027,South Dakota,Clay County,15031
+050,46,029,South Dakota,Codington County,29562
+050,46,031,South Dakota,Corson County,3781
+050,46,033,South Dakota,Custer County,9431
+050,46,035,South Dakota,Davison County,20069
+050,46,037,South Dakota,Day County,5484
+050,46,039,South Dakota,Deuel County,4408
+050,46,041,South Dakota,Dewey County,5419
+050,46,043,South Dakota,Douglas County,2888
+050,46,045,South Dakota,Edmunds County,4022
+050,46,047,South Dakota,Fall River County,7467
+050,46,049,South Dakota,Faulk County,2178
+050,46,051,South Dakota,Grant County,7534
+050,46,053,South Dakota,Gregory County,4037
+050,46,055,South Dakota,Haakon County,1802
+050,46,057,South Dakota,Hamlin County,6900
+050,46,059,South Dakota,Hand County,3121
+050,46,061,South Dakota,Hanson County,3456
+050,46,063,South Dakota,Harding County,1331
+050,46,065,South Dakota,Hughes County,17570
+050,46,067,South Dakota,Hutchinson County,7413
+050,46,069,South Dakota,Hyde County,1191
+050,46,071,South Dakota,Jackson County,2666
+050,46,073,South Dakota,Jerauld County,1654
+050,46,075,South Dakota,Jones County,913
+050,46,077,South Dakota,Kingsbury County,5284
+050,46,079,South Dakota,Lake County,10993
+050,46,081,South Dakota,Lawrence County,29459
+050,46,083,South Dakota,Lincoln County,77145
+050,46,085,South Dakota,Lyman County,3694
+050,46,087,South Dakota,McCook County,5964
+050,46,089,South Dakota,McPherson County,2347
+050,46,091,South Dakota,Marshall County,4426
+050,46,093,South Dakota,Meade County,30711
+050,46,095,South Dakota,Mellette County,2137
+050,46,097,South Dakota,Miner County,2281
+050,46,099,South Dakota,Minnehaha County,212691
+050,46,101,South Dakota,Moody County,6632
+050,46,102,South Dakota,Oglala Lakota County,13338
+050,46,103,South Dakota,Pennington County,116792
+050,46,105,South Dakota,Perkins County,2853
+050,46,107,South Dakota,Potter County,2377
+050,46,109,South Dakota,Roberts County,10255
+050,46,111,South Dakota,Sanborn County,2388
+050,46,115,South Dakota,Spink County,6155
+050,46,117,South Dakota,Stanley County,3018
+050,46,119,South Dakota,Sully County,1479
+050,46,121,South Dakota,Todd County,8863
+050,46,123,South Dakota,Tripp County,5708
+050,46,125,South Dakota,Turner County,9314
+050,46,127,South Dakota,Union County,17402
+050,46,129,South Dakota,Walworth County,5217
+050,46,135,South Dakota,Yankton County,23635
+050,46,137,South Dakota,Ziebach County,2389
+050,47,001,Tennessee,Anderson County,82066
+050,47,003,Tennessee,Bedford County,55273
+050,47,005,Tennessee,Benton County,16183
+050,47,007,Tennessee,Bledsoe County,15920
+050,47,009,Tennessee,Blount County,143820
+050,47,011,Tennessee,Bradley County,115465
+050,47,013,Tennessee,Campbell County,40290
+050,47,015,Tennessee,Cannon County,15296
+050,47,017,Tennessee,Carroll County,29200
+050,47,019,Tennessee,Carter County,57361
+050,47,021,Tennessee,Cheatham County,42778
+050,47,023,Tennessee,Chester County,17994
+050,47,025,Tennessee,Claiborne County,33229
+050,47,027,Tennessee,Clay County,7821
+050,47,029,Tennessee,Cocke County,37889
+050,47,031,Tennessee,Coffee County,62419
+050,47,033,Tennessee,Crockett County,14006
+050,47,035,Tennessee,Cumberland County,66300
+050,47,037,Tennessee,Davidson County,745904
+050,47,039,Tennessee,Decatur County,11820
+050,47,041,Tennessee,DeKalb County,21873
+050,47,043,Tennessee,Dickson County,58662
+050,47,045,Tennessee,Dyer County,36320
+050,47,047,Tennessee,Fayette County,45071
+050,47,049,Tennessee,Fentress County,20322
+050,47,051,Tennessee,Franklin County,45579
+050,47,053,Tennessee,Gibson County,51779
+050,47,055,Tennessee,Giles County,31433
+050,47,057,Tennessee,Grainger County,25739
+050,47,059,Tennessee,Greene County,73831
+050,47,061,Tennessee,Grundy County,14116
+050,47,063,Tennessee,Hamblen County,68843
+050,47,065,Tennessee,Hamilton County,390833
+050,47,067,Tennessee,Hancock County,7075
+050,47,069,Tennessee,Hardeman County,25274
+050,47,071,Tennessee,Hardin County,27983
+050,47,073,Tennessee,Hawkins County,59559
+050,47,075,Tennessee,Haywood County,17042
+050,47,077,Tennessee,Henderson County,28518
+050,47,079,Tennessee,Henry County,32896
+050,47,081,Tennessee,Hickman County,26219
+050,47,083,Tennessee,Houston County,8479
+050,47,085,Tennessee,Humphreys County,19646
+050,47,087,Tennessee,Jackson County,12466
+050,47,089,Tennessee,Jefferson County,60024
+050,47,091,Tennessee,Johnson County,18718
+050,47,093,Tennessee,Knox County,511453
+050,47,095,Tennessee,Lake County,6249
+050,47,097,Tennessee,Lauderdale County,24617
+050,47,099,Tennessee,Lawrence County,46914
+050,47,101,Tennessee,Lewis County,13487
+050,47,103,Tennessee,Lincoln County,36853
+050,47,105,Tennessee,Loudon County,63764
+050,47,107,Tennessee,McMinn County,57404
+050,47,109,Tennessee,McNairy County,26236
+050,47,111,Tennessee,Macon County,27663
+050,47,113,Tennessee,Madison County,100790
+050,47,115,Tennessee,Marion County,29804
+050,47,117,Tennessee,Marshall County,38071
+050,47,119,Tennessee,Maury County,118131
+050,47,121,Tennessee,Meigs County,14186
+050,47,123,Tennessee,Monroe County,49730
+050,47,125,Tennessee,Montgomery County,249935
+050,47,127,Tennessee,Moore County,6920
+050,47,129,Tennessee,Morgan County,22160
+050,47,131,Tennessee,Obion County,30067
+050,47,133,Tennessee,Overton County,23787
+050,47,135,Tennessee,Perry County,9126
+050,47,137,Tennessee,Pickett County,5219
+050,47,139,Tennessee,Polk County,18592
+050,47,141,Tennessee,Putnam County,86612
+050,47,143,Tennessee,Rhea County,34844
+050,47,145,Tennessee,Roane County,57395
+050,47,147,Tennessee,Robertson County,80175
+050,47,149,Tennessee,Rutherford County,386352
+050,47,151,Tennessee,Scott County,22671
+050,47,153,Tennessee,Sequatchie County,17861
+050,47,155,Tennessee,Sevier County,101342
+050,47,157,Tennessee,Shelby County,910226
+050,47,159,Tennessee,Smith County,20981
+050,47,161,Tennessee,Stewart County,14439
+050,47,163,Tennessee,Sullivan County,163759
+050,47,165,Tennessee,Sumner County,215538
+050,47,167,Tennessee,Tipton County,62287
+050,47,169,Tennessee,Trousdale County,12623
+050,47,171,Tennessee,Unicoi County,17856
+050,47,173,Tennessee,Union County,21450
+050,47,175,Tennessee,Van Buren County,6874
+050,47,177,Tennessee,Warren County,43717
+050,47,179,Tennessee,Washington County,141199
+050,47,181,Tennessee,Wayne County,16416
+050,47,183,Tennessee,Weakley County,33261
+050,47,185,Tennessee,White County,29612
+050,47,187,Tennessee,Williamson County,272061
+050,47,189,Tennessee,Wilson County,175033
+050,48,001,Texas,Anderson County,59805
+050,48,003,Texas,Andrews County,18914
+050,48,005,Texas,Angelina County,88154
+050,48,007,Texas,Aransas County,26146
+050,48,009,Texas,Archer County,9129
+050,48,011,Texas,Armstrong County,1843
+050,48,013,Texas,Atascosa County,53590
+050,48,015,Texas,Austin County,33625
+050,48,017,Texas,Bailey County,6963
+050,48,019,Texas,Bandera County,22876
+050,48,021,Texas,Bastrop County,118908
+050,48,023,Texas,Baylor County,3472
+050,48,025,Texas,Bee County,32515
+050,48,027,Texas,Bell County,402248
+050,48,029,Texas,Bexar County,2160088
+050,48,031,Texas,Blanco County,13581
+050,48,033,Texas,Borden County,567
+050,48,035,Texas,Bosque County,18918
+050,48,037,Texas,Bowie County,92696
+050,48,039,Texas,Brazoria County,419080
+050,48,041,Texas,Brazos County,249088
+050,48,043,Texas,Brewster County,9458
+050,48,045,Texas,Briscoe County,1474
+050,48,047,Texas,Brooks County,6579
+050,48,049,Texas,Brown County,38711
+050,48,051,Texas,Burleson County,20549
+050,48,053,Texas,Burnet County,57015
+050,48,055,Texas,Caldwell County,55150
+050,48,057,Texas,Calhoun County,19599
+050,48,059,Texas,Callahan County,14491
+050,48,061,Texas,Cameron County,433946
+050,48,063,Texas,Camp County,13380
+050,48,065,Texas,Carson County,5805
+050,48,067,Texas,Cass County,28651
+050,48,069,Texas,Castro County,7295
+050,48,071,Texas,Chambers County,57594
+050,48,073,Texas,Cherokee County,53337
+050,48,075,Texas,Childress County,6643
+050,48,077,Texas,Clay County,10764
+050,48,079,Texas,Cochran County,2546
+050,48,081,Texas,Coke County,3412
+050,48,083,Texas,Coleman County,7915
+050,48,085,Texas,Collin County,1297179
+050,48,087,Texas,Collingsworth County,2487
+050,48,089,Texas,Colorado County,21439
+050,48,091,Texas,Comal County,209166
+050,48,093,Texas,Comanche County,14432
+050,48,095,Texas,Concho County,3607
+050,48,097,Texas,Cooke County,44461
+050,48,099,Texas,Coryell County,85592
+050,48,101,Texas,Cottle County,1224
+050,48,103,Texas,Crane County,4554
+050,48,105,Texas,Crockett County,2769
+050,48,107,Texas,Crosby County,4852
+050,48,109,Texas,Culberson County,2267
+050,48,111,Texas,Dallam County,7508
+050,48,113,Texas,Dallas County,2661397
+050,48,115,Texas,Dawson County,11776
+050,48,117,Texas,Deaf Smith County,18626
+050,48,119,Texas,Delta County,5549
+050,48,121,Texas,Denton County,1069346
+050,48,123,Texas,DeWitt County,20309
+050,48,125,Texas,Dickens County,1692
+050,48,127,Texas,Dimmit County,8024
+050,48,129,Texas,Donley County,3213
+050,48,131,Texas,Duval County,9402
+050,48,133,Texas,Eastland County,18143
+050,48,135,Texas,Ector County,173801
+050,48,137,Texas,Edwards County,1370
+050,48,139,Texas,Ellis County,240867
+050,48,141,Texas,El Paso County,877858
+050,48,143,Texas,Erath County,43911
+050,48,145,Texas,Falls County,17869
+050,48,147,Texas,Fannin County,39265
+050,48,149,Texas,Fayette County,25459
+050,48,151,Texas,Fisher County,3692
+050,48,153,Texas,Floyd County,4881
+050,48,155,Texas,Foard County,1044
+050,48,157,Texas,Fort Bend County,975191
+050,48,159,Texas,Franklin County,10994
+050,48,161,Texas,Freestone County,20811
+050,48,163,Texas,Frio County,18823
+050,48,165,Texas,Gaines County,23956
+050,48,167,Texas,Galveston County,372207
+050,48,169,Texas,Garza County,4510
+050,48,171,Texas,Gillespie County,28527
+050,48,173,Texas,Glasscock County,1128
+050,48,175,Texas,Goliad County,7208
+050,48,177,Texas,Gonzales County,20159
+050,48,179,Texas,Gray County,20919
+050,48,181,Texas,Grayson County,153613
+050,48,183,Texas,Gregg County,126095
+050,48,185,Texas,Grimes County,34252
+050,48,187,Texas,Guadalupe County,201111
+050,48,189,Texas,Hale County,31819
+050,48,191,Texas,Hall County,2737
+050,48,193,Texas,Hamilton County,8680
+050,48,195,Texas,Hansford County,4944
+050,48,197,Texas,Hardeman County,3292
+050,48,199,Texas,Hardin County,58723
+050,48,201,Texas,Harris County,5045026
+050,48,203,Texas,Harrison County,71956
+050,48,205,Texas,Hartley County,4904
+050,48,207,Texas,Haskell County,5499
+050,48,209,Texas,Hays County,304390
+050,48,211,Texas,Hemphill County,3083
+050,48,213,Texas,Henderson County,88595
+050,48,215,Texas,Hidalgo County,921549
+050,48,217,Texas,Hill County,39503
+050,48,219,Texas,Hockley County,21600
+050,48,221,Texas,Hood County,70501
+050,48,223,Texas,Hopkins County,39063
+050,48,225,Texas,Houston County,22316
+050,48,227,Texas,Howard County,30504
+050,48,229,Texas,Hudspeth County,3433
+050,48,231,Texas,Hunt County,123336
+050,48,233,Texas,Hutchinson County,19633
+050,48,235,Texas,Irion County,1463
+050,48,237,Texas,Jack County,9563
+050,48,239,Texas,Jackson County,15393
+050,48,241,Texas,Jasper County,33075
+050,48,243,Texas,Jeff Davis County,1711
+050,48,245,Texas,Jefferson County,254321
+050,48,247,Texas,Jim Hogg County,4555
+050,48,249,Texas,Jim Wells County,38804
+050,48,251,Texas,Johnson County,218048
+050,48,253,Texas,Jones County,20861
+050,48,255,Texas,Karnes County,15018
+050,48,257,Texas,Kaufman County,209235
+050,48,259,Texas,Kendall County,53289
+050,48,261,Texas,Kenedy County,319
+050,48,263,Texas,Kent County,674
+050,48,265,Texas,Kerr County,54037
+050,48,267,Texas,Kimble County,4438
+050,48,269,Texas,King County,192
+050,48,271,Texas,Kinney County,3128
+050,48,273,Texas,Kleberg County,30315
+050,48,275,Texas,Knox County,3192
+050,48,277,Texas,Lamar County,51503
+050,48,279,Texas,Lamb County,12579
+050,48,281,Texas,Lampasas County,23657
+050,48,283,Texas,La Salle County,6517
+050,48,285,Texas,Lavaca County,20651
+050,48,287,Texas,Lee County,18729
+050,48,289,Texas,Leon County,16894
+050,48,291,Texas,Liberty County,121364
+050,48,293,Texas,Limestone County,22849
+050,48,295,Texas,Lipscomb County,2955
+050,48,297,Texas,Live Oak County,11929
+050,48,299,Texas,Llano County,23353
+050,48,301,Texas,Loving County,52
+050,48,303,Texas,Lubbock County,328906
+050,48,305,Texas,Lynn County,6017
+050,48,307,Texas,McCulloch County,7472
+050,48,309,Texas,McLennan County,272020
+050,48,311,Texas,McMullen County,544
+050,48,313,Texas,Madison County,14226
+050,48,315,Texas,Marion County,9896
+050,48,317,Texas,Martin County,5284
+050,48,319,Texas,Mason County,3990
+050,48,321,Texas,Matagorda County,36463
+050,48,323,Texas,Maverick County,58823
+050,48,325,Texas,Medina County,56881
+050,48,327,Texas,Menard County,1956
+050,48,329,Texas,Midland County,187855
+050,48,331,Texas,Milam County,26258
+050,48,333,Texas,Mills County,4580
+050,48,335,Texas,Mitchell County,8947
+050,48,337,Texas,Montague County,21966
+050,48,339,Texas,Montgomery County,781194
+050,48,341,Texas,Moore County,21891
+050,48,343,Texas,Morris County,12133
+050,48,345,Texas,Motley County,1043
+050,48,347,Texas,Nacogdoches County,66035
+050,48,349,Texas,Navarro County,57181
+050,48,351,Texas,Newton County,11954
+050,48,353,Texas,Nolan County,14117
+050,48,355,Texas,Nueces County,352992
+050,48,357,Texas,Ochiltree County,9284
+050,48,359,Texas,Oldham County,1783
+050,48,361,Texas,Orange County,86266
+050,48,363,Texas,Palo Pinto County,30791
+050,48,365,Texas,Panola County,23018
+050,48,367,Texas,Parker County,184767
+050,48,369,Texas,Parmer County,9678
+050,48,371,Texas,Pecos County,14560
+050,48,373,Texas,Polk County,53434
+050,48,375,Texas,Potter County,114453
+050,48,377,Texas,Presidio County,5433
+050,48,379,Texas,Rains County,13542
+050,48,381,Texas,Randall County,152351
+050,48,383,Texas,Reagan County,3166
+050,48,385,Texas,Real County,2745
+050,48,387,Texas,Red River County,11816
+050,48,389,Texas,Reeves County,12138
+050,48,391,Texas,Refugio County,6657
+050,48,393,Texas,Roberts County,867
+050,48,395,Texas,Robertson County,17839
+050,48,397,Texas,Rockwall County,140738
+050,48,399,Texas,Runnels County,9693
+050,48,401,Texas,Rusk County,54854
+050,48,403,Texas,Sabine County,10012
+050,48,405,Texas,San Augustine County,7722
+050,48,407,Texas,San Jacinto County,29488
+050,48,409,Texas,San Patricio County,72053
+050,48,411,Texas,San Saba County,5787
+050,48,413,Texas,Schleicher County,2245
+050,48,415,Texas,Scurry County,16162
+050,48,417,Texas,Shackelford County,3197
+050,48,419,Texas,Shelby County,24286
+050,48,421,Texas,Sherman County,2781
+050,48,423,Texas,Smith County,252549
+050,48,425,Texas,Somervell County,10261
+050,48,427,Texas,Starr County,66319
+050,48,429,Texas,Stephens County,9380
+050,48,431,Texas,Sterling County,1349
+050,48,433,Texas,Stonewall County,1186
+050,48,435,Texas,Sutton County,3203
+050,48,437,Texas,Swisher County,6703
+050,48,439,Texas,Tarrant County,2248466
+050,48,441,Texas,Taylor County,150077
+050,48,443,Texas,Terrell County,702
+050,48,445,Texas,Terry County,11720
+050,48,447,Texas,Throckmorton County,1554
+050,48,449,Texas,Titus County,31563
+050,48,451,Texas,Tom Green County,120602
+050,48,453,Texas,Travis County,1389670
+050,48,455,Texas,Trinity County,14384
+050,48,457,Texas,Tyler County,20443
+050,48,459,Texas,Upshur County,44410
+050,48,461,Texas,Upton County,3131
+050,48,463,Texas,Uvalde County,24963
+050,48,465,Texas,Val Verde County,47835
+050,48,467,Texas,Van Zandt County,66130
+050,48,469,Texas,Victoria County,92656
+050,48,471,Texas,Walker County,83842
+050,48,473,Texas,Waller County,69858
+050,48,475,Texas,Ward County,11125
+050,48,477,Texas,Washington County,38288
+050,48,479,Texas,Webb County,281224
+050,48,481,Texas,Wharton County,42060
+050,48,483,Texas,Wheeler County,4773
+050,48,485,Texas,Wichita County,129555
+050,48,487,Texas,Wilbarger County,12481
+050,48,489,Texas,Willacy County,19971
+050,48,491,Texas,Williamson County,752827
+050,48,493,Texas,Wilson County,56139
+050,48,495,Texas,Winkler County,7540
+050,48,497,Texas,Wise County,83778
+050,48,499,Texas,Wood County,49688
+050,48,501,Texas,Yoakum County,7438
+050,48,503,Texas,Young County,18154
+050,48,505,Texas,Zapata County,13753
+050,48,507,Texas,Zavala County,9037
+050,49,001,Utah,Beaver County,7301
+050,49,003,Utah,Box Elder County,65320
+050,49,005,Utah,Cache County,145000
+050,49,007,Utah,Carbon County,20680
+050,49,009,Utah,Daggett County,934
+050,49,011,Utah,Davis County,381227
+050,49,013,Utah,Duchesne County,20856
+050,49,015,Utah,Emery County,10177
+050,49,017,Utah,Garfield County,5256
+050,49,019,Utah,Grand County,9790
+050,49,021,Utah,Iron County,67141
+050,49,023,Utah,Juab County,13567
+050,49,025,Utah,Kane County,8597
+050,49,027,Utah,Millard County,14057
+050,49,029,Utah,Morgan County,13383
+050,49,031,Utah,Piute County,1509
+050,49,033,Utah,Rich County,2687
+050,49,035,Utah,Salt Lake County,1220916
+050,49,037,Utah,San Juan County,14542
+050,49,039,Utah,Sanpete County,31453
+050,49,041,Utah,Sevier County,22827
+050,49,043,Utah,Summit County,43141
+050,49,045,Utah,Tooele County,87461
+050,49,047,Utah,Uintah County,38278
+050,49,049,Utah,Utah County,759859
+050,49,051,Utah,Wasatch County,38514
+050,49,053,Utah,Washington County,213670
+050,49,055,Utah,Wayne County,2587
+050,49,057,Utah,Weber County,278174
+050,50,001,Vermont,Addison County,38048
+050,50,003,Vermont,Bennington County,36630
+050,50,005,Vermont,Caledonia County,30414
+050,50,007,Vermont,Chittenden County,169115
+050,50,009,Vermont,Essex County,6051
+050,50,011,Vermont,Franklin County,51177
+050,50,013,Vermont,Grand Isle County,7511
+050,50,015,Vermont,Lamoille County,26294
+050,50,017,Vermont,Orange County,30002
+050,50,019,Vermont,Orleans County,27600
+050,50,021,Vermont,Rutland County,59653
+050,50,023,Vermont,Washington County,59652
+050,50,025,Vermont,Windham County,45204
+050,50,027,Vermont,Windsor County,57312
+050,51,001,Virginia,Accomack County,33859
+050,51,003,Virginia,Albemarle County,118356
+050,51,005,Virginia,Alleghany County,14546
+050,51,007,Virginia,Amelia County,13632
+050,51,009,Virginia,Amherst County,31962
+050,51,011,Virginia,Appomattox County,17172
+050,51,013,Virginia,Arlington County,243931
+050,51,015,Virginia,Augusta County,78940
+050,51,017,Virginia,Bath County,4076
+050,51,019,Virginia,Bedford County,83059
+050,51,021,Virginia,Bland County,6151
+050,51,023,Virginia,Botetourt County,34144
+050,51,025,Virginia,Brunswick County,15727
+050,51,027,Virginia,Buchanan County,18492
+050,51,029,Virginia,Buckingham County,17137
+050,51,031,Virginia,Campbell County,55629
+050,51,033,Virginia,Caroline County,34413
+050,51,035,Virginia,Carroll County,29299
+050,51,036,Virginia,Charles City County,6623
+050,51,037,Virginia,Charlotte County,11401
+050,51,041,Virginia,Chesterfield County,397148
+050,51,043,Virginia,Clarke County,15609
+050,51,045,Virginia,Craig County,4800
+050,51,047,Virginia,Culpeper County,57666
+050,51,049,Virginia,Cumberland County,10352
+050,51,051,Virginia,Dickenson County,13236
+050,51,053,Virginia,Dinwiddie County,28896
+050,51,057,Virginia,Essex County,10654
+050,51,059,Virginia,Fairfax County,1167873
+050,51,061,Virginia,Fauquier County,76503
+050,51,063,Virginia,Floyd County,15789
+050,51,065,Virginia,Fluvanna County,28975
+050,51,067,Virginia,Franklin County,55526
+050,51,069,Virginia,Frederick County,99955
+050,51,071,Virginia,Giles County,16564
+050,51,073,Virginia,Gloucester County,40097
+050,51,075,Virginia,Goochland County,29187
+050,51,077,Virginia,Grayson County,15230
+050,51,079,Virginia,Greene County,21958
+050,51,081,Virginia,Greensville County,11181
+050,51,083,Virginia,Halifax County,33447
+050,51,085,Virginia,Hanover County,116423
+050,51,087,Virginia,Henrico County,342775
+050,51,089,Virginia,Henry County,49242
+050,51,091,Virginia,Highland County,2318
+050,51,093,Virginia,Isle of Wight County,41321
+050,51,095,Virginia,James City County,83326
+050,51,097,Virginia,King and Queen County,6743
+050,51,099,Virginia,King George County,29646
+050,51,101,Virginia,King William County,19617
+050,51,103,Virginia,Lancaster County,10995
+050,51,105,Virginia,Lee County,21642
+050,51,107,Virginia,Loudoun County,449749
+050,51,109,Virginia,Louisa County,42924
+050,51,111,Virginia,Lunenburg County,12058
+050,51,113,Virginia,Madison County,14237
+050,51,115,Virginia,Mathews County,8529
+050,51,117,Virginia,Mecklenburg County,30747
+050,51,119,Virginia,Middlesex County,10841
+050,51,121,Virginia,Montgomery County,98434
+050,51,125,Virginia,Nelson County,14920
+050,51,127,Virginia,New Kent County,28022
+050,51,131,Virginia,Northampton County,11879
+050,51,133,Virginia,Northumberland County,12557
+050,51,135,Virginia,Nottoway County,15796
+050,51,137,Virginia,Orange County,40083
+050,51,139,Virginia,Page County,23762
+050,51,141,Virginia,Patrick County,17424
+050,51,143,Virginia,Pittsylvania County,59490
+050,51,145,Virginia,Powhatan County,32591
+050,51,147,Virginia,Prince Edward County,22391
+050,51,149,Virginia,Prince George County,43936
+050,51,153,Virginia,Prince William County,502966
+050,51,155,Virginia,Pulaski County,33586
+050,51,157,Virginia,Rappahannock County,7439
+050,51,159,Virginia,Richmond County,9294
+050,51,161,Virginia,Roanoke County,97150
+050,51,163,Virginia,Rockbridge County,22663
+050,51,165,Virginia,Rockingham County,89316
+050,51,167,Virginia,Russell County,25332
+050,51,169,Virginia,Scott County,21200
+050,51,171,Virginia,Shenandoah County,45839
+050,51,173,Virginia,Smyth County,28882
+050,51,175,Virginia,Southampton County,18110
+050,51,177,Virginia,Spotsylvania County,155388
+050,51,179,Virginia,Stafford County,170803
+050,51,181,Virginia,Surry County,6603
+050,51,183,Virginia,Sussex County,10755
+050,51,185,Virginia,Tazewell County,38635
+050,51,187,Virginia,Warren County,42740
+050,51,191,Virginia,Washington County,53898
+050,51,193,Virginia,Westmoreland County,19715
+050,51,195,Virginia,Wise County,34824
+050,51,197,Virginia,Wythe County,27983
+050,51,199,Virginia,York County,71374
+050,51,510,Virginia,Alexandria city,160662
+050,51,520,Virginia,Bristol city,16418
+050,51,530,Virginia,Buena Vista city,6672
+050,51,540,Virginia,Charlottesville city,44388
+050,51,550,Virginia,Chesapeake city,255332
+050,51,570,Virginia,Colonial Heights city,18738
+050,51,580,Virginia,Covington city,5680
+050,51,590,Virginia,Danville city,41647
+050,51,595,Virginia,Emporia city,5447
+050,51,600,Virginia,Fairfax city,26772
+050,51,610,Virginia,Falls Church city,15159
+050,51,620,Virginia,Franklin city,8478
+050,51,630,Virginia,Fredericksburg city,30393
+050,51,640,Virginia,Galax city,6670
+050,51,650,Virginia,Hampton city,137315
+050,51,660,Virginia,Harrisonburg city,50839
+050,51,670,Virginia,Hopewell city,23261
+050,51,678,Virginia,Lexington city,7769
+050,51,680,Virginia,Lynchburg city,81347
+050,51,683,Virginia,Manassas city,44332
+050,51,685,Virginia,Manassas Park city,16560
+050,51,690,Virginia,Martinsville city,13849
+050,51,700,Virginia,Newport News city,183230
+050,51,710,Virginia,Norfolk city,231013
+050,51,720,Virginia,Norton city,3477
+050,51,730,Virginia,Petersburg city,33734
+050,51,735,Virginia,Poquoson city,13292
+050,51,740,Virginia,Portsmouth city,96777
+050,51,750,Virginia,Radford city,17243
+050,51,760,Virginia,Richmond city,237257
+050,51,770,Virginia,Roanoke city,99111
+050,51,775,Virginia,Salem city,25816
+050,51,790,Virginia,Staunton city,26801
+050,51,800,Virginia,Suffolk city,104699
+050,51,810,Virginia,Virginia Beach city,453737
+050,51,820,Virginia,Waynesboro city,23951
+050,51,830,Virginia,Williamsburg city,15861
+050,51,840,Virginia,Winchester city,28272
+050,53,001,Washington,Adams County,21488
+050,53,003,Washington,Asotin County,22545
+050,53,005,Washington,Benton County,221722
+050,53,007,Washington,Chelan County,81941
+050,53,009,Washington,Clallam County,78202
+050,53,011,Washington,Clark County,532119
+050,53,013,Washington,Columbia County,4141
+050,53,015,Washington,Cowlitz County,114885
+050,53,017,Washington,Douglas County,46473
+050,53,019,Washington,Ferry County,7517
+050,53,021,Washington,Franklin County,102612
+050,53,023,Washington,Garfield County,2416
+050,53,025,Washington,Grant County,105727
+050,53,027,Washington,Grays Harbor County,78144
+050,53,029,Washington,Island County,85657
+050,53,031,Washington,Jefferson County,33970
+050,53,033,Washington,King County,2344939
+050,53,035,Washington,Kitsap County,283374
+050,53,037,Washington,Kittitas County,48803
+050,53,039,Washington,Klickitat County,24331
+050,53,041,Washington,Lewis County,88062
+050,53,043,Washington,Lincoln County,11982
+050,53,045,Washington,Mason County,71165
+050,53,047,Washington,Okanogan County,45230
+050,53,049,Washington,Pacific County,24357
+050,53,051,Washington,Pend Oreille County,14457
+050,53,053,Washington,Pierce County,946288
+050,53,055,Washington,San Juan County,18577
+050,53,057,Washington,Skagit County,132975
+050,53,059,Washington,Skamania County,12669
+050,53,061,Washington,Snohomish County,870656
+050,53,063,Washington,Spokane County,558344
+050,53,065,Washington,Stevens County,49668
+050,53,067,Washington,Thurston County,304261
+050,53,069,Washington,Wahkiakum County,4873
+050,53,071,Washington,Walla Walla County,62361
+050,53,073,Washington,Whatcom County,236392
+050,53,075,Washington,Whitman County,48512
+050,53,077,Washington,Yakima County,259185
+050,54,001,West Virginia,Barbour County,15414
+050,54,003,West Virginia,Berkeley County,139522
+050,54,005,West Virginia,Boone County,20251
+050,54,007,West Virginia,Braxton County,11885
+050,54,009,West Virginia,Brooke County,21142
+050,54,011,West Virginia,Cabell County,91183
+050,54,013,West Virginia,Calhoun County,5978
+050,54,015,West Virginia,Clay County,7538
+050,54,017,West Virginia,Doddridge County,7634
+050,54,019,West Virginia,Fayette County,38165
+050,54,021,West Virginia,Gilmer County,7085
+050,54,023,West Virginia,Grant County,11041
+050,54,025,West Virginia,Greenbrier County,31578
+050,54,027,West Virginia,Hampshire County,24105
+050,54,029,West Virginia,Hancock County,27729
+050,54,031,West Virginia,Hardy County,14337
+050,54,033,West Virginia,Harrison County,64221
+050,54,035,West Virginia,Jackson County,27450
+050,54,037,West Virginia,Jefferson County,63102
+050,54,039,West Virginia,Kanawha County,172381
+050,54,041,West Virginia,Lewis County,16394
+050,54,043,West Virginia,Lincoln County,19177
+050,54,045,West Virginia,Logan County,30375
+050,54,047,West Virginia,McDowell County,16878
+050,54,049,West Virginia,Marion County,55584
+050,54,051,West Virginia,Marshall County,29159
+050,54,053,West Virginia,Mason County,24707
+050,54,055,West Virginia,Mercer County,57503
+050,54,057,West Virginia,Mineral County,26792
+050,54,059,West Virginia,Mingo County,21455
+050,54,061,West Virginia,Monongalia County,107991
+050,54,063,West Virginia,Monroe County,12491
+050,54,065,West Virginia,Morgan County,18027
+050,54,067,West Virginia,Nicholas County,23848
+050,54,069,West Virginia,Ohio County,40496
+050,54,071,West Virginia,Pendleton County,5826
+050,54,073,West Virginia,Pleasants County,7338
+050,54,075,West Virginia,Pocahontas County,7602
+050,54,077,West Virginia,Preston County,34004
+050,54,079,West Virginia,Putnam County,56885
+050,54,081,West Virginia,Raleigh County,71775
+050,54,083,West Virginia,Randolph County,26882
+050,54,085,West Virginia,Ritchie County,8034
+050,54,087,West Virginia,Roane County,13317
+050,54,089,West Virginia,Summers County,11532
+050,54,091,West Virginia,Taylor County,16287
+050,54,093,West Virginia,Tucker County,6540
+050,54,095,West Virginia,Tyler County,7881
+050,54,097,West Virginia,Upshur County,23758
+050,54,099,West Virginia,Wayne County,37309
+050,54,101,West Virginia,Webster County,7760
+050,54,103,West Virginia,Wetzel County,13734
+050,54,105,West Virginia,Wirt County,4879
+050,54,107,West Virginia,Wood County,82385
+050,54,109,West Virginia,Wyoming County,19801
+050,55,001,Wisconsin,Adams County,21752
+050,55,003,Wisconsin,Ashland County,16203
+050,55,005,Wisconsin,Barron County,46484
+050,55,007,Wisconsin,Bayfield County,16787
+050,55,009,Wisconsin,Brown County,275803
+050,55,011,Wisconsin,Buffalo County,13318
+050,55,013,Wisconsin,Burnett County,17223
+050,55,015,Wisconsin,Calumet County,53982
+050,55,017,Wisconsin,Chippewa County,67614
+050,55,019,Wisconsin,Clark County,35052
+050,55,021,Wisconsin,Columbia County,58132
+050,55,023,Wisconsin,Crawford County,15910
+050,55,025,Wisconsin,Dane County,590375
+050,55,027,Wisconsin,Dodge County,89097
+050,55,029,Wisconsin,Door County,30616
+050,55,031,Wisconsin,Douglas County,43990
+050,55,033,Wisconsin,Dunn County,46223
+050,55,035,Wisconsin,Eau Claire County,109033
+050,55,037,Wisconsin,Florence County,4748
+050,55,039,Wisconsin,Fond du Lac County,104669
+050,55,041,Wisconsin,Forest County,9574
+050,55,043,Wisconsin,Grant County,52446
+050,55,045,Wisconsin,Green County,37227
+050,55,047,Wisconsin,Green Lake County,19305
+050,55,049,Wisconsin,Iowa County,23951
+050,55,051,Wisconsin,Iron County,6127
+050,55,053,Wisconsin,Jackson County,20999
+050,55,055,Wisconsin,Jefferson County,86505
+050,55,057,Wisconsin,Juneau County,26649
+050,55,059,Wisconsin,Kenosha County,168448
+050,55,061,Wisconsin,Kewaunee County,20758
+050,55,063,Wisconsin,La Crosse County,121339
+050,55,065,Wisconsin,Lafayette County,17478
+050,55,067,Wisconsin,Langlade County,19534
+050,55,069,Wisconsin,Lincoln County,28403
+050,55,071,Wisconsin,Manitowoc County,81710
+050,55,073,Wisconsin,Marathon County,139432
+050,55,075,Wisconsin,Marinette County,42574
+050,55,077,Wisconsin,Marquette County,15927
+050,55,078,Wisconsin,Menominee County,4199
+050,55,079,Wisconsin,Milwaukee County,924216
+050,55,081,Wisconsin,Monroe County,46572
+050,55,083,Wisconsin,Oconto County,40195
+050,55,085,Wisconsin,Oneida County,38131
+050,55,087,Wisconsin,Outagamie County,195894
+050,55,089,Wisconsin,Ozaukee County,94346
+050,55,091,Wisconsin,Pepin County,7513
+050,55,093,Wisconsin,Pierce County,43519
+050,55,095,Wisconsin,Polk County,45803
+050,55,097,Wisconsin,Portage County,71943
+050,55,099,Wisconsin,Price County,13988
+050,55,101,Wisconsin,Racine County,198919
+050,55,103,Wisconsin,Richland County,17036
+050,55,105,Wisconsin,Rock County,166472
+050,55,107,Wisconsin,Rusk County,14146
+050,55,109,Wisconsin,St. Croix County,98276
+050,55,111,Wisconsin,Sauk County,66652
+050,55,113,Wisconsin,Sawyer County,18846
+050,55,115,Wisconsin,Shawano County,41560
+050,55,117,Wisconsin,Sheboygan County,118047
+050,55,119,Wisconsin,Taylor County,20118
+050,55,121,Wisconsin,Trempealeau County,31171
+050,55,123,Wisconsin,Vernon County,31443
+050,55,125,Wisconsin,Vilas County,23761
+050,55,127,Wisconsin,Walworth County,106127
+050,55,129,Wisconsin,Washburn County,17087
+050,55,131,Wisconsin,Washington County,139238
+050,55,133,Wisconsin,Waukesha County,417210
+050,55,135,Wisconsin,Waupaca County,51461
+050,55,137,Wisconsin,Waushara County,25223
+050,55,139,Wisconsin,Winnebago County,174218
+050,55,141,Wisconsin,Wood County,74060
+050,56,001,Wyoming,Albany County,38558
+050,56,003,Wyoming,Big Horn County,12024
+050,56,005,Wyoming,Campbell County,48145
+050,56,007,Wyoming,Carbon County,14013
+050,56,009,Wyoming,Converse County,13824
+050,56,011,Wyoming,Crook County,7852
+050,56,013,Wyoming,Fremont County,39464
+050,56,015,Wyoming,Goshen County,12640
+050,56,017,Wyoming,Hot Springs County,4600
+050,56,019,Wyoming,Johnson County,8908
+050,56,021,Wyoming,Laramie County,102938
+050,56,023,Wyoming,Lincoln County,21180
+050,56,025,Wyoming,Natrona County,80526
+050,56,027,Wyoming,Niobrara County,2341
+050,56,029,Wyoming,Park County,31171
+050,56,031,Wyoming,Platte County,8634
+050,56,033,Wyoming,Sheridan County,33241
+050,56,035,Wyoming,Sublette County,8929
+050,56,037,Wyoming,Sweetwater County,41267
+050,56,039,Wyoming,Teton County,23333
+050,56,041,Wyoming,Uinta County,20728
+050,56,043,Wyoming,Washakie County,7597
+050,56,045,Wyoming,Weston County,6840
