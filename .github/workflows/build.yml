@@ -84,6 +84,7 @@ jobs:
       - name: Smoke test in a headless browser
         if: hashFiles('pipeline/build.py') != ''
         continue-on-error: true
+        timeout-minutes: 10  # a hung browser must not hold up the deploy
         run: |
           set +e
           mkdir -p /tmp/qa-out /tmp/qa-tool
