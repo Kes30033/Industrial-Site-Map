@@ -10,7 +10,7 @@ The map colors counties by rank (darkest blue = top 1% of counties). Every facto
 
 | Group | Factors | Source |
 |---|---|---|
-| Freight access | Distance to Interstate, Class I rail line, rail yard, intermodal (container) rail terminal, port handling 5M+ tons/yr, air cargo airport; population within 250 miles | BTS National Transportation Atlas Database, USACE principal ports, FAA all-cargo landed weight, Census population estimates |
+| Freight access | Distance to Interstate, Class I rail line, rail yard, intermodal (container) rail terminal, nearest dock of a port handling 5M+ tons/yr, air cargo airport; population within 250 miles | BTS National Transportation Atlas Database, USACE principal ports and docks (Navigation Facilities), FAA all-cargo landed weight, Census population estimates |
 | Workforce | Production & skilled-trade workers within 45 miles; drivers & material movers within 45 miles; metalworking and warehousing industry jobs within 45 miles; welder/machinist/CNC and electrician/mechanic concentration; trade and driver pay | Census ACS 5-year (C24010), BLS QCEW, BLS OEWS (metro and nonmetro areas) |
 | Taxes, regulation & costs | Tax Foundation overall, corporate and property tax ranks; CNBC business-friendliness rank; count of state regulatory restrictions; right-to-work; industrial electricity price | Tax Foundation, CNBC Top States for Business, Mercatus QuantGov State RegData, NCSL, EIA |
 

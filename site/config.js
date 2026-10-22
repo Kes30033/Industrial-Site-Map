@@ -35,8 +35,8 @@ window.ISM_CONFIG = {
       better: 'Closer scores higher', sources: ['intermodal'],
       about: 'Miles to the nearest container / trailer-on-flatcar rail terminal, where truck freight transfers to rail. Drayage beyond ~100 miles gets expensive.' },
     { id: 'port', group: 'freight', label: 'Seaport or river port', src: 'd_port', type: 'dist', half: 75,
-      better: 'Closer scores higher', sources: ['ports'],
-      about: 'Miles to the boundary of the nearest principal port handling 5 million+ short tons a year (USACE). Includes Great Lakes and inland river ports.' },
+      better: 'Closer scores higher', sources: ['ports', 'docks'],
+      about: 'Miles to the nearest dock of a principal port handling 5 million+ short tons a year (USACE). Includes Great Lakes and inland river ports.' },
     { id: 'air', group: 'freight', label: 'Air cargo airport', src: 'd_air', type: 'dist', half: 50,
       better: 'Closer scores higher', sources: ['air_cargo'],
       about: 'Miles to the nearest airport with 250 million+ lbs of all-cargo landed weight (FAA).' },
@@ -98,7 +98,7 @@ window.ISM_CONFIG = {
   // Short names for the source links under the sliders (full titles come from data/meta.json)
   sourceNames: {
     interstates: 'FHWA Interstate System', class1_rail: 'BTS Class I rail network', rail_yards: 'BTS rail yards',
-    intermodal: 'BTS intermodal terminals', ports: 'USACE principal ports', air_cargo: 'FAA all-cargo airports',
+    intermodal: 'BTS intermodal terminals', ports: 'USACE principal ports', docks: 'USACE docks', air_cargo: 'FAA all-cargo airports',
     population: 'Census population estimates', acs_c24010: 'Census ACS 5-year', qcew: 'BLS QCEW', oews: 'BLS OEWS',
     tax_index: 'Tax Foundation index', corp_rates: 'Tax Foundation corporate rates', cnbc: 'CNBC Top States',
     regulation: 'Mercatus QuantGov', electricity: 'EIA Electric Power Monthly',

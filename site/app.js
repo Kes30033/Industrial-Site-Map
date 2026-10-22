@@ -664,7 +664,7 @@
       bool: '100 if yes, 0 if no',
     }[f.type]);
     const order = ['county_shapes', 'population', 'cenpop', 'gazetteer', 'acs_c24010', 'qcew', 'oews', 'cbsa', 'interstates',
-      'class1_rail', 'rail_yards', 'intermodal', 'ports', 'air_cargo', 'tax_index', 'corp_rates', 'cnbc', 'regulation', 'electricity'];
+      'class1_rail', 'rail_yards', 'intermodal', 'ports', 'docks', 'air_cargo', 'tax_index', 'corp_rates', 'cnbc', 'regulation', 'electricity'];
     const srcRows = order.filter((k) => src[k]).map((k) => {
       const s = src[k];
       const url = String(s.url || '').includes('<') ? String(s.url).split('/industry/')[0] : s.url;

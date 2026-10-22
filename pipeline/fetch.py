@@ -334,6 +334,19 @@ def src_ports():
            title="BTS/USACE Principal Ports (total tonnage)", n=len(fc["features"]))
 
 
+DOCKS = "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/ArcGIS/rest/services/Docks/FeatureServer/0"
+
+
+def src_docks():
+    # Individual docks; PORT matches the principal port code, so ports can be placed at their docks
+    fc = arcgis(DOCKS, where="FAC_TYPE='Dock'", fields="PORT,PORT_NAME,NAV_UNIT_NAME,CITY_OR_TOWN,STATE",
+                precision=5)
+    if len(fc["features"]) < 5000:
+        raise RuntimeError("too few docks")
+    save("ntad/docks.geojson", json.dumps(fc, separators=(",", ":")))
+    record("docks", url=DOCKS, title="BTS/USACE Navigation Facilities: docks", n=len(fc["features"]))
+
+
 def src_air_cargo():
     page_url = "https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger"
     html = get(page_url).text
@@ -455,6 +468,7 @@ SOURCES = {
     "class1_rail": src_class1_rail,
     "interstates": src_interstates,
     "ports": src_ports,
+    "docks": src_docks,
     "air_cargo": src_air_cargo,
     "tax": src_tax_foundation,
     "cnbc": src_cnbc,

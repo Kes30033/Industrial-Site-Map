@@ -67,6 +67,7 @@ LABOR_RADIUS_MI = 45.0   # typical commuting shed
 MARKET_RADIUS_MI = 250.0  # same-day / next-morning truck delivery range
 PORT_MIN_TONS = 5_000_000  # "major port" cutoff (short tons per year)
 AIR_MIN_LBS = 250e6  # "cargo airport" cutoff (all-cargo landed weight, lbs per year)
+YARD_JOIN_MI = 2.0  # same-named rail yard track segments closer than this are one yard
 
 
 # ----------------------------------------------------------------------------- geometry helpers
@@ -197,28 +198,74 @@ def load_counties() -> pd.DataFrame:
 
 
 # ----------------------------------------------------------------------------- logistics
+def load_docks() -> dict:
+    """Port code -> (lat array, lon array, is-port-authority-berth array) of that port's docks;
+    empty if the docks file isn't cached."""
+    if not (CACHE / "ntad/docks.geojson").exists():
+        print("WARNING: no docks file; ports fall back to their statistical-area outlines")
+        return {}
+    by = {}
+    for f in load_json("ntad/docks.geojson")["features"]:
+        p, g = f["properties"], f.get("geometry")
+        if p.get("PORT") is None or not g:
+            continue
+        lon_, lat_ = g["coordinates"][:2]
+        own = bool(re.search(r"\bPORT\b", (p.get("NAV_UNIT_NAME") or "").upper()))
+        by.setdefault(str(int(p["PORT"])), []).append((lat_, lon_, own))
+    return {k: tuple(np.array(c) for c in zip(*v)) for k, v in by.items()}
+
+
+def harbor_center(lat, lon, own, radius_mi=1.0):
+    """Where the port's dot goes: the dock with the most of the port's other docks within radius_mi,
+    among the port's own berths ("PORT OF MIAMI BERTH 7") when it has any, so a busy river or
+    shipyard district doesn't pull the dot away from the main harbor."""
+    if own.any():
+        lat, lon = lat[own], lon[own]
+    pts = xyz(lat, lon)
+    counts = [len(n) for n in cKDTree(pts).query_ball_point(pts, mi_to_chord(radius_mi))]
+    k = int(np.argmax(counts))
+    return float(lat[k]), float(lon[k])
+
+
 def logistics_ports(df: pd.DataFrame, points: dict) -> None:
-    """Ports handled separately so indices stay consistent."""
+    """Ports handled separately so indices stay consistent.
+
+    Principal ports are USACE port statistical areas, which can cover whole counties, so each port is
+    placed at its docks (dot at the main harbor, distance to the nearest dock). Ports without docks
+    fall back to the outline: dot at the mean of its vertices, distance to its boundary."""
     fc = load_json("ntad/principal_ports.geojson")
+    docks = load_docks()
     ports, bl, bo, bi = [], [], [], []
     for f in fc["features"]:
         p = f["properties"]
         tons = num(p.get("total")) or 0
-        coords = [c for line in iter_lines(f.get("geometry")) for c in line]
-        if not coords:
-            continue
-        a = np.asarray(coords, float)
-        ports.append({"lat": round(a[:, 1].mean(), 4), "lon": round(a[:, 0].mean(), 4),
+        code = str(int(p["port"])) if p.get("port") is not None else ""
+        if code in docks:
+            lat_, lon_ = harbor_center(*docks[code])
+        else:
+            coords = [c for line in iter_lines(f.get("geometry")) for c in line]
+            if not coords:
+                continue
+            a = np.asarray(coords, float)
+            lat_, lon_ = a[:, 1].mean(), a[:, 0].mean()
+        ports.append({"lat": round(lat_, 4), "lon": round(lon_, 4),
                       "name": clean_port(p.get("portname") or ""), "tons": int(tons),
-                      "type": p.get("type") or "", "geom": f["geometry"]})
+                      "type": p.get("type") or "", "geom": f["geometry"], "docks": docks.get(code)})
     ports.sort(key=lambda r: -r["tons"])
     for k, pt in enumerate(ports):
-        if pt["tons"] >= PORT_MIN_TONS:
-            for line in iter_lines(pt["geom"]):
-                la_, lo_ = densify(line, 1.0)
-                bl.append(la_)
-                bo.append(lo_)
-                bi.append(np.full(len(la_), k))
+        if pt["tons"] < PORT_MIN_TONS:
+            continue
+        if pt["docks"] is not None:
+            bl.append(pt["docks"][0])
+            bo.append(pt["docks"][1])
+            bi.append(np.full(len(pt["docks"][0]), k))
+            continue
+        print(f"WARNING: {pt['name']} has no docks; using its outline")
+        for line in iter_lines(pt["geom"]):
+            la_, lo_ = densify(line, 1.0)
+            bl.append(la_)
+            bo.append(lo_)
+            bi.append(np.full(len(la_), k))
     d, i = nearest(df.lat.values, df.lon.values, np.concatenate(bl), np.concatenate(bo))
     df["d_port"] = d
     df["port_i"] = np.concatenate(bi)[i]
@@ -633,17 +680,35 @@ def logistics_core(df, points):
     df["class1"] = [CLASS1_NAMES.get(c) or owner_names.get(c) or c for c in codes]
     df["class1_own"] = [1 if c in CLASS1_OWNERS else 0 for c in codes]
 
+    # Track segments with the same yard name and owner are one yard only where they lie close together:
+    # the same name (or no name) recurs across the country, and averaging those put dots between yards.
     fc = yfc
     groups = {}
     for f in fc["features"]:
         p = f["properties"]
         key = ((p.get("YARDNAME") or "").strip().upper(), p.get("RROWNER1") or "")
-        for line in iter_lines(f.get("geometry")):
-            groups.setdefault(key, []).extend(line)
+        coords = [c for line in iter_lines(f.get("geometry")) for c in line]
+        if coords:
+            groups.setdefault(key, []).append(np.asarray(coords, float))
     yards = []
-    for (name, owner), coords in groups.items():
-        a = np.asarray(coords, float)
-        yards.append([round(a[:, 1].mean(), 4), round(a[:, 0].mean(), 4), title_case(name) or "Unnamed yard", owner])
+    for (name, owner), segs in groups.items():
+        mids = np.array([s.mean(axis=0) for s in segs])
+        parent = list(range(len(segs)))
+
+        def root(a):
+            while parent[a] != a:
+                parent[a] = parent[parent[a]]
+                a = parent[a]
+            return a
+
+        for a, b in cKDTree(xyz(mids[:, 1], mids[:, 0])).query_pairs(mi_to_chord(YARD_JOIN_MI)):
+            parent[root(a)] = root(b)
+        clusters = {}
+        for k in range(len(segs)):
+            clusters.setdefault(root(k), []).append(segs[k])
+        for parts in clusters.values():
+            a = np.concatenate(parts)
+            yards.append([round(a[:, 1].mean(), 4), round(a[:, 0].mean(), 4), title_case(name) or "Unnamed yard", owner])
     d, i = nearest(clat, clon, np.array([y[0] for y in yards]), np.array([y[1] for y in yards]))
     df["d_yard"], df["yard_i"] = d, i
     points["yards"] = yards
