@@ -1,0 +1,15 @@
+[desktop] start at +1 s
+[desktop] ready in 569 ms
+[desktop] default weights top 10: ["1 Clinton County, IN Indiana, rural 77","2 Marion County, IN Indianapolis–Carmel metro 77","3 Scott County, IN Indiana, rural 76","4 Bartholomew County, IN Columbus metro 76","5 LaPorte County, IN Michigan City–La Porte metro 76","6 Ripley County, IN Indiana, rural 76","7 Union County, IN Indiana, rural 75","8 Wayne County, IN Indiana, rural 75","9 Clark County, IN Louisville/Jefferson County metro 75","10 Switzerland County, IN Indiana, rural 75"]
+[desktop] source links under sliders: 24
+[desktop] best per state: ["1 Clinton County, IN Indiana, rural 77","12 Guilford County, NC Greensboro–High Point metro 75","23 Harris County, TX Houston–Pasadena metro 74","33 Davidson County, TN Nashville–Davidson metro 72","36 Hillsborough County, FL Tampa–St. Petersburg metro 72","38 Kenton County, KY Cincinnati metro 72","66 Tulsa County, OK Tulsa metro 70","81 Spartanburg County, SC Spartanburg metro 70","82 Maricopa County, AZ Phoenix–Mesa metro 70","89 Crittenden County, AR Memphis metro 69","100 Hall County, GA Gainesville metro 69","106 Wayne County, MI Detroit–Warren metro 68"]
+[desktop] weight change -> repaint 38 ms
+[desktop] url: http://localhost:8765/#w=5555255555555555555555&st=TX&r=5&c=18023
+[desktop] done in 12 s
+[dark] start at +13 s
+[dark] ready in 381 ms
+[dark] done in 5 s
+[mobile] start at +18 s
+[mobile] ready in 340 ms
+[mobile] horizontal overflow: 0px
+[mobile] done in 3 s
