@@ -1,0 +1,5 @@
+BEWARE: your OS is not officially supported by Playwright; installing dependencies for ubuntu26.04-x64 as a fallback.
+Cannot install dependencies for ubuntu26.04-x64 with Playwright 1.56.0!
+Failed to install browsers
+Error: ERROR: Playwright does not support chromium on ubuntu26.04-x64
+exit code 1
